@@ -20,11 +20,13 @@
 
 <body>
 
+<!-- НАВБАР -->
 <nav class="navbar navbar-expand-lg navbar-light rounded">
 
     <a class="navbar-brand " href="#">
         <img src="./img/logo.png" class="d-inline-block" alt="Логотип">
-        <div class="navbar-brand-text align-middle d-none d-md-inline-block">Документооборот ФГУП "ГлавНИВЦ"
+        <div class="navbar-brand-text align-middle d-none d-md-inline-block">
+            Документооборот&nbsp&nbsp&nbsp&nbsp&nbspФГУП "ГлавНИВЦ"
             Управления делами Президента Российской Федерации
         </div>
     </a>
@@ -61,7 +63,7 @@
                         <!-- Tab panes -->
                         <div class="tab-content animated fadeIn">
                             <div class="tab-pane active" id="trud" role="tabpanel">
-                                <div class="row">
+                                <div class="row main-text">
                                     <div class="col-lg-12">
 
                                         <div class="row">
@@ -195,7 +197,7 @@
 <div class="container-fluid block-main">
     <div class="row">
         <!-- Левая колонка -->
-        <div class="col-lg-2 col-md-3 col-sm-3 block-menu menu-font">
+        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 block-menu menu-font" style="max-width: 190px">
             <div class="menu-item">
                 <a href="#">Поиск</a>
             </div>
@@ -237,12 +239,13 @@
             <h3 class="top_tittle">Регистрация нового документа</h3>
 
             <!-- Направление -->
-            <div class="row item-form">
-                <div class="col lg-2 col-md-2 col-sm-3 col-label" style="padding-left: 1.6%">
+            <div class="row item-form main-text">
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-label"
+                     style="padding-left: 15px; padding-top: 10px; max-width:125px">
                     <label>Направление</label>
                 </div>
 
-                <div class="col-lg-10 col-md-10  col-sm-6 col-content" style="padding-left: 4.2%">
+                <div class="col-xl-10 col-lg-10 col-md-10  col-sm-6 col-content">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" data-toggle="tab" href="#vhod" role="tab">Входящий</a>
@@ -260,7 +263,7 @@
             <div class="tab-content">
 
                 <!-- ПЕРВАЯ ВКЛАДКА -->
-                <div class="tab-pane active" id="vhod" role="tabpanel">
+                <div class="tab-pane active main-text" id="vhod" role="tabpanel">
                     <div class="row animated fadeIn">
 
                         <!-- 1 колонка -->
@@ -285,7 +288,8 @@
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="input-whom" placeholder="">
+                                        <input type="text" class="form-control custom-fc" id="input-whom" placeholder=""
+                                               style="width: 289px">
                                     </div>
                                 </div>
                             </div>
@@ -298,7 +302,8 @@
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="input-number" placeholder="38-1-6/">
+                                        <input type="text" class="form-control custom-fc" id="input-number"
+                                               placeholder="38-1-6/">
                                     </div>
                                 </div>
                             </div>
@@ -311,12 +316,12 @@
 
                                 <div class="col-lg-10 col-md-9 col-sm-8  col-content">
                                     <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="block">
+                                        <div class="col-lg-5 col-md-5" style="max-width: 255px">
+                                            <div class="block" style="max-width: 225px">
                                                 <div class="input-group">
                                                     <div id="datepicker2" class="input-group date custom-date "
-                                                         data-date-format="mm.dd.yyyy">
-                                                        <input class="form-control" type="text" id="data">
+                                                         data-date-format="mm.dd.yyyy" style="width: 150px;">
+                                                        <input class="form-control custom-fc" type="text" id="data">
                                                         <span class="input-group-addon"><img src="./img/data.png"
                                                                                              alt="minus"
                                                                                              class="align-middle"></span>
@@ -326,12 +331,12 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-6 col-md-6">
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="block">
                                                 <div class="input-group">
                                                     <div id="datepicker3" class="input-group date custom-date "
-                                                         data-date-format="mm.dd.yyyy">
-                                                        <input class="form-control" type="text" id="data">
+                                                         data-date-format="mm.dd.yyyy" style="width: 150px;">
+                                                        <input class="form-control custom-fc" type="text" id="data">
                                                         <span class="input-group-addon"><img src="./img/data.png"
                                                                                              alt="minus"
                                                                                              class="align-middle"></span>
@@ -354,7 +359,8 @@
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
                                         <textarea
-                                                class="form-control w-100"
+
+                                                class="form-control txt-area"
                                                 id="input-content"
                                                 rows="8">Мой дядя самых честных правил, &#13;&#10;Когда не в шутку занемог, &#13;&#10;Он уважать себя заставил &#13;&#10;И лучше выдумать не мог. &#13;&#10;Его пример другим наука; &#13;&#10;Но, боже мой, какая скука &#13;&#10;Какое низкое коварство
                                         </textarea>
@@ -368,15 +374,18 @@
                                     <label for="kolvo">Кол-во листов</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <div class="input-group w-50">
-                                        <input type="text" name="quant[1]" class="form-control input-number" value="1"
+                                    <div class="input-group" style="width: 130px;">
+                                        <input type="text" name="quant[1]" class="form-control input-number custom-fc"
+                                               value="1"
                                                min="1" max="100" id="kolvo">
                                         <span class="input-group-btn">
-                                          <button type="button" class="btn  btn-number plus-minus" data-type="plus"
+                                          <button type="button" class="btn  btn-number plus-minus custom-fc"
+                                                  data-type="plus"
                                                   data-field="quant[1]">
                                             <img src="./img/plus.png" alt="plus" class="align-middle">
                                           </button>
-                                          <button type="button" class="btn btn-number plus-minus" disabled="disabled"
+                                          <button type="button" class="btn btn-number plus-minus custom-fc"
+                                                  disabled="disabled"
                                                   data-type="minus"
                                                   data-field="quant[1]">
                                             <img src="./img/minus.png" alt="minus" class="align-middle">
@@ -392,11 +401,13 @@
                                     <label for="chooseFile">Вложения</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <div class="input-group w-50">
+                                    <div class="input-group">
                                         <div class="form-group">
                                             <div class="file-upload">
                                                 <div class="file-select">
-                                                    <div class="file-select-button" id="fileName">Выберите файл</div>
+                                                    <div class="file-select-button custom-fc text-center" id="fileName"
+                                                         style="width: 130px">Выберите файл
+                                                    </div>
                                                     <div class="file-select-name" id="noFile">Файл не выбран</div>
                                                     <input type="file" name="chooseFile" id="chooseFile">
                                                 </div>
@@ -409,159 +420,156 @@
 
 
                             <!-- Рубрики-->
-                            <div class="row item-form">
+                            <div class="row item-form" style="max-width: 770px">
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-label">
                                     <label>Рубрики</label>
                                 </div>
 
+
                                 <div class="col-lg-9 col-md-8 col-content">
-                                    <div class="row item-form">
-                                        <!-- boxes start 1 col-->
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Запрос
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Ответ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Заказ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Праздники
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Разработка
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Уведомления
-                                                    </label>
-                                                </div>
+                                    <div class="row item-form ">
+                                        <div class="col-lg-3 col-md-3 col-content">
+
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Запрос
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Ответ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Заказ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Праздники
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Разработка
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Уведомления
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-3 col-content ">
+
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Запрос
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Ответ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Заказ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Праздники
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Разработка
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Уведомления
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-3 col-content">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Запрос
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Ответ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Заказ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Праздники
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Разработка
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Уведомления
+                                                </label>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <!-- boxes start 2 col -->
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Запрос
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Ответ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Заказ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Праздники
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Разработка
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Уведомления
-                                                    </label>
-                                                </div>
+
+                                        <div class="col-lg-3 col-md-3 col-content">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="radio"
+                                                           name="exampleRadios" id="exampleRadios1" value="option1"
+                                                           checked>
+                                                    Кружочек
+                                                </label>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <!-- boxes start 3 col-->
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Запрос
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Ответ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Заказ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Праздники
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Разработка
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Уведомления
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <!-- boxes start 4 col -->
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="radio"
-                                                               name="exampleRadios" id="exampleRadios1" value="option1"
-                                                               checked>
-                                                        Кружочек
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="radio"
-                                                               name="exampleRadios" id="exampleRadios1" value="option1"
-                                                               checked>
-                                                        Квадратик
-                                                    </label>
-                                                </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="radio"
+                                                           name="exampleRadios" id="exampleRadios1" value="option1"
+                                                           checked>
+                                                    Квадратик
+                                                </label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
 
                             <!--  Поступления-->
@@ -573,36 +581,33 @@
 
                                 <div class="col-lg-9 col-md-8 col-content">
                                     <div class="row item-form">
-
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        ВЭДО
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Курьер
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Почта
-                                                    </label>
-                                                </div>
+                                        <div class="col-lg-4 col-md-4 col-content">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    ВЭДО
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Курьер
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Почта
+                                                </label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-
-                            <p class="middle_tittle">Корреспонденты</p>
-
+                            <div class="row">
+                                <p class="middle_tittle">Корреспонденты</p>
+                            </div>
 
                             <!--  Контрагент -->
                             <div class="row item-form">
@@ -611,7 +616,7 @@
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <select class="custom-select" id="kontragent">
+                                    <select class="custom-select custom-fc custom-width" id="kontragent">
                                         <option selected>Сбербанк</option>
                                         <option value="1">Тинькофф</option>
                                         <option value="2">ВТБ</option>
@@ -630,7 +635,7 @@
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <select class="custom-select" id="podpisant">
+                                    <select class="custom-select custom-fc custom-width" id="podpisant">
                                         <option selected>Сбербанк</option>
                                         <option value="1">Тинькофф</option>
                                         <option value="2">ВТБ</option>
@@ -647,7 +652,8 @@
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="nomer" placeholder="38-1-6/">
+                                        <input type="text" class="form-control custom-fc" id="nomer"
+                                               placeholder="38-1-6/">
                                     </div>
                                 </div>
                             </div>
@@ -656,14 +662,14 @@
                             <!-- Дата -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="data">Дата</label>
+                                    <label for="data2">Дата</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
 
                                     <div id="datepicker" class="input-group date custom-date"
                                          data-date-format="mm.dd.yyyy">
-                                        <input class="form-control" type="text" id="data">
+                                        <input class="form-control custom-fc" type="text" id="data2">
                                         <span class="input-group-addon"><img src="./img/data.png" alt="minus"
                                                                              class="align-middle"></span>
                                     </div>
@@ -679,7 +685,8 @@
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <input type="text" class="form-control" id="primechanie" placeholder="">
+                                    <input type="text" class="form-control custom-fc custom-width" id="primechanie"
+                                           placeholder="">
                                 </div>
 
                             </div>
@@ -691,8 +698,8 @@
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <select class="custom-select" id="kontragent2">
-                                        <option selected>Сбербанк</option>
+                                    <select class="custom-select custom-fc custom-width" id="kontragent2">
+                                        <option selected>Газпром</option>
                                         <option value="1">Тинькофф</option>
                                         <option value="2">Two</option>
                                         <option value="3">Three</option>
@@ -708,7 +715,7 @@
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <select class="custom-select" id="podpisant2">
+                                    <select class="custom-select custom-fc custom-width" id="podpisant2">
                                         <option selected>Сбербанк</option>
                                         <option value="1">Тинькофф</option>
                                         <option value="2">Two</option>
@@ -726,7 +733,8 @@
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="nomer2" placeholder="38-1-6/">
+                                        <input type="text" class="form-control custom-fc" id="nomer2"
+                                               placeholder="38-1-6/">
                                     </div>
                                 </div>
                             </div>
@@ -735,13 +743,13 @@
                             <!--  Дата -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="data2">Дата</label>
+                                    <label for="data3">Дата</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div id="datepicker8" class="input-group date custom-date"
                                          data-date-format="mm.dd.yyyy">
-                                        <input class="form-control" type="text" id="data">
+                                        <input class="form-control custom-fc" type="text" id="data3">
                                         <span class="input-group-addon"><img src="./img/data.png" alt="minus"
                                                                              class="align-middle"></span>
                                     </div>
@@ -753,17 +761,18 @@
                             <!-- Примечание -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="primechanie2">Примечание</label>
+                                    <label for="textbox1">Примечание</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
 
                                     <div id='TextBoxesGroup'>
                                         <div id="TextBoxDiv1">
-                                            <input type='textbox' id='textbox1' class="form-control w-50">
+                                            <input type='textbox' id='textbox1'
+                                                   class="form-control custom-fc custom-width">
                                         </div>
                                     </div>
-                                    <input type='button' value='Добавить' id='addButton' class="btn btn-link" >
+                                    <input type='button' value='Добавить' id='addButton' class="btn btn-link">
                                     <input type='button' value='Удалить' id='removeButton' class="btn btn-link">
 
                                 </div>
@@ -775,31 +784,34 @@
                         <!-- 2 колонка -->
 
                         <div class="col-lg-4 col-md-4 block-additional">
-                            <div class="col-lg-12 col-md-12 col-content">
-                                <div class="form-group">
-                                    <label for="svyazi" class="col-label">Связи с другими документами</label>
-                                    <select class="custom-select w-100" id="svyazi">
-                                        <option selected></option>
-                                        <option value="1">Документ 1</option>
-                                        <option value="2">Документ 2</option>
-                                        <option value="3">Документ 3</option>
-                                    </select>
+                            <div class="row no-gutter">
+                                <div class="col-lg-12 col-md-12 col-content">
+                                    <div class="form-group">
+                                        <label for="svyazi" class="col-label">Связи с другими документами</label><br>
+                                        <select class="custom-select custom-fc custom-width" id="svyazi">
+                                            <option selected></option>
+                                            <option value="1">Документ 1</option>
+                                            <option value="2">Документ 2</option>
+                                            <option value="3">Документ 3</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-content">
-                                <div class="form-group">
-                                    <label for="pocht-nomer" class="col-label">Почтовый номер</label>
-                                    <input type="text" class="form-control w-50" id="pocht-nomer" placeholder="">
+                                <div class="col-lg-12 col-md-12 col-content">
+                                    <div class="form-group">
+                                        <label for="pocht-nomer" class="col-label">Почтовый номер</label>
+                                        <input type="text" class="form-control custom-fc" id="pocht-nomer"
+                                               placeholder="">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-content">
-                                <div class="form-group">
-                                    <label for="primechanie3" class="col-label">Примечания</label>
-                                    <textarea
-                                            class="form-control w-100"
-                                            id="primechanie3"
-                                            rows="5">
+                                <div class="col-lg-12 col-md-12 col-content">
+                                    <div class="form-group">
+                                        <label for="primechanie3" class="col-label">Примечания</label>
+                                        <textarea
+                                                class="form-control custom-width"
+                                                id="primechanie3"
+                                                rows="5">
                        </textarea>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -809,7 +821,7 @@
 
 
                 <!-- ВТОРАЯ ВКЛАДКА -->
-                <div class="tab-pane" id="ishod" role="tabpanel">
+                <div class="tab-pane main-text" id="ishod" role="tabpanel">
                     <div class="row animated fadeIn">
 
                         <!-- 1 колонка -->
@@ -819,7 +831,7 @@
                             <!-- Название -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label>Исполнитель</label>
+                                    <label>Название</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <p>38-1-6/15 от 15.08.2015 “Мой дядя самых честных правил,<br>Когда не в шутку
@@ -827,14 +839,28 @@
                                 </div>
                             </div>
 
-                            <!-- Кому -->
+                            <!-- Исполнитель -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="input-whom">Подписант</label>
+                                    <label for="input-whom3">Исполнитель</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
-                                        <input type="text" class="form-control w-50" id="input-whom" placeholder="">
+                                        <input type="text" class="form-control custom-fc" id="input-whom3"
+                                               placeholder="" style="width: 289px">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Подписант -->
+                            <div class="row item-form">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-label">
+                                    <label for="input-whom2">Подписант</label>
+                                </div>
+                                <div class="col-lg-10 col-md-9 col-sm-8 col-content">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control custom-fc" id="input-whom2"
+                                               placeholder="" style="width: 289px">
                                     </div>
                                 </div>
                             </div>
@@ -842,12 +868,13 @@
                             <!-- Номер -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="input-number">Номер</label>
+                                    <label for="input-number2">Номер</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
-                                        <input type="text" class="form-control w-50" id="input-number" placeholder="38-1-6/">
+                                        <input type="text" class="form-control custom-fc" id="input-number2"
+                                               placeholder="38-1-6/">
                                     </div>
                                 </div>
                             </div>
@@ -860,12 +887,12 @@
 
                                 <div class="col-lg-10 col-md-9 col-sm-8  col-content">
                                     <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="block">
+                                        <div class="col-lg-5 col-md-5" style="max-width: 255px">
+                                            <div class="block" style="max-width: 225px">
                                                 <div class="input-group">
                                                     <div id="datepicker4" class="input-group date custom-date "
-                                                         data-date-format="mm.dd.yyyy">
-                                                        <input class="form-control" type="text" id="data">
+                                                         data-date-format="mm.dd.yyyy" style="width: 150px;">
+                                                        <input class="form-control custom-fc" type="text" id="data">
                                                         <span class="input-group-addon"><img src="./img/data.png"
                                                                                              alt="minus"
                                                                                              class="align-middle"></span>
@@ -875,12 +902,12 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-6 col-md-6">
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="block">
                                                 <div class="input-group">
                                                     <div id="datepicker5" class="input-group date custom-date "
-                                                         data-date-format="mm.dd.yyyy">
-                                                        <input class="form-control" type="text" id="data">
+                                                         data-date-format="mm.dd.yyyy" style="width: 150px;">
+                                                        <input class="form-control custom-fc" type="text" id="data">
                                                         <span class="input-group-addon"><img src="./img/data.png"
                                                                                              alt="minus"
                                                                                              class="align-middle"></span>
@@ -897,14 +924,15 @@
                             <div class="row item-form">
 
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="input-content">Содержание</label>
+                                    <label for="input-content2">Содержание</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
                                         <textarea
-                                                class="form-control w-100"
-                                                id="input-content"
+
+                                                class="form-control txt-area"
+                                                id="input-content2"
                                                 rows="8">
                                         </textarea>
                                     </div>
@@ -914,21 +942,26 @@
                             <!-- Кол-во листов -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="kolvo">Кол-во листов</label>
+                                    <label for="kolvo2">Кол-во листов</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <div class="input-group w-50">
-                                        <input type="text" name="quant[1]" class="form-control input-number" value="1"
-                                               min="1" max="100" id="kolvo">
+                                    <div class="input-group" style="width: 130px;">
+                                        <input type="text" name="quant[1]" class="form-control input-number custom-fc"
+                                               value="1"
+                                               min="1" max="100" id="kolvo2">
                                         <span class="input-group-btn">
-        <button type="button" class="btn  btn-number plus-minus" data-type="plus" data-field="quant[1]">
-                <img src="./img/plus.png" alt="plus" class="align-middle">
-              </button>
-              <button type="button" class="btn btn-number plus-minus" disabled="disabled" data-type="minus"
-                      data-field="quant[1]">
-                <img src="./img/minus.png" alt="minus" class="align-middle">
-              </button>
-      </span>
+                                          <button type="button" class="btn  btn-number plus-minus custom-fc"
+                                                  data-type="plus"
+                                                  data-field="quant[1]">
+                                            <img src="./img/plus.png" alt="plus" class="align-middle">
+                                          </button>
+                                          <button type="button" class="btn btn-number plus-minus custom-fc"
+                                                  disabled="disabled"
+                                                  data-type="minus"
+                                                  data-field="quant[1]">
+                                            <img src="./img/minus.png" alt="minus" class="align-middle">
+                                          </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -939,11 +972,13 @@
                                     <label for="chooseFile">Вложения</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <div class="input-group w-50">
+                                    <div class="input-group">
                                         <div class="form-group">
                                             <div class="file-upload">
                                                 <div class="file-select">
-                                                    <div class="file-select-button" id="fileName">Выберите файл</div>
+                                                    <div class="file-select-button custom-fc text-center" id="fileName"
+                                                         style="width: 130px">Выберите файл
+                                                    </div>
                                                     <div class="file-select-name" id="noFile">Файл не выбран</div>
                                                     <input type="file" name="chooseFile" id="chooseFile">
                                                 </div>
@@ -956,163 +991,143 @@
 
 
                             <!-- Рубрики-->
-                            <div class="row item-form">
+                            <div class="row item-form" style="max-width: 770px">
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-label">
                                     <label>Рубрики</label>
                                 </div>
 
+
                                 <div class="col-lg-9 col-md-8 col-content">
-                                    <div class="row item-form">
-                                        <!-- boxes start 1 col-->
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Запрос
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Ответ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Заказ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Праздники
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Разработка
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Уведомления
-                                                    </label>
-                                                </div>
+                                    <div class="row item-form ">
+                                        <div class="col-lg-3 col-md-3 col-content">
+
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Запрос
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Ответ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Заказ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Праздники
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Разработка
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Уведомления
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-3 col-content ">
+
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Запрос
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Ответ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Заказ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Праздники
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Разработка
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Уведомления
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-3 col-content">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Запрос
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Ответ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Заказ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Праздники
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Разработка
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Уведомления
+                                                </label>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <!-- boxes start 2 col -->
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Запрос
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Ответ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Заказ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Праздники
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Разработка
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Уведомления
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <!-- boxes start 3 col-->
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Запрос
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Ответ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Заказ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Праздники
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Разработка
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Уведомления
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <!-- boxes start 4 col -->
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="radio"
-                                                               name="exampleRadios" id="exampleRadios1" value="option1"
-                                                               checked>
-                                                        Кружочек
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="radio"
-                                                               name="exampleRadios" id="exampleRadios1" value="option1"
-                                                               checked>
-                                                        Квадратик
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
+
+
                                     </div>
                                 </div>
 
                             </div>
 
-                            <!--  Поступления-->
+                            <!--  Отправка-->
+
                             <div class="row item-form">
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-label">
                                     <label>Отправка</label>
@@ -1120,27 +1135,24 @@
 
                                 <div class="col-lg-9 col-md-8 col-content">
                                     <div class="row item-form">
-
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        ВЭДО
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Курьер
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Почта
-                                                    </label>
-                                                </div>
+                                        <div class="col-lg-4 col-md-4 col-content">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    ВЭДО
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Курьер
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Почта
+                                                </label>
                                             </div>
                                         </div>
                                     </div>
@@ -1151,49 +1163,53 @@
                             <p class="middle_tittle">Адресаты</p>
 
 
-                            <!--  Контрагент -->
+                            <!--  Организация -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="kontragent">Организация</label>
+                                    <label for="kontragent4">Организация</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <select class="custom-select w-50" id="kontragent">
-                                        <option selected>Сбербанк</option>
+                                    <select class="custom-select custom-fc custom-width" id="kontragent4">
+                                        <option selected></option>
                                         <option value="1">Тинькофф</option>
                                         <option value="2">ВТБ</option>
                                         <option value="3">Райфайзен</option>
                                     </select>
+
                                 </div>
 
 
                             </div>
-
-                            <!--  Подписант -->
+                            <!--  Организация -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="podpisant">Физ. лицо</label>
+                                    <label for="kontragent3">Физ. лицо</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <select class="custom-select w-50" id="podpisant">
-                                        <option selected>Сбербанк</option>
+                                    <select class="custom-select custom-fc custom-width" id="kontragent3">
+                                        <option selected></option>
                                         <option value="1">Тинькофф</option>
                                         <option value="2">ВТБ</option>
                                         <option value="3">Райфайзен</option>
                                     </select>
+
                                 </div>
+
+
                             </div>
 
 
                             <!-- Примечание -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="primechanie">Примечание</label>
+                                    <label for="primechanie2">Примечание</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <input type="text" class="form-control w-50" id="primechanie" placeholder="">
+                                    <input type="text" class="form-control custom-fc custom-width" id="primechanie2"
+                                           placeholder="">
                                 </div>
 
                             </div>
@@ -1203,26 +1219,27 @@
                         <!-- 2 колонка -->
 
                         <div class="col-lg-4 col-md-4 block-additional">
-                            <div class="col-lg-12 col-md-12 col-content">
-                                <div class="form-group">
-                                    <label for="svyazi" class="col-label">Связи с другими документами</label>
-                                    <select class="custom-select w-100" id="svyazi">
-                                        <option selected></option>
-                                        <option value="1">Документ 1</option>
-                                        <option value="2">Документ 2</option>
-                                        <option value="3">Документ 3</option>
-                                    </select>
+                            <div class="row no-gutter">
+                                <div class="col-lg-12 col-md-12 col-content">
+                                    <div class="form-group">
+                                        <label for="svyazi10" class="col-label">Связи с другими документами</label><br>
+                                        <select class="custom-select custom-fc custom-width" id="svyazi10">
+                                            <option selected></option>
+                                            <option value="1">Документ 1</option>
+                                            <option value="2">Документ 2</option>
+                                            <option value="3">Документ 3</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-12 col-md-12 col-content">
-                                <div class="form-group">
-                                    <label for="primechanie3" class="col-label">Примечания</label>
-                                    <textarea
-                                            class="form-control w-100"
-                                            id="primechanie3"
-                                            rows="5">
-                                   </textarea>
+                                <div class="col-lg-12 col-md-12 col-content">
+                                    <div class="form-group">
+                                        <label for="primechanie10" class="col-label">Примечания</label>
+                                        <textarea
+                                                class="form-control custom-width"
+                                                id="primechanie10"
+                                                rows="5">
+                       </textarea>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1232,7 +1249,7 @@
 
 
                 <!-- ТРЕТЬЯ ВКЛАДКА -->
-                <div class="tab-pane" id="vnutr" role="tabpanel">
+                <div class="tab-pane main-text" id="vnutr" role="tabpanel">
                     <div class="row animated fadeIn">
 
                         <!-- 1 колонка -->
@@ -1242,7 +1259,7 @@
                             <!-- Название -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label>Исполнитель</label>
+                                    <label>Название</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <p>38-1-6/15 от 15.08.2015 “Мой дядя самых честных правил,<br>Когда не в шутку
@@ -1250,14 +1267,28 @@
                                 </div>
                             </div>
 
-                            <!-- Кому -->
+                            <!-- Исполнитель -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="input-whom">Подписант</label>
+                                    <label for="input-whom6">Исполнитель</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
-                                        <input type="text" class="form-control w-50" id="input-whom" placeholder="">
+                                        <input type="text" class="form-control custom-fc" id="input-whom6"
+                                               placeholder="" style="width: 289px">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Подписант -->
+                            <div class="row item-form">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-label">
+                                    <label for="input-whom5">Подписант</label>
+                                </div>
+                                <div class="col-lg-10 col-md-9 col-sm-8 col-content">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control custom-fc" id="input-whom5"
+                                               placeholder="" style="width: 289px">
                                     </div>
                                 </div>
                             </div>
@@ -1265,12 +1296,13 @@
                             <!-- Номер -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="input-number">Номер</label>
+                                    <label for="input-number5">Номер</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
-                                        <input type="text" class="form-control w-50" id="input-number" placeholder="38-1-6/">
+                                        <input type="text" class="form-control custom-fc" id="input-number5"
+                                               placeholder="38-1-6/">
                                     </div>
                                 </div>
                             </div>
@@ -1283,12 +1315,12 @@
 
                                 <div class="col-lg-10 col-md-9 col-sm-8  col-content">
                                     <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="block">
+                                        <div class="col-lg-5 col-md-5" style="max-width: 255px">
+                                            <div class="block" style="max-width: 225px">
                                                 <div class="input-group">
                                                     <div id="datepicker6" class="input-group date custom-date "
-                                                         data-date-format="mm.dd.yyyy">
-                                                        <input class="form-control" type="text" id="data">
+                                                         data-date-format="mm.dd.yyyy" style="width: 150px;">
+                                                        <input class="form-control custom-fc" type="text" id="data">
                                                         <span class="input-group-addon"><img src="./img/data.png"
                                                                                              alt="minus"
                                                                                              class="align-middle"></span>
@@ -1298,12 +1330,12 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-6 col-md-6">
+                                        <div class="col-lg-5 col-md-5">
                                             <div class="block">
                                                 <div class="input-group">
                                                     <div id="datepicker7" class="input-group date custom-date "
-                                                         data-date-format="mm.dd.yyyy">
-                                                        <input class="form-control" type="text" id="data">
+                                                         data-date-format="mm.dd.yyyy" style="width: 150px;">
+                                                        <input class="form-control custom-fc" type="text" id="data">
                                                         <span class="input-group-addon"><img src="./img/data.png"
                                                                                              alt="minus"
                                                                                              class="align-middle"></span>
@@ -1320,16 +1352,17 @@
                             <div class="row item-form">
 
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="input-content">Содержание</label>
+                                    <label for="input-content6">Содержание</label>
                                 </div>
 
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
                                     <div class="form-group">
-                                      <textarea
-                                              class="form-control w-100"
-                                              id="input-content"
-                                              rows="8">
-                                      </textarea>
+                                        <textarea
+
+                                                class="form-control txt-area"
+                                                id="input-content6"
+                                                rows="8">
+                                        </textarea>
                                     </div>
                                 </div>
                             </div>
@@ -1337,21 +1370,26 @@
                             <!-- Кол-во листов -->
                             <div class="row item-form">
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-label">
-                                    <label for="kolvo">Кол-во листов</label>
+                                    <label for="kolvo3">Кол-во листов</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <div class="input-group w-50">
-                                        <input type="text" name="quant[1]" class="form-control input-number" value="1"
-                                               min="1" max="100" id="kolvo">
+                                    <div class="input-group" style="width: 130px;">
+                                        <input type="text" name="quant[1]" class="form-control input-number custom-fc"
+                                               value="1"
+                                               min="1" max="100" id="kolvo3">
                                         <span class="input-group-btn">
-        <button type="button" class="btn  btn-number plus-minus" data-type="plus" data-field="quant[1]">
-                <img src="./img/plus.png" alt="plus" class="align-middle">
-              </button>
-              <button type="button" class="btn btn-number plus-minus" disabled="disabled" data-type="minus"
-                      data-field="quant[1]">
-                <img src="./img/minus.png" alt="minus" class="align-middle">
-              </button>
-      </span>
+                                          <button type="button" class="btn  btn-number plus-minus custom-fc"
+                                                  data-type="plus"
+                                                  data-field="quant[1]">
+                                            <img src="./img/plus.png" alt="plus" class="align-middle">
+                                          </button>
+                                          <button type="button" class="btn btn-number plus-minus custom-fc"
+                                                  disabled="disabled"
+                                                  data-type="minus"
+                                                  data-field="quant[1]">
+                                            <img src="./img/minus.png" alt="minus" class="align-middle">
+                                          </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -1362,11 +1400,13 @@
                                     <label for="chooseFile">Вложения</label>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-8 col-content">
-                                    <div class="input-group w-50">
+                                    <div class="input-group">
                                         <div class="form-group">
                                             <div class="file-upload">
                                                 <div class="file-select">
-                                                    <div class="file-select-button" id="fileName">Выберите файл</div>
+                                                    <div class="file-select-button custom-fc text-center" id="fileName"
+                                                         style="width: 130px">Выберите файл
+                                                    </div>
                                                     <div class="file-select-name" id="noFile">Файл не выбран</div>
                                                     <input type="file" name="chooseFile" id="chooseFile">
                                                 </div>
@@ -1379,195 +1419,139 @@
 
 
                             <!-- Рубрики-->
-                            <div class="row item-form">
+                            <div class="row item-form" style="max-width: 770px">
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-label">
                                     <label>Рубрики</label>
                                 </div>
 
+
                                 <div class="col-lg-9 col-md-8 col-content">
-                                    <div class="row item-form">
-                                        <!-- boxes start 1 col-->
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Запрос
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Ответ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Заказ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Праздники
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Разработка
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Уведомления
-                                                    </label>
-                                                </div>
+                                    <div class="row item-form ">
+                                        <div class="col-lg-3 col-md-3 col-content">
+
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Запрос
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Ответ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Заказ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Праздники
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Разработка
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Уведомления
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-3 col-content ">
+
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Запрос
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Ответ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Заказ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Праздники
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Разработка
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Уведомления
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-3 col-content">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Запрос
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Ответ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Заказ
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Праздники
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Разработка
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    Уведомления
+                                                </label>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <!-- boxes start 2 col -->
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Запрос
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Ответ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Заказ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Праздники
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Разработка
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Уведомления
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <!-- boxes start 3 col-->
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Запрос
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Ответ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Заказ
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Праздники
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Разработка
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Уведомления
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <!-- boxes start 4 col -->
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="radio"
-                                                               name="exampleRadios" id="exampleRadios1" value="option1"
-                                                               checked>
-                                                        Кружочек
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="radio"
-                                                               name="exampleRadios" id="exampleRadios1" value="option1"
-                                                               checked>
-                                                        Квадратик
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
+
+
                                     </div>
                                 </div>
 
-                            </div>
-
-                            <!--  Поступления-->
-                            <div class="row item-form">
-                                <div class="col-lg-3 col-md-4 col-sm-6 col-label">
-                                    <label>Отправка</label>
-                                </div>
-
-                                <div class="col-lg-9 col-md-8 col-content">
-                                    <div class="row item-form">
-
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-content">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        ВЭДО
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Курьер
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        Почта
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
 
 
@@ -1575,26 +1559,27 @@
                         <!-- 2 колонка -->
 
                         <div class="col-lg-4 col-md-4 block-additional">
-                            <div class="col-lg-12 col-md-12 col-content">
-                                <div class="form-group">
-                                    <label for="svyazi" class="col-label">Связи с другими документами</label>
-                                    <select class="custom-select w-100" id="svyazi">
-                                        <option selected></option>
-                                        <option value="1">Документ 1</option>
-                                        <option value="2">Документ 2</option>
-                                        <option value="3">Документ 3</option>
-                                    </select>
+                            <div class="row no-gutter">
+                                <div class="col-lg-12 col-md-12 col-content">
+                                    <div class="form-group">
+                                        <label for="svyazi4" class="col-label">Связи с другими документами</label><br>
+                                        <select class="custom-select custom-fc custom-width" id="svyazi4">
+                                            <option selected></option>
+                                            <option value="1">Документ 1</option>
+                                            <option value="2">Документ 2</option>
+                                            <option value="3">Документ 3</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-12 col-md-12 col-content">
-                                <div class="form-group">
-                                    <label for="primechanie3" class="col-label">Примечания</label>
-                                    <textarea
-                                            class="form-control w-100"
-                                            id="primechanie3"
-                                            rows="5">
+                                <div class="col-lg-12 col-md-12 col-content">
+                                    <div class="form-group">
+                                        <label for="primechanie5" class="col-label">Примечания</label>
+                                        <textarea
+                                                class="form-control custom-width"
+                                                id="primechanie5"
+                                                rows="5">
                        </textarea>
+                                    </div>
                                 </div>
                             </div>
                         </div>

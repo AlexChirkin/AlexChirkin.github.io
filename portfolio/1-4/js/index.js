@@ -190,7 +190,7 @@ $(document).ready(function(){
             .attr("id", 'TextBoxDiv' + counter);
 
         newTextBoxDiv.after().html(
-            '<input type="text" class="form-control w-50" name="textbox' + counter +
+            '<input type="text" class="form-control custom-fc custom-width" name="textbox' + counter +
             '" id="textbox' + counter + '" value="" >');
 
         newTextBoxDiv.appendTo("#TextBoxesGroup");
@@ -220,4 +220,5 @@ $(document).ready(function(){
         alert(msg);
     });
 });
+
 
