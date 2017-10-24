@@ -222,3 +222,7 @@ $(document).ready(function(){
 });
 
 
+$("ul.dropdown-menu li a").on("click",function(){
+    $(this).closest(".input-group").find("input.form-control").val($(this).attr("data-Action"))
+
+});
