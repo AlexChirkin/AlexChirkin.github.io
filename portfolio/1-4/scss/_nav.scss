@@ -1,0 +1,88 @@
+.navbar-light {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  .navbar-brand-text {
+    font-family: "MullerNarrow";
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+
+  }
+
+  .navbar-nav {
+    .dropdown-menu {
+      position: absolute;
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .nav-item {
+      .nav-link {
+        font-size: 18px;
+        color: $link-color;
+        font-family: "FuturaBookC";
+        text-decoration: underline;
+        line-height: 1.2;
+
+        &#nav-bnt-exit {
+          // margin-left: 35px;
+        }
+      }
+
+      &.user-widget {
+        cursor: pointer;
+        position: inherit;
+
+        .nav-link {
+          text-decoration: none;
+
+          .user-name {
+            color: black;
+            font-size: 18px;
+            font-family: "FuturaBookC";
+            line-height: 1.2;
+
+          }
+
+          .user-position {
+
+              font-size: 18px;
+              font-family: "FuturaBookC";
+              color: rgb(69, 105, 144);
+
+              text-decoration: none;
+              border-bottom: 1px dashed rgba(69, 105, 144, 0.2);
+              line-height: 1.2;
+          }
+
+          .user-icon {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.drop {
+  .link-color {
+    color: $link-color;
+  }
+  .small {
+    color: #808080;
+    font-size: 12px;
+  }
+}
+
+.nav-link {
+  color: $link-color;
+}
+.active {
+
+}
+
+.asd {
+  padding-top: 3%;
+  padding-left: 145px;
+}

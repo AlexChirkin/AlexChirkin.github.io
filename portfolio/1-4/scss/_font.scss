@@ -1,0 +1,65 @@
+@font-face {
+  font-family: FuturaBookC;
+  src: url('../fonts/futurabookc.otf');
+}
+
+@font-face {
+  font-family: MullerNarrow;
+  src: url('../fonts/MullerNarrow-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: FuturaDemiC;
+  src: url('../fonts/FuturaDemiC.ttf');
+}
+
+$link-color: #456990;
+
+html {
+  font-size: 16px;
+  font-family: "FuturaBookC";
+  overflow-x: hidden;
+
+}
+
+h1, h2, h3 {
+  font-family: "MullerNarrow";
+}
+
+.middle_tittle {
+  font-family: FuturaDemiC;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+.menu-font {
+  font-size: 16px;
+  font-family: "FuturaBookC";
+  color: rgb(69, 105, 144);
+  line-height: 1.2;
+}
+
+.top_tittle {
+  font-size: 30px;
+  font-family: "MullerNarrow";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+
+
+}
+
+.main-text {
+  font-size: 16px;
+  font-family: "FuturaBookC";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+
+}
+
+input[type="text"] {
+  font-size: 16px;
+  font-family: "FuturaBookC";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+}
