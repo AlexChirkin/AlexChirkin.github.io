@@ -51,11 +51,12 @@
 
                 <div class="dropdown-menu" aria-labelledby="dropdown09">
                     <div class="container-fluid">
-                        <p style="text-align: center; color: red; font-family: MullerExtraBold; font-size: 30px; padding-top: 5%">Все дашборды?</p>
+                        <p style="text-align: center; color: red; font-family: MullerExtraBold; font-size: 30px; padding-top: 5%">
+                            Все дашборды?</p>
                     </div>
                 </div>
             </li>
-            <a class="nav-link nav-dash" href="#" id="dropdown09" data-toggle="dropdown"
+            <a class="nav-link nav-dash" href="#" id="dropdown09"
                aria-haspopup="true" aria-expanded="false">
                 <div class="user-icon d-inline-block">
                     <img src="/img/menu-arrow.png" alt="">
@@ -77,9 +78,26 @@
             <div class="text-2">Яндекс выдачи, вчера</div>
         </div>
         <div class="col-xl-5 right-block">
+            <div class="table-line" style="
+                                                position: absolute;
+                                                padding-top: 185px;
+                                                padding-left: 104px;
+                                                opacity: 0.9;
+                                            ">
+                <img src="./img/table-line.png">
+            </div>
+            <div class="table-line-2" style="
+                                                position: absolute;
+                                                padding-top: 222px;
+                                                padding-left: 104px;
+                                                opacity: 0.9;
+                                            ">
+                <img src="./img/table-line.png">
+            </div>
             <div class="row area-table">
                 <table class="table table-bordered table-responsive ">
                     <label class="table-name">Сводка</label>
+
                     <thead class="table-head-text">
                     <tr>
                         <th id="t1-1">Система</th>
@@ -101,7 +119,7 @@
                         <td id="t2-6">1</td>
                     </tr>
                     <tr>
-                        <th scope="row" class="first-col">www.grcc.ru</th>
+                        <th scope="row" id="t3-1">www.grcc.ru</th>
                         <td id="t3-2">30</td>
                         <td id="t3-3">328</td>
                         <td id="t3-4">164</td>
@@ -145,10 +163,12 @@
             </div>
 
 
-
             <div class="row area-button">
-                <button type="button" class="btn custom-button" id="update-button">Обновить</button>
-                <label class="custom-label" for="update-button">Последний раз 12:31:41</label>
+                <div class="custom-button" id="update-button" role="button">
+                    <p>Обновить</p>
+                </div>
+                <label class="custom-label-1" for="update-button">Последний раз</label>
+                <a>12:31:41</a>
             </div>
 
         </div>
