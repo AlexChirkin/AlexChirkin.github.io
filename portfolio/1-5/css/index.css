@@ -1,0 +1,652 @@
+@font-face {
+    font-family: "ProximaNova-Bold";
+    src: url("../fonts/ProximaNova-Bold.otf");
+}
+
+@font-face {
+    font-family: "ProximaNova-Black";
+    src: url("../fonts/ProximaNova-Black.ttf");
+}
+
+@font-face {
+    font-family: "ProximaNova-Reg";
+    src: url("../fonts/ProximaNova-Reg.otf");
+}
+
+@font-face {
+    font-family: "ProximaNova-Extrabld";
+    src: url("../fonts/ProximaNova-Extrabld.ttf");
+}
+
+body {
+	overflow-x: hidden;
+}
+#nichiporchuk {
+	background-image: url(../img/bg-nichi.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #4ecdc4;
+}
+
+#novicov {
+	background-image: url(../img/bg-novi.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #e32727;	
+}
+
+#obyedkin {
+	background-image: url(../img/bg-obyed.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #fdd889;
+}
+
+#udin {
+	background-image: url(../img/bg-udin.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #14c514;	
+}
+
+
+#mahmutov {
+	background-image: url(../img/bg-mahm.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #00f260;
+}
+
+#kosarcov {
+	background-image: url(../img/bg-kosar.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #71b280;
+}
+
+#pihtulov {
+	background-image: url(../img/bg-piht.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #41a74b;	
+}
+
+#linnik {
+	background-image: url(../img/bg-linn.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #5bcb10;	
+}
+
+#tarasuk {
+	background-image: url(../img/bg-taras.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #ff9966;
+}
+
+#chirkin {
+	background-image: url(../img/bg-chir.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #fc6767;	
+}
+
+#dennikov {
+	background-image: url(../img/bg-denn.png);
+	background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #ff00cc;	
+}
+
+.slide {
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#embodiment {
+background-image: url(../img/bg-vopl.png);
+height: 100vh;
+}
+
+@media screen and (max-width: 990px) { 
+#embodiment {
+    height: unset;
+    }
+}
+
+#embodiment .lamp {
+	display: flex;
+    justify-content: center;
+    padding-top: 13%;
+}
+
+#embodiment .brand {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+#embodiment .brand .name {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 120px;
+line-height: 1.3;
+}
+
+#embodiment .brand .subtitle {
+color: #fff;
+font-family: "ProximaNova-Bold";
+font-size: 48px;
+line-height: 1.2;	
+}
+
+#team {
+background-image: url(../img/bg-team.png);	
+}
+
+#team .head-title {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vw;
+    margin-right: 9vw;
+
+}
+
+#team .head-title .title {
+color: #000;
+font-family: "ProximaNova-Black";
+font-size: 100px;	
+}
+
+#team .head-title .subtitle {
+color: #000;
+font-family: "ProximaNova-Reg";
+font-size: 18px;	
+margin-top: 60px;
+}
+
+#team .desc {
+width: 400px;
+    margin-top: 500px;
+    margin-bottom: 130px;
+}
+
+.whiteline{
+min-width: 100%;
+min-height: 9px;
+background-color: #fff;
+margin-bottom: 5px;
+}
+
+#team .principles .title{
+color: #fff;
+font-family: "ProximaNova-Bold";
+font-size: 18px;
+}
+
+#team .principles .list{
+margin-left: 18px;
+color: #fff;
+font-family: "ProximaNova-Reg";
+font-size: 18px;	
+}
+
+
+#fullstack {
+min-height: 794px;
+background-image: url(../img/bg-fullstack.png);
+padding-left: 4vw;
+padding-right: 6vw;
+width: 100vw;
+background-repeat: no-repeat;
+background-position: bottom left;
+background-color: #faffd1;
+
+}
+
+
+#fullstack .head-title {
+color: #000;
+font-family: "ProximaNova-Black";
+font-size: 100px;
+line-height: 1.2;
+padding-top: 20px;	
+}
+
+#fullstack .content {
+display: flex;
+justify-content: space-between;
+line-height: 1;
+color: #000;
+font-family: "ProximaNova-Reg";
+font-size: 18px;
+padding-bottom: 175px;	
+}
+
+.blackline{
+min-width: 100%;
+min-height: 9px;
+background-color: #000;
+margin-bottom: 5px;
+}
+
+#fullstack .desc {
+	width: 425px;
+}
+
+#fullstack .desc .title {
+font-family: "ProximaNova-Extrabld";
+padding-bottom: 5px;
+}
+
+#fullstack .desc .subtitle {
+font-family: "ProximaNova-Bold";
+margin-left: 9px;
+padding-bottom: 10px;
+}
+
+#fullstack .desc .subtitle-extra-text {
+	margin-left: 9px;
+	margin-top: -10px;
+}
+
+#fullstack .list{
+margin-left: 18px;
+}
+
+#fullstack .list-item{
+padding-bottom: 10px;
+}
+
+
+#tech {
+background-image: url(../img/bg-tech.png);
+font-size: 18px;
+color: #fff;
+padding-left: 4vw;
+padding-right: 6vw;
+width: 100vw;
+background-repeat: no-repeat;
+background-position: bottom left;
+background-color: #004e92;	
+}
+
+#tech .head-title {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 100px;
+line-height: 1.2;
+padding-top: 20px;	
+}
+
+#tech .content {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+#tech .left-side {
+
+}
+
+#tech .left-side .tech-drupal{
+	display: flex;
+}
+
+#tech .left-side .tech-drupal .drupal-text {
+width: 400px;
+padding-top: 20px;
+padding-left: 15px;
+}
+
+#tech .left-side .tech-drupal .title{
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 36px;
+}
+
+#tech .left-side .tech-drupal .desc{
+	font-family: "ProximaNova-Reg";
+	color: #fff;
+}
+
+#tech .left-side .tech-symph{
+	padding-top: 80px;
+	padding-left: 60px;
+}
+
+#tech .right-side .block {
+	width: 275px;
+}
+
+#tech .right-side .block .logoline {
+	display: flex;
+	align-items: flex-end;
+    padding-bottom: 7px;
+}
+
+#tech .right-side .block .logoline .tech-pyth {
+	margin-left: 15px;
+}
+
+#tech .title {
+font-family: "ProximaNova-Extrabld";
+}
+
+
+#tech .items {
+font-family: "ProximaNova-Reg";
+padding-bottom: 10px;
+}
+
+.head {
+	display: flex;
+	margin-left: 14.641288433382138vw;
+	margin-right: 5.490483162518302vw;
+	padding-top: 30px;
+}
+
+.pt {
+	margin-left: 14.641288433382138vw;
+	margin-right: 5.490483162518302vw;
+	padding-top: 30px;
+
+}
+
+.pt .padd {
+	margin-left: 155px;
+}
+
+.tm-logo {
+	width: 91px;
+}
+.tm-name {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 100px;
+line-height: 1;
+margin-left: 60px;	
+}
+
+.about {
+	display: flex;
+    justify-content: space-between;
+    margin-left: 14.641288433382138vw;
+    margin-right: 5.490483162518302vw;
+    margin-top: 35px;
+    padding-bottom: 40px;
+}
+
+.about-1 {
+	margin-top: -5px;
+}
+
+.pt .position {
+font-family: "ProximaNova-Extrabld";
+line-height: 1.2;
+color: #000;
+font-size: 18px;
+}
+
+.pt .time {
+font-family: "ProximaNova-Reg";
+line-height: 1.2;
+color: #000;
+font-size: 18px;	
+}
+
+.about .un-logo {
+height: 43px;
+display: table-cell;
+vertical-align: bottom;
+}
+
+.about .un-name {
+font-family: "ProximaNova-Bold";
+line-height: 1.2;
+color: #000;
+font-size: 18px;
+}
+
+.about .un-desc {
+font-family: "ProximaNova-Reg";
+line-height: 1.2;
+color: #000;
+font-size: 18px;
+}
+
+.about .right-side .un-desc {
+	padding-bottom: 10px;
+}
+
+.about .title {
+font-family: "ProximaNova-Extrabld";
+line-height: 1.2;
+color: #000;
+font-size: 18px;
+}
+
+.about .item-list {
+font-family: "ProximaNova-Reg";
+line-height: 1.2;
+color: #000;
+font-size: 18px;
+margin-left: 15px;
+padding-bottom: 15px;	
+}
+
+.about .subtitle {
+font-family: "ProximaNova-Bold";
+line-height: 1.2;
+color: #000;
+font-size: 18px;
+padding-bottom: 10px;
+}
+
+.about .left-side {
+	width: 400px;
+	margin-left: 155px;
+
+}
+
+.about .right-side {
+	width: 425px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+
+.head .fix-logo {
+	    padding-top: 10px;
+}
+
+.head .fix-logo-taras {
+	    padding-top: 18px;	
+}
+
+.line-skills {
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 10px;
+}
+
+.line-skills .skill {
+	padding-right: 15px;
+}
+
+.line-skills .skill:nth-last-child(1) {
+	padding-right: 0;
+}
+
+
+.nichi-skills {
+	padding-top: 405px;
+}
+
+.novikov-skills {
+	padding-top: 195px;
+}
+
+.obyedkin-skills {
+	padding-top: 200px;
+}
+
+.udin-skills {
+	padding-top: 90px;
+}
+
+.mahmutov-skills {
+	padding-top: 270px;
+}
+
+.kosarcov-skills {
+	padding-top: 160px;
+}
+
+.pihtulov-skills {
+	padding-top: 115px;
+}
+
+.linnik-skills {
+	padding-top: 120px;
+}
+
+.tarasuk-skills {
+	padding-top: 180px;
+}
+
+.chirkin-skills {
+	padding-top: 200px;
+}
+
+.dennikov-skills {
+	padding-top: 250px;
+}
+
+
+.apache {
+	margin-bottom: -10px;
+}
+
+.node {
+	margin-bottom: 7px;
+}
+
+.avocode {
+	margin-bottom: -5px;
+}
+
+.jira-tarasuk {
+	margin-bottom: 5x;
+}
+
+.phpstorm-tarasuk {
+	margin-bottom: -10px;
+}
+
+.bitrix-linnik {
+	margin-bottom: 5px;
+}
+
+.phpstorm-linnik {
+	margin-bottom: -6px;
+}
+
+.slim {
+	margin-bottom: -5px;
+}
+
+.mysql-linnik {
+	margin-bottom: 2px;
+}
+
+.solr-pihtulov {
+	margin-bottom: 5px;
+}
+
+.mysql-pihtulov {
+    margin-bottom: 2px;
+}
+
+.laravel-kosarcov {
+	margin-bottom: 5px;
+}
+
+.postgre-mahmutov {
+	margin-bottom: -10px;
+}
+
+.mysql-mahmutov {
+	margin-bottom: 3px;
+}
+
+.git-udin {
+	margin-bottom: -3px;
+}
+
+.neo-udin {
+	margin-bottom: -4px;
+}
+
+.postgre-udin {
+	margin-bottom: -10px;
+}
+
+.silex-udin {
+	margin-bottom: 7px;
+}
+
+.c-udin {
+	margin-bottom: 12px;
+}
+
+.php-udin {
+	margin-bottom: -5px;
+}
+
+.bitrix-obyed {
+	margin-bottom: 2px;
+}
+
+.modx-obyed {
+	margin-bottom: 5px;
+}
+
+.apache-obyed {
+	margin-bottom: -5px;
+}
+
+.phps-novikov {
+	margin-bottom: -10px;
+}
+
+.postgre-novikov {
+	margin-bottom: -12px;
+}
+
+.mysql-novikov {
+	margin-bottom: 5px;
+}
+
+.php-novikov {
+	margin-bottom: -5px;
+}
+
+.git-nichi {
+	margin-bottom: -3px;
+}
+
+.mysql-chir {
+	margin-bottom: 2px;
+}
+
+
+
+
+
+
