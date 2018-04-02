@@ -22,6 +22,7 @@ body {
 	overflow-x: hidden;
 }
 #nichiporchuk {
+	min-height: 900px;
 	background-image: url(../img/bg-nichi.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -29,6 +30,7 @@ body {
 }
 
 #novicov {
+	min-height: 900px;
 	background-image: url(../img/bg-novi.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -36,6 +38,7 @@ body {
 }
 
 #obyedkin {
+	min-height: 900px;
 	background-image: url(../img/bg-obyed.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -43,6 +46,7 @@ body {
 }
 
 #udin {
+	min-height: 900px;
 	background-image: url(../img/bg-udin.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -51,6 +55,7 @@ body {
 
 
 #mahmutov {
+	min-height: 900px;
 	background-image: url(../img/bg-mahm.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -58,6 +63,7 @@ body {
 }
 
 #kosarcov {
+	min-height: 900px;
 	background-image: url(../img/bg-kosar.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -65,6 +71,7 @@ body {
 }
 
 #pihtulov {
+	min-height: 900px;
 	background-image: url(../img/bg-piht.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -72,6 +79,7 @@ body {
 }
 
 #linnik {
+	min-height: 900px;
 	background-image: url(../img/bg-linn.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -79,6 +87,7 @@ body {
 }
 
 #tarasuk {
+	min-height: 900px;
 	background-image: url(../img/bg-taras.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -86,6 +95,7 @@ body {
 }
 
 #chirkin {
+	min-height: 900px;
 	background-image: url(../img/bg-chir.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -93,6 +103,7 @@ body {
 }
 
 #dennikov {
+	min-height: 900px;
 	background-image: url(../img/bg-denn.png);
 	background-repeat: no-repeat;
     background-position: bottom left;
@@ -107,42 +118,39 @@ body {
 
 
 #embodiment {
-background-image: url(../img/bg-vopl.png);
+background-image: url(../img/bg-first.png);
 height: 100vh;
+padding-left: 50px;
+padding-right: 75px;
+padding-top: 60px;
+padding-bottom: 50px;
+position: relative;
 }
+
+#embodiment .our-name {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 150px;
+line-height: 1;
+}
+
+#embodiment .tank {
+    position: absolute;
+    bottom: 50px;
+    right: 75px;
+}
+
+
 
 @media screen and (max-width: 990px) { 
 #embodiment {
-    height: unset;
+    height: 900px;
     }
 }
 
-#embodiment .lamp {
-	display: flex;
-    justify-content: center;
-    padding-top: 13%;
-}
 
-#embodiment .brand {
-	display: flex;
-	flex-direction: column;
-    align-items: center;
-    padding-bottom: 200px;
-}
 
-#embodiment .brand .name {
-color: #fff;
-font-family: "ProximaNova-Black";
-font-size: 120px;
-line-height: 1.3;
-}
 
-#embodiment .brand .subtitle {
-color: #fff;
-font-family: "ProximaNova-Bold";
-font-size: 48px;
-line-height: 1.2;	
-}
 
 #team {
 background-image: url(../img/bg-team.png);	
@@ -197,7 +205,7 @@ font-size: 18px;
 
 
 #fullstack {
-min-height: 794px;
+min-height: 900px;
 background-image: url(../img/bg-fullstack.png);
 padding-left: 4vw;
 padding-right: 6vw;
@@ -223,8 +231,7 @@ justify-content: space-between;
 line-height: 1;
 color: #000;
 font-family: "ProximaNova-Reg";
-font-size: 18px;
-padding-bottom: 175px;	
+font-size: 18px;	
 }
 
 .blackline{
@@ -264,6 +271,7 @@ padding-bottom: 10px;
 
 
 #tech {
+min-height: 900px;
 background-image: url(../img/bg-tech.png);
 font-size: 18px;
 color: #fff;
@@ -369,17 +377,18 @@ padding-bottom: 10px;
 color: #fff;
 font-family: "ProximaNova-Black";
 font-size: 100px;
-line-height: 1;
+line-height: 0.9;
 margin-left: 60px;	
 }
+
 
 .about {
 	display: flex;
     justify-content: space-between;
     margin-left: 14.641288433382138vw;
     margin-right: 5.490483162518302vw;
-    margin-top: 35px;
-    padding-bottom: 40px;
+    margin-top: 25px;
+    padding-bottom: 35px;
 }
 
 .about-1 {
@@ -437,7 +446,11 @@ line-height: 1.2;
 color: #000;
 font-size: 18px;
 margin-left: 15px;
-padding-bottom: 15px;	
+padding-bottom: 9px;	
+}
+
+.about .right-side .item-list:nth-last-child(1) {
+padding-bottom: 0;
 }
 
 .about .subtitle {
@@ -462,7 +475,7 @@ padding-bottom: 10px;
 
 
 .head .fix-logo {
-	    padding-top: 10px;
+	    padding-top: 7px;
 }
 
 .head .fix-logo-taras {
@@ -485,7 +498,7 @@ padding-bottom: 10px;
 
 
 .nichi-skills {
-	padding-top: 405px;
+	padding-top: 340px;
 }
 
 .novikov-skills {
@@ -497,11 +510,11 @@ padding-bottom: 10px;
 }
 
 .udin-skills {
-	padding-top: 90px;
+	padding-top: 85px;
 }
 
 .mahmutov-skills {
-	padding-top: 270px;
+	padding-top: 234px;
 }
 
 .kosarcov-skills {
@@ -517,15 +530,15 @@ padding-bottom: 10px;
 }
 
 .tarasuk-skills {
-	padding-top: 180px;
+	padding-top: 160px;
 }
 
 .chirkin-skills {
-	padding-top: 200px;
+	padding-top: 83px;
 }
 
 .dennikov-skills {
-	padding-top: 250px;
+	padding-top: 221px;
 }
 
 
@@ -644,6 +657,663 @@ padding-bottom: 10px;
 .mysql-chir {
 	margin-bottom: 2px;
 }
+
+
+#supply {
+min-height: 900px;
+background-image: url(../img/bg-supply.png);
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 30px;
+padding-bottom: 35px;
+}
+
+.header-line {
+	display: flex;
+	justify-content: space-between;
+}
+
+#supply .content-line {
+	margin-top: 110px;
+}
+.header-line .left .project-name{
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 100px;
+line-height: 1;
+}
+
+.header-line .left .project-desc{
+font-family: "ProximaNova-Reg";
+line-height: 1;
+color: #fff;
+font-size: 18px;
+}
+
+.header-line .right {
+	width: 425px;
+}
+
+.header-line .right .summ {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 153.58px;
+line-height: 1;
+}
+
+.header-line .right .summ .big-ruble {
+    margin-bottom: 27px;
+}
+
+.header-line .right .measure {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 36px;
+line-height: 1;	
+margin-left: 178px;
+margin-top: -25px;
+}
+
+.header-line .right .m-desc-title {
+font-family: "ProximaNova-Extrabld";
+line-height: 1;
+color: #fff;
+font-size: 18px;
+margin-left: 178px;
+margin-top: 10px;
+}
+
+.header-line .right .m-desc {
+font-family: "ProximaNova-Reg";
+line-height: 1;
+color: #fff;
+font-size: 18px;
+margin-left: 178px;	
+margin-top: 3px;
+}
+
+
+.content-line {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.content-line .left-content .cypher-big {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 150px;
+line-height: 1;	
+}
+
+.content-line .left-content .cypher-medium {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 48px;
+line-height: 1;	
+}
+
+.content-line .left-content .subtitle {
+font-family: "ProximaNova-Extrabld";
+line-height: 1.2;
+color: #fff;
+font-size: 18px;
+}
+
+.content-line  .subdesc{
+font-family: "ProximaNova-Reg";
+line-height: 1.2;
+color: #fff;
+font-size: 18px;
+}
+
+.content-line .right-content {
+width: 425px;
+margin-top: 21px;
+}
+
+.content-line .right-content .ftitle {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 36px;
+line-height: 1;	
+}
+
+.content-line .right-content .stitle {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 30px;
+line-height: 1;	
+}
+
+#supply .content-line .right-content .first .ftitle  {
+	margin-top: 20px;
+}
+
+#supply .content-line .right-content .first .subdesc {
+	margin-top: 15px;
+}
+
+#supply .content-line .right-content .second {
+	margin-top: 100px;
+}
+
+#supply .content-line .right-content .second .subdesc {
+	margin-top: 3px;
+}
+
+#supply .content-line .right-content .third {
+	margin-top: 40px;
+}
+
+#supply .content-line .left-content .subsystem .subtitle {
+	margin-top: -10px;
+}
+
+
+#supply .content-line .left-content .user {
+	margin-top: 81px;
+}
+
+#supply .content-line .left-content .regist {
+	margin-top: 45px;
+}
+
+
+
+#service {
+min-height: 900px;
+background-image: url(../img/service.png);
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+
+#service .content-line .right-content .first .ftitle  {
+	margin-top: 20px;
+}
+
+#service .header-line .right .summ{
+font-size: 142.99px;
+}
+
+#service .header-line .right .measure, #service .header-line .right .m-desc-title, #service .header-line .right .m-desc {
+margin-left: 182px;
+}
+
+#service .content-line {
+	margin-top: 120px;
+}
+
+#service .left-content .subsystem .subtitle{
+font-family: "ProximaNova-Extrabld";
+line-height: 1;
+font-size: 30px;
+margin-top: -10px;
+}
+
+#service .left-content .user {
+margin-top: 60px;
+}
+
+#service .left-content .cypher-medium {
+font-family: "ProximaNova-Black";
+font-size: 24px;
+line-height: 1;
+padding-bottom: 5px;	
+}
+
+#service .left-content .subdesc-p {
+font-family: "ProximaNova-Reg";
+line-height: 1.4;
+color: #fff;
+font-size: 18px;
+padding-left: 15px;
+}
+
+#service .left-content .subdesc-p .bold {
+font-family: "ProximaNova-Extrabld";
+}
+
+#service .left-content .regist {
+margin-top: 35px;
+}
+
+#service .left-content .regist .subdesc-p{
+padding-left: 0;
+}
+
+#service .right-content .first .ftitle {
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 30px;
+line-height: 1;	
+}
+
+#service .right-content .first .subdesc {
+margin-top: 15px;
+}
+
+#service .right-content .second {
+	margin-top: 115px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#service .right-content .stitle {
+	    font-size: 24px;
+	    padding-bottom: 5px;
+}
+
+#service .right-content .third {
+	margin-top: 35px;
+}
+
+#service .right-content .third .stitle {
+	font-size: 48px;
+}
+
+
+#own {
+min-height: 900px;
+background-image: url(../img/bg-own.png);
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+#own .header-line .right .measure, #own .header-line .right .m-desc-title, #own .header-line .right .m-desc {
+margin-left: 103px;
+}
+
+#own .content-line {
+	margin-top: 110px;
+}
+
+#own .content-line .left-content .keep .subtitle {
+font-family: "ProximaNova-Black";
+font-size: 30px;
+line-height: 1;
+padding-bottom: 10px;
+}
+
+#own .content-line .left-content {
+	width: 495px;
+}
+
+#own .content-line .left-content .line-2 {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#own .content-line .left-content .line-2 .subtitle {
+font-family: "ProximaNova-Extrabld";
+font-size: 24px;
+line-height: 1;
+}
+
+
+#own .content-line .left-content .line-2 .leftline .subdesc {
+	padding-left: 15px;
+}
+
+#own .content-line .left-content .line-2 .rightline, #own .content-line .left-content .line-3 .rightline {
+	width: 195px;
+}
+
+#own .content-line .left-content .line-3 {
+margin-top: 30px;
+display: flex;
+justify-content: space-between;
+}
+
+#own .content-line .left-content .line-3 .subtitle {
+font-family: "ProximaNova-Extrabld";
+font-size: 24px;
+line-height: 1;
+}
+
+#own .content-line .right-content {
+	margin-top: 0;
+}
+
+#own .content-line .right-content .first .ftitle  {
+	margin-top: 20px;
+	font-size: 60px;
+	line-height: 0.8;
+}
+
+#own .content-line .right-content .first .subdesc  {
+margin-top: 30px;
+}
+
+#own .content-line .right-content .second {
+margin-top: 135px;
+}
+
+#own .content-line .right-content .second .stitle {
+font-family: "ProximaNova-Extrabld";
+font-size: 24px;
+line-height: 1;
+}
+
+
+
+#order {
+background-image: url(../img/bg-order.png);
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 40px;
+padding-bottom: 50px;
+}
+
+#order .header-line .right .measure, #order .header-line .right .m-desc-title, #order .header-line .right .m-desc {
+margin-left: 79px;
+}
+
+
+#order .content-line {
+	margin-top: 90px;
+}
+
+
+#order .content-line .left-content .reg .subtitle{
+font-family: "ProximaNova-Extrabld";
+font-size: 30px;
+line-height: 1;
+padding-bottom: 10px;
+}
+
+#order .content-line .right-content {
+	margin-top: 0;
+}
+
+
+#order .content-line .left-content .reg .subdesc, #order .content-line .left-content .plan .subdesc{
+padding-left: 15px;
+padding-bottom: 20px;
+}
+
+#order .content-line .left-content .reg .subdesc:nth-last-child(1), #order .content-line .left-content .plan .subdesc:nth-last-child(1) {
+	padding-bottom: 0;
+}
+
+#order .content-line .left-content {
+	width: 495px;
+}
+
+#order .content-line .left-content .plan {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 95px;
+}
+
+
+#order .content-line .left-content .plan .subtitle{
+font-family: "ProximaNova-Extrabld";
+font-size: 24px;
+line-height: 1;
+padding-bottom: 5px;
+}
+
+#order .content-line .right-content .first .ftitle {
+	margin-top: 20px;
+	font-family: "ProximaNova-Black";
+font-size: 60px;
+line-height: 1;
+}
+
+#order .content-line .right-content .second {
+	margin-top: 126px;
+}
+
+#order .content-line .right-content .second .subdesc{
+	margin-top: 15px;
+}
+
+#order .content-line .right-content .third {
+	margin-top: 73px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#order .content-line .right-content .third .subtitle {
+font-family: "ProximaNova-Extrabld";
+color: #fff;
+font-size: 24px;
+line-height: 1;
+padding-bottom: 5px;	
+}
+
+
+#public {
+min-height: 900px;
+background-image: url(../img/bg-public.png);
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+#public .right {
+	width: 313px;
+	text-align: center;
+}
+
+#public .udp {
+font-family: "ProximaNova-Extrabld";
+color: #01124f;
+font-size: 72px;
+line-height: 1;
+}
+
+#public .header-line .link-underline {
+    width: 266px;
+    margin-left: 23px;
+}
+
+#public .link-underline {
+	min-height: 1px;
+	background-color: #01124f;
+	margin-top: 5px; 
+}
+
+
+#public .link-line {
+display: flex;
+margin-left: 74px;
+margin-top: 170px;
+}
+
+#public .line-2 {
+	margin-left: 125px;
+}
+
+#public .line-1 {
+	margin-top: 7px;
+}
+
+#public .line-1 .link:nth-child(2){
+	margin-top: 5px;
+}
+
+#public .link {
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+#public .link .logo {
+	margin-right: 10px;
+	width: 65px;
+}
+
+
+#public .link a {
+color: #01124f;
+font-size: 60px;
+line-height: 1;
+}
+
+#public a:hover {
+text-decoration: none;
+color: #96eedd;
+}
+
+#public .text:hover a {
+color: #96eedd;
+}
+
+#public .text:hover .link-underline {
+background-color: #96eedd;	
+}
+
+
+#mail {
+min-height: 900px;
+background-image: url(../img/bg-mail.png);
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 50px;
+padding-right: 75px;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+#mail .email{
+margin-top: 196px;
+}
+
+#mail .email a {
+font-family: "ProximaNova-Black";
+font-size: 72px;
+line-height: 1;
+color: #fff;
+}
+
+#mail .email a:hover {
+text-decoration: none;
+color: #f45b69;
+
+}
+
+#mail .desc {
+	width: 375px;
+	margin-top: 360px;
+	margin-bottom: 100px;
+	float: right;
+}
+
+#mail .desc .text {
+ font-family: "ProximaNova-Bold";
+ color: #fff;
+ font-size: 24px;	
+}
+
+
+@media screen and (max-width: 1178px) { 
+
+#embodiment .our-name {
+font-size: 120px;
+}
+
+#own .header-line, 
+#supply .header-line, 
+#service .header-line,
+#order .header-line {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+#own .content-line, 
+#supply .content-line, 
+#service .content-line,
+#order .content-line {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+#supply .content-line .left-content {
+padding-top: 50px;
+}
+
+
+#own .content-line .left-content, #order .content-line .left-content {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+#public .link-line {
+	flex-direction: column;
+
+}
+
+#public .link-line .line-2{
+	margin-left: 0;
+}
+
+#mail .email a {
+	font-size: 60px;
+}
+
+
+.about {
+	flex-direction: column;
+}
+
+.about .right-side {
+    margin-left: 156px;
+}
+
+
+.nichi-skills,
+.novikov-skills ,
+.obyedkin-skills,
+.udin-skills,
+.mahmutov-skills,
+.kosarcov-skills,
+.pihtulov-skills,
+.linnik-skills,
+.tarasuk-skills,
+.chirkin-skills,
+.dennikov-skills
+ {
+	padding-top: 50px;
+}
+
+
+
+
+}
+
+@media screen and (max-height: 880px) { 
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
