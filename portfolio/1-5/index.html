@@ -3,33 +3,31 @@
 
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/fullpage/jquery.fullPage.js"></script>
-
 <link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="text/javascript" src="js/scrollify/jquery.scrollify.js"></script>
 <title>Воплощение | Бригада разработчиков </title>
 <script>
-$(document).ready(function() {
-	var screen = $(window)    
-if (screen.height() >= 900) {
-    $('#fullpage').fullpage();
-}
-});
-</script>
+        $(function() {
+          $.scrollify({
+            section : ".section",
+          });
+        });
+      </script>
 </head>
 
 <body>
-<div id="fullpage">
+
 <!--Воплощение-->
-	 <div id="embodiment" class="section slide">
+	 <div id="embodiment" class="slide section">
 	 	<div class="our-name">Бригада<br>разработчиков</div>
 	 	<div class="tank"><img src="img/tank.png"></div>
 	 </div>
 
 <!--Команда-->
-  	<div id="team" class="section slide">
+  	<div id="team" class="slide section">
  		<div class="head-title">
  			<div class="title">Команда</div>
  			<div class="subtitle">
@@ -889,6 +887,7 @@ if (screen.height() >= 900) {
 					<div class="subdesc">Информационная Система</div>
 				</div>
 				<div class="second">
+
 					<div class="subleft">
 						<div class="stitle">Комплексный<br>конструктор</div>
 						<div class="subdesc">Отчетных ворд<br>документов</div>
@@ -925,6 +924,7 @@ if (screen.height() >= 900) {
 		<div class="content-line">
 			<div class="left-content">
 				<div class="keep">
+					<div class="whiteline"></div>
 					<div class="subtitle">Хранение<br>детализации</div>
 					<div class="subdesc">Объектов недвижимости<br>до уровня комнат</div>
 				</div>
@@ -958,6 +958,7 @@ if (screen.height() >= 900) {
 					<div class="subdesc">Аренды и безвозмездного пользования с их дальнейшим согласованием в системе должностными лицами</div>
 				</div>
 				<div class="second">
+					<div class="whiteline"></div>
 					<div class="stitle">Гибкий поиск</div>
 					<div class="subdesc">По всем объектам<br>учета и договорам,<br>с возможностью<br>хранения истории<br>поиска</div>
 				</div>
@@ -985,6 +986,7 @@ if (screen.height() >= 900) {
 		<div class="content-line">
 			<div class="left-content">
 				<div class="reg">
+					<div class="whiteline"></div>
 					<div class="subtitle">Регистрация</div>
 					<div class="subdesc">Контрагентов<br>и их представителей,</div>
 					<div class="subdesc">Входящих и исходящих<br>документов.</div>
@@ -1012,6 +1014,7 @@ if (screen.height() >= 900) {
 					<div class="subdesc">Исполнения резолюций и документов</div>
 				</div>
 				<div class="second">
+					<div class="whiteline"></div>
 					<div class="stitle">Комплексный<br>конструктор</div>
 					<div class="subdesc">Отчетных ворд<br>документов</div>
 				</div>
@@ -1094,7 +1097,6 @@ if (screen.height() >= 900) {
 	</div>
 
 
-</div>
 </body>
 
 </html>
