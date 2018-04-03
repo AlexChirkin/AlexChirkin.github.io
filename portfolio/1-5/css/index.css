@@ -21,6 +21,11 @@
 body {
 	overflow-x: hidden;
 }
+
+.hide {
+	display: none;
+}
+
 #nichiporchuk {
 	min-height: 900px;
 	background-image: url(../img/bg-nichi.png);
@@ -144,7 +149,7 @@ line-height: 1;
 
 @media screen and (max-width: 990px) { 
 #embodiment {
-    height: 500px!important;
+    height: 900px!important;
     }
 }
 
@@ -309,7 +314,8 @@ padding-top: 20px;
 #tech .left-side .tech-drupal .drupal-text {
 width: 400px;
 padding-top: 20px;
-padding-left: 15px;
+padding-left: 10px;
+
 }
 
 #tech .left-side .tech-drupal .title{
@@ -325,7 +331,7 @@ font-size: 36px;
 
 #tech .left-side .tech-symph{
 	padding-top: 80px;
-	padding-left: 60px;
+	padding-left: 74px;
 }
 
 #tech .right-side .block {
@@ -349,7 +355,7 @@ font-family: "ProximaNova-Extrabld";
 
 #tech .items {
 font-family: "ProximaNova-Reg";
-padding-bottom: 10px;
+padding-bottom: 15px;
 }
 
 .head {
@@ -788,6 +794,42 @@ font-size: 30px;
 line-height: 1;	
 }
 
+#dennikov .valek-site .v-underline {
+min-height: 1px;
+max-height: 1px;
+width: 133px;
+background-color: rgba(2, 169, 234, 0.5);
+}
+
+#dennikov .valek-site{
+	width: 135px;
+    position: absolute;
+    right: 5.490483162518302vw;
+    margin-top: 58px;
+}
+
+#dennikov .valek-site:hover a{
+color: rgba(2, 169, 234, 1);
+}
+
+#dennikov .valek-site:hover .v-underline{
+background-color: rgba(2, 169, 234, 1);
+}
+
+#dennikov .valek-site a{
+font-family: "ProximaNova-Reg";
+line-height: 1.2;
+color: #fff;
+font-size: 18px;
+}
+
+#dennikov .valek-site a:hover{
+color: rgba(2, 169, 234, 1);
+text-decoration: none;
+}
+
+	
+
 #supply .content-line .right-content .first .ftitle  {
 	margin-top: 20px;
 }
@@ -819,6 +861,10 @@ line-height: 1;
 
 #supply .content-line .left-content .regist {
 	margin-top: 45px;
+}
+
+#supply .left-content .whiteline {
+	display: none;
 }
 
 
@@ -860,6 +906,10 @@ margin-top: -10px;
 
 #service .left-content .user {
 margin-top: 60px;
+}
+
+#service .left-content .whiteline {
+	display: none;
 }
 
 #service .left-content .cypher-medium {
@@ -970,6 +1020,15 @@ line-height: 1;
 
 #own .content-line .left-content .line-2 .leftline .subdesc {
 	padding-left: 15px;
+
+}
+
+#own .content-line .left-content .line-2 .subdesc {
+	padding-bottom: 10px;
+}
+
+#own .content-line .left-content .line-2 .subdesc:nth-last-child(1) {
+	padding-bottom: 0;
 }
 
 #own .content-line .left-content .line-2 .rightline, #own .content-line .left-content .line-3 .rightline {
@@ -1211,7 +1270,7 @@ background-color: #96eedd;
 #mail {
 min-height: 900px;
 background-image: url(../img/bg-mail.png);
-background-size: cover;
+background-size: 100% 100%;
 background-repeat: no-repeat;
 padding-left: 50px;
 padding-right: 75px;
@@ -1255,13 +1314,17 @@ color: #f45b69;
 #embodiment .our-name {
 font-size: 120px;
 }
+.header-line .right {
+margin-top: 50px;
+}
 
 #own .header-line, 
 #supply .header-line, 
 #service .header-line,
 #order .header-line {
         flex-direction: column;
-        align-items: center;
+        width: 750px;
+        
     }
 
 
@@ -1270,7 +1333,7 @@ font-size: 120px;
 #service .content-line,
 #order .content-line {
         flex-direction: column-reverse;
-        align-items: center;
+        width: 750px;
     }
 
 #supply .content-line .left-content {
@@ -1320,6 +1383,25 @@ padding-top: 50px;
 	padding-top: 50px;
 }
 
+.left-side .nichi-skills,
+.left-side .novikov-skills ,
+.left-side .obyedkin-skills,
+.left-side .udin-skills,
+.left-side .mahmutov-skills,
+.left-side .kosarcov-skills,
+.left-side .pihtulov-skills,
+.left-side .linnik-skills,
+.left-side .tarasuk-skills,
+.left-side .chirkin-skills,
+.left-side .dennikov-skills
+ {
+	display: none;
+}
+
+.right-side .hide {
+	display: block;
+}
+
 #order .content-line .right-content .second .whiteline{
 	display: block;
 }
@@ -1333,15 +1415,37 @@ padding-top: 50px;
 }
 
 #order .content-line .right-content {
-width: 495px;
+width: 750px;
 }
 
 #order .content-line .left-content {
 margin-left: 0;
+width: 750px;
+}
+
+#order .content-line .right-content .third {
+	justify-content: unset;
+}
+
+#order .content-line .right-content .third .leftline {
+	width: 210px;
+}
+
+#order .content-line .right-content .third .rightline {
+	margin-left: 100px;
 }
 
 #order .content-line .left-content .plan {
 	margin-top: 50px;
+	justify-content: unset;
+}
+
+#order .content-line .left-content .plan .leftline {
+	width: 210px;
+} 
+
+#order .content-line .left-content .plan .rightline {
+	margin-left: 100px;
 }
 
 #order .content-line {
@@ -1352,12 +1456,13 @@ margin-left: 0;
 	margin-top: 70px;
 }
 
+
 #order .content-line .right-content .third {
 	margin-top: 40px;
 }
 
 #own .content-line .right-content .second {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 #own .content-line .right-content .second .whiteline {
@@ -1366,14 +1471,36 @@ margin-left: 0;
 
 #own .content-line .left-content .whiteline {
 	display: block;
+	margin-bottom: 10px;
 }
 
 #own .content-line .right-content {
-	width: 495px;
+	width: 750px;
 }
 
 #own .content-line .left-content {
 	margin-left: 0;
+	width: 750px;
+}
+
+#own .content-line .left-content .line-2 {
+	justify-content: unset;
+}
+
+#own .content-line .left-content .line-2 .leftline, #own .content-line .left-content .line-3 .leftline {
+width: 210px;
+}
+
+#own .content-line .left-content .line-2 .rightline {
+margin-left: 100px;
+}
+
+#own .content-line .left-content .line-3 {
+	justify-content: unset;
+}
+
+#own .content-line .left-content .line-3 .rightline {
+	margin-left: 100px;
 }
 
 #service .content-line {
@@ -1388,6 +1515,31 @@ margin-left: 0;
 	margin-top: 40px;
 }
 
+#service .content-line .right-content {
+	width: 750px;
+}
+
+#service .left-content .whiteline {
+	display: block;
+	min-height: 5px;
+}
+
+#service .right-content .second {
+justify-content: unset;
+}
+
+#service .right-content .second .subright {
+margin-left: 100px;
+}
+
+#service .right-content .second .subleft {
+width: 195.66px;	
+}
+
+#service .left-content {
+	margin-top: 50px;
+}
+
 #supply .content-line {
 	margin-top: 50px;
 }
@@ -1396,11 +1548,64 @@ margin-left: 0;
 margin-top: 40px;
 }
 
+#supply .left-content .whiteline {
+	display: block;
+	min-height: 5px;
+}
+
+#supply .content-line .left-content .user {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+#supply .content-line .left-content .regist {
+	display: inline-block;
+	margin-left: 100px;
+    margin-top: 30px;
+}
+
+#supply .content-line .right-content {
+	width: 750px;
+}
+
+#service .left-content .user {
+	display: inline-block;
+}
+
+#service .left-content .regist {
+display: inline-block;
+margin-left: 100px;
+}
 
 
+#nichiporchuk, 
+#novicov, 
+#obyedkin,
+#udin,
+#mahmutov,
+#kosarcov,
+#pihtulov,
+#linnik,
+#tarasuk,
+#chirkin,
+#dennikov {
+min-height: 1000px;
+}
 
+#fullstack {
+min-height: 1000px;
+}
 
+#tech {
+min-height: 1000px;
+}
 
+#supply,
+#service,
+#own,
+#order {
+min-height: 1000px;
+}
 
 }
 
