@@ -175,100 +175,175 @@ left: 0;
 z-index: -2;
 }
 
+#team .team-kosar {
+position: absolute;
+bottom: 0;
+z-index: -3;
+left: 21vw;
+}
+
 #team .team-center {
 position: absolute;
 bottom: 0;
 z-index: -3;
-left: 0;
-right: 0;
-margin: 0 auto;
-width: 643px;
+left: 36vw;
+
+}
+
+#team .team-maks {
+position: absolute;
+bottom: 0;
+z-index: -1;
+left: 69vw;
 }
 
 #team .team-right {
 position: absolute;
 bottom: 0;
 right: 0;
-z-index: -1;	
+z-index: -2;	
 }
 
 
-@media screen and (max-width: 1381px) { 
+#team .team-left {
+    width: calc(480px + 3%);
+}
+
+#team .team-kosar {
+    width: calc(293px + 3%);
+}
+
+#team .team-center {
+	width: calc(594px + 6%);
+}
+
+#team .team-maks {
+	width: calc(356px + 2%);
+}
+
+#team .team-right {
+	width: calc(268px + 3%);
+}
+
+
+
+
+@media screen and (max-width: 1620px) { 
+
+#team .team-left {
+    width: 480px
+}
+
+#team .team-kosar {
+    width: 293px;
+}
+
+#team .team-center {
+	width:594px;
+}
+
+#team .team-maks {
+	width:calc(356px - 2%);
+}
+
+#team .team-right {
+	width: 268px;
+}
+
+}
+
+@media screen and (max-width: 1390px) { 
 
 #team .team-left {
     width: calc(480px - 3%);
 }
 
+#team .team-kosar {
+    width: calc(293px - 2%);
+}
+
 #team .team-center {
-	width: calc(643px - 3%);
+	width: calc(594px - 3%);
+}
+
+#team .team-maks {
+	width: calc(356px - 5%);
 }
 
 #team .team-right {
-	width: calc(500px - 3%);
+	width: calc(268px - 3%);
 }
 
 }
 
-@media screen and (max-width: 1305px) { 
+@media screen and (max-width: 1235px) { 
 
 #team .team-left {
-    width: calc(480px - 6%);
+    width: calc(480px - 5%);
+}
+
+#team .team-kosar {
+    width: calc(293px - 3%);
 }
 
 #team .team-center {
-	width: calc(643px - 6%);
+	width: calc(594px - 6%);
+}
+
+#team .team-maks {
+	width: calc(356px - 7%);
 }
 
 #team .team-right {
-	width: calc(500px - 6%);
+	width: calc(268px - 4%);
 }
 
 }
 
-@media screen and (max-width: 1205px) { 
+@media screen and (max-width: 1130px) { 
 
 #team .team-left {
-    width: calc(480px - 9%);
+    width: calc(480px - 10%);
+}
+
+#team .team-kosar {
+    width: calc(293px - 5%);
 }
 
 #team .team-center {
-	width: calc(643px - 9%);
+	width: calc(594px - 13%);
+}
+
+#team .team-maks {
+	width: calc(356px - 11%);
 }
 
 #team .team-right {
-	width: calc(500px - 9%);
+	width: calc(268px - 7%);
 }
 
 }
 
-@media screen and (max-width: 1105px) { 
+@media screen and (max-width: 1027px) { 
 
 #team .team-left {
-    width: calc(480px - 9%);
+    width: calc(480px - 13%);
+}
+
+#team .team-kosar {
+    width: calc(293px - 6%);
 }
 
 #team .team-center {
-	width: calc(643px - 9%);
+	width: calc(594px - 17%);
+}
+
+#team .team-maks {
+	width: calc(356px - 13%);
 }
 
 #team .team-right {
-	width: calc(500px - 9%);
-}
-
-}
-
-@media screen and (max-width: 1024px) { 
-
-#team .team-left {
-    width: calc(480px - 12%);
-}
-
-#team .team-center {
-	width: calc(643px - 12%);
-}
-
-#team .team-right {
-	width: calc(500px - 12%);
+	width: calc(268px - 8%);
 }
 
 }
@@ -276,15 +351,23 @@ z-index: -1;
 @media screen and (max-width: 980px) { 
 
 #team .team-left {
-    width: calc(480px - 15%);
+    width: calc(480px - 13%);
+}
+
+#team .team-kosar {
+    width: calc(293px - 6%);
 }
 
 #team .team-center {
-	width: calc(643px - 15%);
+	width: calc(594px - 17%);
+}
+
+#team .team-maks {
+	width: calc(356px - 13%);
 }
 
 #team .team-right {
-	width: calc(500px - 15%);
+	width: calc(268px - 8%);
 }
 
 }
@@ -292,11 +375,10 @@ z-index: -1;
 #team .head-title {
     display: flex;
     justify-content: space-between;
-    margin-left: 4vw;
-    margin-right: 9vw;
 }
 
 #team .head-title .title {
+margin-left: 4vw;
 color: #000;
 font-family: "ProximaNova-Black";
 font-size: 100px;	
@@ -307,6 +389,7 @@ color: #000;
 font-family: "ProximaNova-Reg";
 font-size: 18px;	
 margin-top: 60px;
+margin-right: 9vw;
 }
 
 #team .desc {
@@ -332,6 +415,7 @@ margin-bottom: 5px;
 color: #fff;
 font-family: "ProximaNova-Bold";
 font-size: 18px;
+margin-left: 0;
 }
 
 #team .principles .list{
@@ -1822,6 +1906,10 @@ min-height: 1000px;
 
 .hide-site-on {
 	display: block;
+}
+
+.pdtop {
+	margin-top: 10px;
 }
 
 
