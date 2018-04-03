@@ -186,7 +186,7 @@ left: 21vw;
 position: absolute;
 bottom: 0;
 z-index: -3;
-left: 36vw;
+left: 32vw;
 
 }
 
@@ -214,11 +214,11 @@ z-index: -2;
 }
 
 #team .team-center {
-	width: calc(594px + 6%);
+	width: calc(685px + 8%);
 }
 
 #team .team-maks {
-	width: calc(356px + 2%);
+	width: calc(356px + 1%);
 }
 
 #team .team-right {
@@ -239,7 +239,7 @@ z-index: -2;
 }
 
 #team .team-center {
-	width:594px;
+	width:685px;
 }
 
 #team .team-maks {
@@ -263,7 +263,7 @@ z-index: -2;
 }
 
 #team .team-center {
-	width: calc(594px - 3%);
+	width: calc(685px - 3%);
 }
 
 #team .team-maks {
@@ -287,7 +287,7 @@ z-index: -2;
 }
 
 #team .team-center {
-	width: calc(594px - 6%);
+	width: calc(685px - 7%);
 }
 
 #team .team-maks {
@@ -311,7 +311,7 @@ z-index: -2;
 }
 
 #team .team-center {
-	width: calc(594px - 13%);
+	width: calc(685px - 14%);
 }
 
 #team .team-maks {
@@ -335,7 +335,7 @@ z-index: -2;
 }
 
 #team .team-center {
-	width: calc(594px - 17%);
+	width: calc(685px - 16%);
 }
 
 #team .team-maks {
@@ -351,15 +351,15 @@ z-index: -2;
 @media screen and (max-width: 980px) { 
 
 #team .team-left {
-    width: calc(480px - 13%);
+    width: calc(480px - 14%);
 }
 
 #team .team-kosar {
-    width: calc(293px - 6%);
+    width: calc(293px - 7%);
 }
 
 #team .team-center {
-	width: calc(594px - 17%);
+	width: calc(685px - 19%);
 }
 
 #team .team-maks {
@@ -372,12 +372,9 @@ z-index: -2;
 
 }
 
-#team .head-title {
-    display: flex;
-    justify-content: space-between;
-}
 
-#team .head-title .title {
+
+#team .title {
 margin-left: 4vw;
 color: #000;
 font-family: "ProximaNova-Black";
@@ -409,6 +406,29 @@ min-width: 100%;
 min-height: 9px;
 background-color: #fff;
 margin-bottom: 5px;
+}
+
+#team .principles {
+	width: 400px;
+	position: absolute;
+    top: 685px;
+    left: 70vw;
+}
+
+@media screen and (max-width: 1370px) { 
+
+
+#team .principles {
+
+    left: unset;
+    right: 50px;
+}
+
+#team .about-1 {
+	left: unset!important;
+    right: 125px;
+}
+
 }
 
 #team .principles .title{
@@ -617,6 +637,13 @@ margin-left: 60px;
 
 .about-1 {
 	margin-top: -5px;
+}
+
+#team .about-1 {
+	position: absolute;
+    top: 68px;
+    left: 70vw;
+    width: 325px;
 }
 
 .pt .position {
