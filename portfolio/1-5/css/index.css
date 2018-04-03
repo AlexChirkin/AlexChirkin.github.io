@@ -26,6 +26,10 @@ body {
 	display: none;
 }
 
+.hide-site-on {
+	display: none;
+}
+
 #nichiporchuk {
 	min-height: 900px;
 	background-image: url(../img/bg-nichi.png);
@@ -158,7 +162,131 @@ line-height: 1;
 
 
 #team {
+min-height: 900px;
+z-index: -4;
+position: relative;
 background-image: url(../img/bg-team.png);	
+}
+
+#team .team-left {
+position: absolute;
+bottom: 0;
+left: 0;
+z-index: -2;
+}
+
+#team .team-center {
+position: absolute;
+bottom: 0;
+z-index: -3;
+left: 0;
+right: 0;
+margin: 0 auto;
+width: 643px;
+}
+
+#team .team-right {
+position: absolute;
+bottom: 0;
+right: 0;
+z-index: -1;	
+}
+
+
+@media screen and (max-width: 1381px) { 
+
+#team .team-left {
+    width: calc(480px - 3%);
+}
+
+#team .team-center {
+	width: calc(643px - 3%);
+}
+
+#team .team-right {
+	width: calc(500px - 3%);
+}
+
+}
+
+@media screen and (max-width: 1305px) { 
+
+#team .team-left {
+    width: calc(480px - 6%);
+}
+
+#team .team-center {
+	width: calc(643px - 6%);
+}
+
+#team .team-right {
+	width: calc(500px - 6%);
+}
+
+}
+
+@media screen and (max-width: 1205px) { 
+
+#team .team-left {
+    width: calc(480px - 9%);
+}
+
+#team .team-center {
+	width: calc(643px - 9%);
+}
+
+#team .team-right {
+	width: calc(500px - 9%);
+}
+
+}
+
+@media screen and (max-width: 1105px) { 
+
+#team .team-left {
+    width: calc(480px - 9%);
+}
+
+#team .team-center {
+	width: calc(643px - 9%);
+}
+
+#team .team-right {
+	width: calc(500px - 9%);
+}
+
+}
+
+@media screen and (max-width: 1024px) { 
+
+#team .team-left {
+    width: calc(480px - 12%);
+}
+
+#team .team-center {
+	width: calc(643px - 12%);
+}
+
+#team .team-right {
+	width: calc(500px - 12%);
+}
+
+}
+
+@media screen and (max-width: 980px) { 
+
+#team .team-left {
+    width: calc(480px - 15%);
+}
+
+#team .team-center {
+	width: calc(643px - 15%);
+}
+
+#team .team-right {
+	width: calc(500px - 15%);
+}
+
 }
 
 #team .head-title {
@@ -166,7 +294,6 @@ background-image: url(../img/bg-team.png);
     justify-content: space-between;
     margin-left: 4vw;
     margin-right: 9vw;
-
 }
 
 #team .head-title .title {
@@ -185,7 +312,13 @@ margin-top: 60px;
 #team .desc {
 width: 400px;
     margin-top: 500px;
-    margin-bottom: 130px;
+    margin-bottom: 110px;
+}
+
+#team .desc .list-item {
+	line-height: 1.2;
+	padding-bottom: 8px;
+
 }
 
 .whiteline{
@@ -389,6 +522,7 @@ margin-left: 60px;
 
 
 .about {
+	height: 593px;
 	display: flex;
     justify-content: space-between;
     margin-left: 14.641288433382138vw;
@@ -470,6 +604,7 @@ padding-bottom: 10px;
 .about .left-side {
 	width: 400px;
 	margin-left: 155px;
+	position: relative;
 
 }
 
@@ -477,6 +612,7 @@ padding-bottom: 10px;
 	width: 425px;
 	margin-left: 50px;
 	margin-top: 50px;
+	position: relative;
 }
 
 
@@ -503,7 +639,7 @@ padding-bottom: 10px;
 }
 
 
-.nichi-skills {
+/*.nichi-skills {
 	padding-top: 340px;
 }
 
@@ -547,6 +683,24 @@ padding-bottom: 10px;
 	padding-top: 221px;
 }
 
+*/
+
+
+.nichi-skills,
+.novikov-skills ,
+.obyedkin-skills,
+.udin-skills,
+.mahmutov-skills,
+.kosarcov-skills,
+.pihtulov-skills,
+.linnik-skills,
+.tarasuk-skills,
+.chirkin-skills,
+.dennikov-skills
+ {
+	position: absolute;
+	bottom: 0;
+}
 
 .apache {
 	margin-bottom: -10px;
@@ -794,40 +948,79 @@ font-size: 30px;
 line-height: 1;	
 }
 
-#dennikov .valek-site .v-underline {
+.valek-site .v-underline {
 min-height: 1px;
 max-height: 1px;
 width: 133px;
 background-color: rgba(2, 169, 234, 0.5);
 }
 
-#dennikov .valek-site{
+.valek-site{
 	width: 135px;
     position: absolute;
     right: 5.490483162518302vw;
     margin-top: 58px;
 }
 
-#dennikov .valek-site:hover a{
+.valek-site:hover a{
 color: rgba(2, 169, 234, 1);
 }
 
-#dennikov .valek-site:hover .v-underline{
+.valek-site:hover .v-underline{
 background-color: rgba(2, 169, 234, 1);
 }
 
-#dennikov .valek-site a{
+.valek-site a{
 font-family: "ProximaNova-Reg";
 line-height: 1.2;
 color: #fff;
 font-size: 18px;
 }
 
-#dennikov .valek-site a:hover{
+.valek-site a:hover{
 color: rgba(2, 169, 234, 1);
 text-decoration: none;
 }
 
+
+.resume .v-underline {
+min-height: 1px;
+max-height: 1px;
+width: 133px;
+background-color: rgba(2, 169, 234, 0.5);
+}
+
+.resume{
+	width: 135px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.resume:hover a{
+color: rgba(2, 169, 234, 1);
+}
+
+.resume:hover .v-underline{
+background-color: rgba(2, 169, 234, 1);
+}
+
+.resume a{
+font-family: "ProximaNova-Reg";
+line-height: 1.2;
+color: #fff;
+font-size: 18px;
+}
+
+.resume a:hover{
+color: rgba(2, 169, 234, 1);
+text-decoration: none;
+}
+
+
+
+.extra-padding {
+	margin-top: 90px;
+}
 	
 
 #supply .content-line .right-content .first .ftitle  {
@@ -1205,6 +1398,7 @@ font-size: 72px;
 line-height: 1;
 }
 
+
 #public .header-line .link-underline {
     width: 266px;
     margin-left: 23px;
@@ -1266,8 +1460,16 @@ color: #96eedd;
 background-color: #96eedd;	
 }
 
+#public .putin:hover + .text a {
+	color: #96eedd;
+}
+
+#public .putin:hover + .text .link-underline {
+	background-color: #96eedd;
+}
 
 #mail {
+position: relative;
 min-height: 900px;
 background-image: url(../img/bg-mail.png);
 background-size: 100% 100%;
@@ -1297,9 +1499,9 @@ color: #f45b69;
 
 #mail .desc {
 	width: 375px;
-	margin-top: 360px;
-	margin-bottom: 100px;
-	float: right;
+    position: absolute;
+    bottom: 12vh;
+    right: 75px;
 }
 
 #mail .desc .text {
@@ -1367,6 +1569,9 @@ padding-top: 50px;
     margin-left: 156px;
 }
 
+.about {
+height: unset;
+}
 
 .nichi-skills,
 .novikov-skills ,
@@ -1381,7 +1586,11 @@ padding-top: 50px;
 .dennikov-skills
  {
 	padding-top: 50px;
+	position: unset;
+	bottom: unset;
 }
+
+
 
 .left-side .nichi-skills,
 .left-side .novikov-skills ,
@@ -1607,6 +1816,16 @@ min-height: 1000px;
 min-height: 1000px;
 }
 
+.hide-site-off {
+	display: none;
+}
+
+.hide-site-on {
+	display: block;
+}
+
+
+
 }
 
 
@@ -1619,7 +1838,21 @@ min-height: 1000px;
 	height: 100vh!important;
 }
 
+.about {
+	height: calc(100vh - 325px);
+}
 
+#mail {
+	height: 117vh!important;
+}
+
+#mail .desc {
+    bottom: 25vh;
+}
+
+#team .desc {
+	margin-top: 666px;
+}
 
 }
 
