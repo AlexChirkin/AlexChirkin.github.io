@@ -120,7 +120,6 @@ body {
 }
 
 .slide {
-	width: 100vw;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -662,10 +661,10 @@ min-height: 900px;
 background-image: url(../img/bg-fullstack.png);
 padding-left: 4vw;
 padding-right: 6vw;
-width: 100vw;
 background-repeat: no-repeat;
 background-position: bottom left;
 background-color: #faffd1;
+padding-bottom: 50px;
 
 }
 
@@ -730,7 +729,6 @@ font-size: 18px;
 color: #fff;
 padding-left: 4vw;
 padding-right: 6vw;
-width: 100vw;
 background-repeat: no-repeat;
 background-position: bottom left;
 background-color: #004e92;	
@@ -2151,6 +2149,14 @@ min-height: 1000px;
 	margin-top: 10px;
 }
 
+.about {
+	margin-left: 210px;
+}
+
+.pt, .head {
+	margin-left: 210px;
+}
+
 
 
 }
@@ -2185,15 +2191,352 @@ min-height: 1000px;
 
 
 
+@media screen and (max-width: 950px) { 
+
+body {
+	zoom:85%;
+}
+
+#team .about-1 {
+	width: unset;
+	right: 40px;
+}
+
+#team {
+	zoom: 113%;
+}
+
+.about {
+	margin-left: 220px;
+}
+
+.pt, .head {
+	margin-left: 220px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 850px) { 
+
+body {
+	zoom:80%;
+}
+
+#team {
+	zoom: 115%;
+}
+
+}
+
+
+
+@media screen and (max-width: 760px) { 
+
+body {
+	zoom:65%;
+}
+
+#team {
+	zoom: 136%;
+}
+
+#team .about-1 {
+    left: 4.5vw;
+    top: 123px;
+}
+
+#team .team-left {
+width: calc(235px - 13%);
+}
+
+#team .team-dennikov {
+width: calc(312px - 16%);
+}
+
+#team .team-chirkin {
+width: calc(348px - 19%);
+}
+
+#team .team-kosar {
+width: calc(293px - 15%);
+}
+
+#team .team-novikov {
+width: calc(289px - 15%);
+}
+
+#team .team-linnik {
+width: calc(376px - 18%);
+}
+
+#team .team-obyedkin {
+width: calc(401px - 21%);
+left: 56vw;
+
+}
+
+#team .team-maks {
+width: calc(356px - 21%);
+left: 77vw;
+}
+
+#team .team-right {
+width: calc(268px - 14%);	
+}
+
+#team .principles {
+bottom:50px!important;
+}
+
+}
+
+
+@media screen and (max-width: 693px) { 
+
+#team {
+    zoom: 132%;
+}
+
+}
+
+
+@media screen and (max-width: 650px) { 
+
+body {
+	zoom:50%;
+}
+
+#team {
+
+}
+
+
+#team .team-left {
+width: calc(235px - 10%);
+}
+
+#team .team-dennikov {
+width: calc(312px - 13%);
+}
+
+#team .team-chirkin {
+width: calc(348px - 16%);
+left: 22vw;
+}
+
+#team .team-kosar {
+width: calc(293px - 12%);
+left: 36vw;
+}
+
+#team .team-novikov {
+width: calc(289px - 12%);
+left: 53vw;
+}
+
+#team .team-linnik {
+width: calc(376px - 15%);
+left: 65vw;
+}
+
+#team .team-obyedkin {
+width: calc(401px - 18%);
+left: 82vw;
+
+}
+
+#team .team-maks {
+width: calc(356px - 18%);
+left: 108vw;
+}
+
+#team .team-right {
+width: calc(268px - 12%);	
+}
+
+
+
+}
+
+
+@media screen and (max-width: 650px) { 
+#team {
+	zoom:125%;
+}
+
+.about {
+	margin-left: 203px;
+}
+
+.pt, .head {
+	margin-left: 203px;
+}
+
+
+}
+
+
+@media screen and (max-width: 520px) { 
+#team {
+	zoom:121%;
+}
+}
+
+
+@media screen and (max-width: 476px) { 
+
+body {
+	zoom:40%;
+}
+#team {
+	zoom:121%;
+}
+
+.about {
+	margin-left: 220px;
+}
+
+.pt, .head {
+	margin-left: 220px;
+}
+
+
+#team .team-left {
+width: calc(235px - 9%);
+}
+
+#team .team-dennikov {
+width: calc(312px - 11%);
+left: 18vw;
+
+}
+
+#team .team-chirkin {
+width: calc(348px - 12%);
+left: 43vw;
+}
+
+#team .team-kosar {
+width: calc(293px - 10%);
+left: 74vw;
+}
+
+#team .team-novikov {
+width: calc(289px - 10%);
+left: 99vw;
+}
+
+#team .team-linnik {
+width: calc(376px - 12%);
+left: 117vw;
+}
+
+#team .team-obyedkin {
+width: calc(401px - 13%);
+left: 145vw;
+
+}
+
+#team .team-maks {
+width: calc(356px - 14%);
+left: 185vw;
+}
+
+#team .team-right {
+width: calc(268px - 9%);	
+}
+
+}
+
+@media screen and (max-width: 423px) { 
+
+body {
+
+}
+#team {
+zoom:97%;
+}
+
+}
+
+@media screen and (max-width: 385px) { 
+
+body {
+zoom: 35%;
+}
+#team {
+zoom:106%;
+}
+
+}
+
+
+@media screen and (max-width: 359px) { 
+
+body {
+    zoom: unset;
+    overflow-x: scroll;
+    width: 980px;
+}
+
+#team {
+	width: 980px;
+	min-width: 980px;
+	zoom: unset;
+}
+
+#team .team-left {
+width: calc(235px - 11%);
+}
+
+#team .team-dennikov {
+width: calc(312px - 13%);
+line-height: 100px;
+}
+
+#team .team-chirkin {
+width: calc(348px - 15%);
+left: 200px;
+}
+
+#team .team-kosar {
+width: calc(293px - 12%);
+left: 300px;
+}
+
+#team .team-novikov {
+width: calc(289px - 12%);
+left: 400px;
+}
+
+#team .team-linnik {
+width: calc(376px - 14%);
+left: unset;
+right: 300px;
+}
+
+#team .team-obyedkin {
+width: calc(401px - 16%);
+left: unset;
+right: 200px;
+
+}
+
+#team .team-maks {
+width: calc(356px - 17%);
+left: unset;
+right: 100px;
+}
+
+#team .team-right {
+width: calc(268px - 11%);	
+}
 
 
 
 
 
-
-
-
-
-
-
-
+}
