@@ -2159,7 +2159,7 @@ min-height: 1000px;
 
 
 
-@media screen and (min-width: 1200px) and (min-height: 1000px){ 
+@media screen and (min-width: 1200px) and (min-height: 920px){ 
 
 .section {
 	height: 100vh!important;
