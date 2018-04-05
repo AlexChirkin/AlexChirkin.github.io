@@ -2730,6 +2730,9 @@ html {
 	font-size: 12px;
 }
 
+.hide-site-on {
+	margin-left: 45px;
+}
 .git-nichi {
 
     margin-left: -10px;
@@ -2817,6 +2820,9 @@ html {
 	font-size: 10px;
 }
 
+.hide-site-on {
+    margin-left: 44px;
+}
 
 .small {
 	margin-left: -54px;
