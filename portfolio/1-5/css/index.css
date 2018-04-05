@@ -2050,16 +2050,22 @@ min-height: 100vh
 }
 
 #secret .header-line .left .project-name {
-	font-size:5.333rem;
+	font-size:5.3rem;
 	line-height: 1;
 }
 
 #secret .gossecret {
+	    padding-top: 5px;
+    padding-bottom: 5px;
     border: 2px dashed;
     border-color: #fe3f3f;
     background-color: #000;
-    width: 216px;
+    width: 221px;
     margin-left: 12px;
+    color: #fe3f3f;
+    font-size: 1rem;
+    font-family: "ProximaNova-Bold";
+
 }
 
 #secret .header-line .left .project-desc {
