@@ -26,6 +26,10 @@ body {
     font-smoothing: antialiased;
 }
 
+html {
+	font-size: 18px;
+}
+
 .hide {
 	display: none;
 }
@@ -1710,10 +1714,15 @@ background-color: rgba(2, 169, 234, 0.5);
 }
 
 .valek-site{
-	width: 135px;
+	width: 150px;
     position: absolute;
     right: 5.490483162518302vw;
     margin-top: 58px;
+}
+
+.icon-link {
+	margin-left: 5px;
+	margin-bottom: 2px;
 }
 
 .valek-site:hover a{
@@ -1745,7 +1754,7 @@ background-color: rgba(2, 169, 234, 0.5);
 }
 
 .resume{
-	width: 135px;
+	width: 150px;
     margin-top: -10px;
     margin-bottom: 10px;
 }
@@ -2029,6 +2038,95 @@ line-height: 1;
 }
 
 
+#secret {
+background-image: url(../img/bg-secret.png);
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 40px;
+padding-bottom: 50px;
+min-height: 100vh
+}
+
+#secret .header-line .left .project-name {
+	font-size:5.333rem;
+	line-height: 1;
+}
+
+#secret .gossecret {
+    border: 2px dashed;
+    border-color: #fe3f3f;
+    background-color: #000;
+    width: 216px;
+    margin-left: 12px;
+}
+
+#secret .header-line .left .project-desc {
+	display: flex;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 18px;
+}
+
+
+#secret .header-line .left {
+	display: flex;
+}
+
+#secret .content-line {
+	display: block;
+}
+
+#secret .content-line .secret-udp {
+	display: flex;
+	align-items: center;
+	margin-top: 24vh;
+}
+
+
+#secret .content-line .group {
+	margin-top: 28vh;
+	display: flex;
+	margin-left: 151px;
+}
+
+#secret .content-line .mo {
+	display: flex;
+	align-items: center;
+}
+
+#secret .content-line .mvd {
+	display: flex;
+	align-items: center;
+	margin-left: 40px;
+}
+
+#secret .content-line .group .desc-mo{
+	font-family: "ProximaNova-Bold";
+	font-size: 1.333rem;
+	color: #fff;
+	margin-left: 15px;
+}
+
+#secret .s1{
+	font-family: "ProximaNova-Extrabld";
+	font-size: 1.667rem;
+	color: #fff;
+	margin-left: 30px;
+	line-height: 1;
+}
+
+#secret .s2{
+	font-family: "ProximaNova-Reg";
+	font-size: 1rem;
+	color: #fff;
+	margin-left: 30px;
+}
+
+#secret .secret-block {
+	display: none;
+}
 
 #order {
 background-image: url(../img/bg-order.png);
@@ -2282,6 +2380,68 @@ color: #f45b69;
 
 @media screen and (max-width: 1178px) { 
 
+#secret .header-line .left .project-desc {
+	display: none;
+}
+
+#secret .secret-block {
+	display: block;
+}
+
+#secret .secret-block .s3{
+font-family: "ProximaNova-Reg";
+ color: #fff;
+ font-size: 1rem;
+}
+#secret .secret-block .s4{
+	display: flex;
+}
+#secret .secret-block .s5{
+ font-family: "ProximaNova-Bold";
+ color: #fff;
+ font-size: 1rem;
+ border: 2px dashed;
+    border-color: #fe3f3f;
+}
+#secret .secret-block .s6{
+	margin-left: 9px;
+ font-family: "ProximaNova-Reg";
+ color: #fff;
+ font-size: 1rem;
+}
+
+#secret .content-line .secret-udp {
+	margin-top: 50px;
+	flex-direction: column;
+    align-items: flex-start;
+}
+#secret .sec-desc {
+	margin-top: 15px;
+}
+#secret .s1, #secret .s2 {
+	margin-left: 0;
+}
+
+#secret .content-line .group {
+	margin-top: 50px;
+	margin-left: 0;
+		flex-direction: column;
+    align-items: flex-start;
+}
+
+#secret .content-line .mo, #secret .content-line .mvd {
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 0;
+}
+
+#secret .content-line .mvd {
+	margin-top: 25px;
+}
+
+#secret .content-line .group .desc-mo {
+	margin-left: 0;
+}
 
 .about .right-side {
 	margin-top: -20px;
@@ -2839,8 +2999,8 @@ margin-left: 113px;
 #team .title,
 #fullstack .head-title,
 #tech .title,
-.header-line .left .project-name
-
+.header-line .left .project-name,
+#secret .header-line .left .project-name
 {
     font-size: 5.556rem;
 }
@@ -3090,7 +3250,7 @@ height: 100%;
 }
 
 .mysql-mahmutov {
-	margin-bottom: -2px;
+	margin-bottom: 0;
 }
 
 .node {
@@ -3146,6 +3306,23 @@ height: 100%;
 #public .header-line .link-underline {
     width: 176px;
     margin-left: 68px;
+}
+
+.jira-tarasuk {
+	margin-left: -10px;
+}
+
+.elastic-linnik {
+	margin-left: -10px;
+}
+
+.solr-pihtulov {
+	margin-left: -10px;
+	margin-bottom: 4px;
+}
+
+.mysql-mahmutov {
+	margin-left: -10px;
 }
 
 
@@ -3266,6 +3443,20 @@ html {
     min-height: unset;
 }
 
+.postgre-novikov {
+	margin-bottom: -7px;
+}
+
+.postgre-udin {
+	margin-bottom: -8px;
+}
+
+.postgre-mahmutov {
+	margin-bottom: -8px;	
+}
+
+}
+
 
 @media screen and (max-width: 455px){ 
 
@@ -3276,6 +3467,15 @@ html {
 .apache {
     margin-bottom: -5px;
 }
+
+.postgre-udin {
+	margin-bottom: -7px;
+}
+
+.postgre-mahmutov {
+	margin-bottom: -6px;	
+}
+
 
 #team .about-1 {
 	top: 60px;
