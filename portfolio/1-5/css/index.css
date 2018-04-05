@@ -42,6 +42,12 @@ html {
 	padding-bottom: 0!important;
 }
 
+.link-big {
+	margin-bottom: 7px;
+    margin-left: 8px;
+    display: none;
+}
+
 #nichiporchuk {
 	min-height: 900px;
 	background-image: url(../img/bg-nichi.png);
@@ -1283,8 +1289,8 @@ margin-left: 60px;
 #team .about-1 {
 	position: absolute;
     top: 68px;
-    right: 142px;
-    width: 325px;
+    right: 124px;
+    width: 354px;
     z-index: 10;
     font-family: "ProximaNova-Reg";
 }
@@ -2059,10 +2065,8 @@ min-height: 100vh
     padding-bottom: 5px;
     border: 2px dashed;
     border-color: #fe3f3f;
-    background-color: #000;
-    width: 221px;
     margin-left: 12px;
-    color: #fe3f3f;
+    color: #fff;
     font-size: 1rem;
     font-family: "ProximaNova-Bold";
 
@@ -2077,9 +2081,14 @@ min-height: 100vh
 
 
 #secret .header-line .left {
-	display: flex;
+
 }
 
+#secret .text {
+	font-family: "ProximaNova-Reg";
+	font-size: 1rem;
+	color: #fff;	
+}
 #secret .content-line {
 	display: block;
 }
@@ -2310,6 +2319,18 @@ text-decoration: none;
 color: #96eedd;
 }
 
+#public a:hover .link-big {
+	display: inline-block;
+}
+
+#public .text:hover .link-big {
+	display: inline-block;
+}
+
+#public .link-line .line-1 {
+	width: 450px;
+}
+
 #public .text:hover a {
 color: #96eedd;
 }
@@ -2391,7 +2412,9 @@ color: #f45b69;
 }
 
 #secret .secret-block {
+	margin-top: 40px;
 	display: block;
+
 }
 
 #secret .secret-block .s3{
@@ -2423,6 +2446,7 @@ font-family: "ProximaNova-Reg";
 }
 #secret .sec-desc {
 	margin-top: 15px;
+	width: 50vw;
 }
 #secret .s1, #secret .s2 {
 	margin-left: 0;
@@ -2865,7 +2889,7 @@ min-height: 1000px;
 }
 
 #mail {
-	height: 117vh!important;
+	min-height: 100vh!important;
 }
 
 #mail .desc {
@@ -2880,7 +2904,7 @@ min-height: 1000px;
 
 
 
-@media screen and (max-width: 933px){ 
+@media screen and (max-width: 953px){ 
 
 #team .title {
 	margin-left: 40px;
@@ -3133,6 +3157,17 @@ html {
 font-size: 16px;
 }
 
+
+#public a:hover .link-big {
+    height: 20px;
+    margin-bottom: 4px;
+}
+
+#public .link-line .line-1 {
+	width: unset;
+}
+
+
 .resume .v-underline {
 	width: 120px;
 }
@@ -3174,6 +3209,12 @@ font-size: 16px;
 
 
 @media screen and (max-width: 795px){
+
+	#mail {
+    background-size: cover;
+    background-position-x:-160px;
+    height: 100vh;
+}
 
 #team .about-1 {
 	top: 90px;
@@ -3354,6 +3395,11 @@ html {
 	font-size: 12px;
 }
 
+#mail {
+    background-size: cover;
+    background-position-x:-160px;
+    height: 100vh;
+}
 #public .header-line .link-underline {
 	    width: 132px;
     margin-left: 90px;
@@ -3478,6 +3524,15 @@ width: 80%;
 
 html {
 	font-size: 10px;
+}
+
+#public a:hover .link-big {
+    height: 13px;
+    margin-bottom: 2px;
+}
+
+.photo-orel img, .photo-orel-2 img, .photo-orel-3 img {
+    width: 60%;
 }
 
 #secret {
