@@ -3354,6 +3354,11 @@ html {
 	font-size: 12px;
 }
 
+#public .header-line .link-underline {
+	    width: 132px;
+    margin-left: 90px;
+}
+
 .photo-orel img, .photo-orel-2 img, .photo-orel-3 img {
 width: 80%;
 }
@@ -3559,7 +3564,7 @@ html {
 }
 
 #public .udp {
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
 .putin img {
@@ -3594,8 +3599,8 @@ html {
 }
 
 #public .header-line .link-underline {
-    width: 148px;
-    margin-left: 82px;
+    width: 110px;
+    margin-left: 101px;
 }
 
 .tm-name {
@@ -3634,6 +3639,10 @@ html {
 
 #order .header-line .right .measure, #order .header-line .right .m-desc-title, #order .header-line .right .m-desc {
     margin-left: 64px;
+}
+#public .header-line .link-underline {
+    width: 89px;
+    margin-left: 112px;
 }
 
 }
