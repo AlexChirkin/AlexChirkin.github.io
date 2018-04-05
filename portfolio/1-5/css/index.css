@@ -20,6 +20,10 @@
 
 body {
 	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
 .hide {
@@ -205,7 +209,7 @@ z-index: 7;
 #team .team-linnik {
 position: absolute;
 bottom: 0;
-left: 45vw;
+left: 46vw;
 z-index: 6;
 }
 
@@ -253,7 +257,7 @@ width: calc(289px - 1%);
 }
 
 #team .team-linnik {
-width: calc(376px + 0%);
+width: calc(380px + -1%);
 }
 
 #team .team-obyedkin {
@@ -297,7 +301,7 @@ width: calc(289px - 2%);
 }
 
 #team .team-linnik {
-width: calc(376px - 2%);
+width: calc(380px - 3%);
 }
 
 #team .team-obyedkin {
@@ -321,7 +325,7 @@ width: calc(268px - 1%);
 @media screen and (max-width: 1510px) { 
 
 #team .team-left {
-width: calc(235px - 2%);
+width: calc(235px - 3%);
 }
 
 #team .team-dennikov {
@@ -341,7 +345,7 @@ width: calc(289px - 3%);
 }
 
 #team .team-linnik {
-width: calc(376px - 3%);
+width: calc(380px - 4%);
 }
 
 #team .team-obyedkin {
@@ -385,7 +389,7 @@ width: calc(289px - 4%);
 }
 
 #team .team-linnik {
-width: calc(376px - 4%);
+width: calc(380px - 5%);
 }
 
 #team .team-obyedkin {
@@ -406,49 +410,7 @@ width: calc(268px - 3%);
 }
 
 
-@media screen and (max-width: 1270px) { 
 
-#team .team-left {
-width: calc(235px - 5%);
-}
-
-#team .team-dennikov {
-width: calc(312px - 6%);
-}
-
-#team .team-chirkin {
-width: calc(348px - 7%);
-}
-
-#team .team-kosar {
-width: calc(293px - 5%);
-}
-
-#team .team-novikov {
-width: calc(289px - 6%);
-}
-
-#team .team-linnik {
-width: calc(376px - 6%);
-}
-
-#team .team-obyedkin {
-width: calc(401px - 6%);
-left: 55vw;
-
-}
-
-#team .team-maks {
-width: calc(356px - 8%);
-left: 71vw;
-}
-
-#team .team-right {
-width: calc(268px - 4%);	
-}
-
-
-}
 
 @media screen and (max-width: 1270px) and (min-width: 1200px) and (min-height: 1000px) { 
 #team .principles {
@@ -480,7 +442,7 @@ width: calc(289px - 7%);
 }
 
 #team .team-linnik {
-width: calc(376px - 8%);
+width: calc(380px - 10%);
 }
 
 #team .team-obyedkin {
@@ -525,7 +487,7 @@ width: calc(289px - 10%);
 }
 
 #team .team-linnik {
-width: calc(376px - 11%);
+width: calc(380px - 13%);
 }
 
 #team .team-obyedkin {
@@ -547,7 +509,7 @@ width: calc(268px - 9%);
 }
 
 
-@media screen and (max-width: 990px) { 
+@media screen and (max-width: 1000px) { 
 
 #team .team-left {
 width: calc(235px - 11%);
@@ -570,7 +532,7 @@ width: calc(289px - 12%);
 }
 
 #team .team-linnik {
-width: calc(376px - 14%);
+width: calc(380px - 16%);
 }
 
 #team .team-obyedkin {
@@ -590,6 +552,468 @@ width: calc(268px - 11%);
 
 #team .principles {
 bottom:50px!important;
+}
+
+}
+
+
+@media screen and (max-width: 930px) { 
+
+#team .team-left {
+width: calc(235px - 12%);
+}
+
+#team .team-dennikov {
+width: calc(312px - 16%);
+}
+
+#team .team-chirkin {
+width: calc(348px - 18%);
+}
+
+#team .team-kosar {
+width: calc(293px - 14%);
+}
+
+#team .team-novikov {
+width: calc(289px - 14%);
+}
+
+#team .team-linnik {
+width: calc(380px - 19%);
+}
+
+#team .team-obyedkin {
+width: calc(401px - 19%);
+left: 55vw;
+
+}
+
+#team .team-maks {
+width: calc(356px - 19%);
+left: 71vw;
+}
+
+#team .team-right {
+width: calc(268px - 13%);	
+}
+
+
+}
+
+@media screen and (max-width: 860px) { 
+
+#team .team-left {
+width: calc(235px - 14%);
+}
+
+#team .team-dennikov {
+width: calc(312px - 19%);
+}
+
+#team .team-chirkin {
+width: calc(348px - 20%);
+}
+
+#team .team-kosar {
+width: calc(293px - 16%);
+}
+
+#team .team-novikov {
+width: calc(289px - 16%);
+}
+
+#team .team-linnik {
+width: calc(380px - 22%);
+}
+
+#team .team-obyedkin {
+width: calc(401px - 22%);
+left: 55vw;
+
+}
+
+#team .team-maks {
+width: calc(356px - 22%);
+left: 71vw;
+}
+
+#team .team-right {
+width: calc(268px - 15%);	
+}
+
+
+}
+
+@media screen and (max-width: 804px) { 
+
+#team .team-left {
+width: calc(235px - 17%);
+}
+
+#team .team-dennikov {
+width: calc(312px - 22%);
+}
+
+#team .team-chirkin {
+width: calc(348px - 24%);
+}
+
+#team .team-kosar {
+width: calc(293px - 20%);
+}
+
+#team .team-novikov {
+width: calc(289px - 20%);
+}
+
+#team .team-linnik {
+width: calc(380px - 26%);
+}
+
+#team .team-obyedkin {
+width: calc(401px - 26%);
+left: 55vw;
+
+}
+
+#team .team-maks {
+width: calc(356px - 26%);
+left: 71vw;
+}
+
+#team .team-right {
+width: calc(268px - 17%);	
+}
+
+
+}
+
+@media screen and (max-width: 750px) { 
+
+#team .team-left {
+    width: calc(235px - 16%);
+}
+
+#team .team-dennikov {
+    width: calc(312px - 20%);
+    left: 9vw;
+}
+
+#team .team-chirkin {
+    width: calc(348px - 22%);
+    left: 22vw;
+}
+
+#team .team-kosar {
+width: calc(293px - 23%);
+display: none;
+}
+
+#team .team-novikov {
+width: calc(289px - 18%);
+left: 36vw;
+}
+
+#team .team-linnik {
+width: calc(380px - 30%);
+display: none;
+}
+
+#team .team-obyedkin {
+    width: calc(401px - 23%);
+    left: 46vw;
+
+}
+
+#team .team-maks {
+    width: calc(356px - 24%);
+    left: 65vw;
+}
+
+#team .team-right {
+width: calc(268px - 15%);	
+}
+
+
+}
+
+@media screen and (max-width: 750px) { 
+
+#team .team-left {
+    width: calc(235px - 16%);
+}
+
+#team .team-dennikov {
+    width: calc(312px - 20%);
+    left: 11vw;
+}
+
+#team .team-chirkin {
+    display: none;
+}
+
+
+#team .team-novikov {
+width: calc(289px - 19%);
+left: 26vw;
+}
+
+
+#team .team-obyedkin {
+    width: calc(401px - 26%);
+    left: 40vw;
+
+}
+
+#team .team-maks {
+    width: calc(356px - 26%);
+    left: 63vw;
+}
+
+#team .team-right {
+width: calc(268px - 17%);	
+}
+
+
+}
+
+@media screen and (max-width: 660px) { 
+
+#team .team-left {
+    width: calc(235px - 16%);
+}
+
+#team .team-dennikov {
+    width: calc(312px - 20%);
+    left: 11vw;
+}
+
+#team .team-chirkin {
+    display: none;
+}
+
+
+#team .team-novikov {
+width: calc(289px - 19%);
+left: 26vw;
+}
+
+
+#team .team-obyedkin {
+    width: calc(401px - 26%);
+    left: 36vw;
+
+}
+
+#team .team-maks {
+    width: calc(356px - 26%);
+    left: 58vw;
+}
+
+#team .team-right {
+width: calc(268px - 17%);	
+}
+
+
+}
+
+@media screen and (max-width: 620px) { 
+
+#team .team-left {
+    width: calc(235px - 19%);
+}
+
+#team .team-dennikov {
+    width: calc(312px - 24%);
+    left: 6vw;
+}
+
+
+#team .team-novikov {
+width: calc(289px - 22%);
+left: 21vw;
+}
+
+
+#team .team-obyedkin {
+    width: calc(401px - 29%);
+    left: unset;
+    right: 26vw;
+
+}
+
+#team .team-maks {
+    width: calc(356px - 30%);
+    left: unset;
+    right: 12vw;
+}
+
+#team .team-right {
+width: calc(268px - 20%);	
+}
+
+}
+
+
+@media screen and (max-width: 540px) { 
+
+#team .team-left {
+    width: calc(235px - 23%);
+}
+
+#team .team-dennikov {
+    width: calc(312px - 29%);
+    left: 6vw;
+}
+
+
+#team .team-novikov {
+width: calc(289px - 27%);
+left: 21vw;
+}
+
+
+#team .team-obyedkin {
+    width: calc(401px - 36%);
+    right: 26vw;
+
+}
+
+#team .team-maks {
+    width: calc(356px - 37%);
+    right: 16vw;
+}
+
+#team .team-right {
+width: calc(268px - 24%);	
+}
+
+}
+
+@media screen and (max-width: 500px) { 
+
+#team .team-left {
+    width: calc(235px - 23%);
+}
+
+#team .team-dennikov {
+display: none;
+}
+
+
+#team .team-novikov {
+width: calc(289px - 27%);
+left: 10vw;
+}
+
+
+#team .team-obyedkin {
+    width: calc(401px - 36%);
+	right: 30vw;
+
+}
+
+#team .team-maks {
+    width: calc(356px - 37%);
+    right: 13vw;
+}
+
+#team .team-right {
+width: calc(268px - 24%);	
+}
+
+}
+
+
+@media screen and (max-width: 450px) { 
+
+#team .team-left {
+    width: calc(235px - 28%);
+}
+
+
+#team .team-novikov {
+width: calc(289px - 33%);
+left: 10vw;
+}
+
+
+#team .team-obyedkin {
+    width: calc(401px - 45%);
+	right: 30vw;
+
+}
+
+#team .team-maks {
+    width: calc(356px - 45%);
+    right: 13vw;
+}
+
+#team .team-right {
+width: calc(268px - 31%);	
+}
+
+}
+
+
+@media screen and (max-width: 400px) { 
+
+#team .team-left {
+    width: calc(235px - 33%);
+}
+
+
+#team .team-novikov {
+width: calc(289px - 40%);
+left: 8vw;
+}
+
+
+#team .team-obyedkin {
+    width: calc(401px - 52%);
+	right: 30vw;
+
+}
+
+#team .team-maks {
+    width: calc(356px - 52%);
+    right: 16vw;
+}
+
+#team .team-right {
+width: calc(268px - 36%);	
+}
+
+}
+
+
+@media screen and (max-width: 370px) { 
+
+#team .team-left {
+    width: calc(235px - 37%);
+}
+
+
+#team .team-novikov {
+width: calc(289px - 44%);
+left: 8vw;
+}
+
+
+#team .team-obyedkin {
+    width: calc(401px - 59%);
+	right: 30vw;
+
+}
+
+#team .team-maks {
+    width: calc(356px - 59%);
+    right: 16vw;
+}
+
+#team .team-right {
+width: calc(268px - 40%);	
 }
 
 }
@@ -854,6 +1278,7 @@ margin-left: 60px;
     right: 142px;
     width: 325px;
     z-index: 10;
+    font-family: "ProximaNova-Reg";
 }
 
 .pt .position {
@@ -2519,9 +2944,7 @@ html {
 font-size: 16px;
 }
 
-#team {
-	display: none;
-}
+
 
 
 
@@ -2576,7 +2999,9 @@ font-size: 16px;
 
 @media screen and (max-width: 795px){
 
-
+#team .about-1 {
+	top: 90px;
+}
 
 #embodiment .our-name, #team .title, #fullstack .head-title, .header-line .left .project-name {
 	font-size: 4rem;
@@ -2730,6 +3155,20 @@ html {
 	font-size: 12px;
 }
 
+
+#team .about-1 {
+	top: 65px;
+}
+
+#team {
+	min-height: 600px;
+}
+
+#team .principles {
+	right: unset;
+	left: 42px;
+	width: 70vw;
+}
 .hide-site-on {
 	margin-left: 45px;
 }
@@ -2818,6 +3257,11 @@ html {
 
 html {
 	font-size: 10px;
+}
+
+#team .about-1 {
+	top: 60px;
+	left: 42px;
 }
 
 .hide-site-on {
