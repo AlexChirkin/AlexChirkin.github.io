@@ -3272,7 +3272,9 @@ height: 100%;
 
 @media screen and (max-width: 795px){ 
 
-
+#secret {
+	background-position-x: -153px;
+}
 .about .right-side {
 	width: 60vw;
 }
@@ -3352,6 +3354,9 @@ html {
 	font-size: 12px;
 }
 
+.photo-orel img, .photo-orel-2 img, .photo-orel-3 img {
+width: 80%;
+}
 
 #team .about-1 {
 	top: 65px;
@@ -3468,6 +3473,10 @@ html {
 
 html {
 	font-size: 10px;
+}
+
+#secret {
+	background-position-x: -217px;
 }
 
 .apache {
