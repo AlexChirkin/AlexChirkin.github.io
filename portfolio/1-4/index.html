@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>Вебмастер</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="img/favicon.ico" rel="icon">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css"
+          rel="stylesheet"
+          type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link href="./css/index.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- НАВБАР -->
+<nav class="navbar nav-style">
+    <a class="navbar-brand logo" href="#">
+        <img src="./img/logo.png" class="d-inline-block" alt="Логотип">
+    </a>
+    <div class="navbar-brand-text">
+        Обновления
+    </div>
+    <div class="one">
+        <a>20:00</a>
+    </div>
+    <div class="two">
+        <a>20 сентября 2017</a>
+    </div>
+    <div class="three">
+        <a class="nav-link" href="#">
+            <div class="user-icon d-inline-block">
+                <img src="./img/menu-arrow.png" alt="" class="small-icon">
+            </div>
+            <div class="d-inline-block small-line" style="color: #4383c4;">Все дашборды</div>
+        </a>
+    </div>
+</nav>
+
+
+<div class="row">
+    <div class="col left-block">
+        <div class="big-date">5 ноября</div>
+        <div class="text-1">ТИЦ, 3 дня назад</div>
+        <div class="small-date">11 сентября</div>
+        <div class="text-2">Яндекс выдачи, вчера</div>
+    </div>
+    <div class="col right-block">
+
+        <div class="table-line" style="
+                                                position: absolute;
+                                                padding-top: 185px;
+                                                padding-left: 104px;
+                                                opacity: 0.9;
+                                            ">
+            <img src="./img/table-line.png">
+        </div>
+        <div class="table-line-2" style="
+                                                position: absolute;
+                                                padding-top: 222px;
+                                                padding-left: 104px;
+                                                opacity: 0.9;
+                                            ">
+            <img src="./img/table-line.png">
+        </div>
+        <div>
+            <a class="table-name">Сводка</a>
+        </div>
+
+
+        <div class="row area-table">
+            <table class="table table-bordered">
+
+
+                <thead class="table-head-text">
+                <tr>
+                    <th id="t1-1">Система</th>
+                    <th id="t1-2">ТИЦ</th>
+                    <th id="t1-3">Загруженные</th>
+                    <th id="t1-4">В поиске</th>
+                    <th id="t1-5">Исключенные</th>
+                    <th id="t1-6">Проблемы</th>
+
+                </tr>
+                </thead>
+                <tbody class="table-main-text delete-border">
+                <tr>
+                    <th scope="row" class="first-col">vipmed.ru</th>
+                    <td id="t2-2">375</td>
+                    <td id="t2-3">3588</td>
+                    <td id="t2-4">1377</td>
+                    <td id="t2-5">62</td>
+                    <td id="t2-6">1</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="t3-1">www.grcc.ru</th>
+                    <td id="t3-2">30</td>
+                    <td id="t3-3">328</td>
+                    <td id="t3-4">164</td>
+                    <td id="t3-5">21</td>
+                    <td id="t3-6">1</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="t4-1">kremlin-product.ru</th>
+                    <td id="t4-2">20</td>
+                    <td id="t4-3">631</td>
+                    <td id="t4-4">352</td>
+                    <td id="t4-5">2</td>
+                    <td id="t4-6">2</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="t5-1">www.prlib.ru</th>
+                    <td id="t5-2">10</td>
+                    <td id="t5-3">126497</td>
+                    <td id="t5-4">85248</td>
+                    <td id="t5-5">225</td>
+                    <td id="t5-6">1</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="t6-1">cfpo-ud.ru</th>
+                    <td id="t6-2">10</td>
+                    <td id="t6-3">1800</td>
+                    <td id="t6-4">896</td>
+                    <td id="t6-5">4</td>
+                    <td id="t6-6">0</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="t7-1">fond-udprf.ru</th>
+                    <td id="t7-2">0</td>
+                    <td id="t7-3">59</td>
+                    <td id="t7-4">29</td>
+                    <td id="t7-5">0</td>
+                    <td id="t7-6">5</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row area-button">
+            <button type="button" class="btn custom-button" id="update-button"><p>Обновить</p></button>
+            <label class="custom-label-1" for="update-button">Последний раз</label>
+            <a>12:31:41</a>
+        </div>
+
+    </div>
+</div>
+
+
+
+<footer></footer>
+
+<!-- Required JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+<!-- Template Specisifc Custom Javascript File -->
+<script src="/js/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/locales/bootstrap-datepicker.ru.min.js"></script>
+
+
+</body>
+</html>
+
+

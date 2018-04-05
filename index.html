@@ -1,1444 +1,196 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="css/index.css">
-<script type="text/javascript" src="js/scrollify/jquery.scrollify.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<title>Воплощение | Бригада разработчиков </title>
-<!--<script>
-        $(function() {
-          $.scrollify({
-            section : ".section",
+    <title>Alexey Chirkin</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+
+    <![endif]-->
+  </head>
+
+  <body style='overflow-x:hidden;'>
+
+  <div class="wrapper">
+	  <div id="loader-wrapper">
+
+		  <div id="loader"></div>
+
+		  <div class="loader-section section-left"></div>
+		  <div class="loader-section section-right"></div>
+
+	  </div>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Alexey Chirkin</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#works">Works</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h4>HELLO PEOPLE, MY NAME IS</h4>
+					<h1>Alex Chirkin</h1>
+					<h4>Junior Frontend Developer</h4>
+				</div>
+			</div><! --/row -->
+	    </div> <!-- /container -->
+	</div><! --/headerwrap -->
+	
+	<section id="works"></section>
+	<div class="container">
+		<div class="row centered mt mb">
+			<h1>My Portfolio</h1>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="/portfolio/1-1/index.html"><img src="assets/img/portfolio/food.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="/portfolio/1-2/index.html"><img src="assets/img/portfolio/web_studio.png" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="https://kkumaster.herokuapp.com"><img src="assets/img/portfolio/kku.png" class="img-responsive"></a>
+			</div>
+
+		</div><! --/row -->
+
+		<div class="row centered mt b">
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="/portfolio/1-4/index.html"><img src="assets/img/portfolio/ywm.png" class="img-responsive"></a>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="/portfolio/1-5/index.html"><img src="assets/img/portfolio/itfs.png" class="img-responsive"></a>
+			</div>
+		</div>
+	</div><! --/container -->
+
+	<section id="skills" style="padding-bottom: 1%">
+	<div >
+		<div class="row centered">
+			<h1>My Skills</h1>
+
+			<div class="col-lg-3 col-md-3 col-sm-3 gallery" >
+				<center><img src="assets/img/skills/html.png" class="img-responsive"></center>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 gallery">
+				<center><img src="assets/img/skills/css.png" class="img-responsive"></center>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 gallery">
+				<center><img src="assets/img/skills/bootstrap.png" class="img-responsive"></center>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 gallery">
+				<center><img src="assets/img/skills/sass.png" class="img-responsive"></center>
+			</div>
+		</div><! --/row -->
+		<div class="row centered">
+			<div class="col-lg-3 col-md-3 col-sm-3 gallery">
+				<center><img src="assets/img/skills/node.png" class="img-responsive"></center>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 gallery">
+				<center><img src="assets/img/skills/js.png" class="img-responsive"></center>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 gallery">
+				<center><img src="assets/img/skills/jquery.png" class="img-responsive"></center>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 gallery">
+				<center><img src="assets/img/skills/git.png" class="img-responsive"></center>
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
+	</section>
+
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4">
+					<a href="https://vk.com/id23210510"><i class="fa fa-vk"></i></a>
+				</div>
+				<div class="col-lg-4">
+					<a href="https://github.com/AlexChirkin"><i class="fa fa-github"></i></a>
+				</div>
+				<div class="col-lg-4">
+					<a href="https://www.facebook.com/ihoooly"><i class="fa fa-facebook"></i></a>
+				</div>
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/social -->
+
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4">
+					<p><b>Junior Frontend Developer</b></p>
+				</div>
+			
+				<div class="col-lg-4">
+					<p>Living in the amazing Moscow.</p>
+				</div>
+				<div class="col-lg-4">
+					<p>ihoooly@gmail.com</p>
+				</div>
+			</div>
+		</div>
+	</div><! --/footerwrap -->
+	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+	  <script>
+
+          $(document).ready(function() {
+              setTimeout(function() {
+                  $('.wrapper').addClass('loaded');
+
+              }, 2100);
           });
-        });
-      </script>
-</head>
+	  </script>
+  </div>
 
-<body>
-<!--Воплощение-->
-	 <div id="embodiment" class="slide section">
-	 	<div class="our-name">Бригада<br>разработчиков</div>
-	 	<div class="tank"><img src="img/tank.png"></div>
-	 </div>
 
-<!--Команда-->
-  	<div id="team" class="slide section">
-  		<div class="ober">
-  		<img class="team-left" src="img/teaml-left.png">
-  		<img class="team-dennikov" src="img/team-dennikov.png">
-  		<img class="team-chirkin" src="img/team-chirkin.png">
-  		<img class="team-kosar" src="img/team-kosar.png">
-  		<img class="team-novikov" src="img/team-novikov.png">
-  		<img class="team-linnik" src="img/team-linnik.png">
-  		<img class="team-obyedkin" src="img/team-obyedkin.png">
-  		<img class="team-maks" src="img/team-maks.png">
-  		<img class="team-right" src="img/team-right.png">
-  		</div>
-
-
- 		<div class="title">Команда</div>
- 		<div class="about-1">Молодые, ответственные, разрабатываем <br> комплексные веб-системы.</div>
- 			
-			 		<div class="principles">
-			 			<div class="whiteline"></div>
-			 			<div class="title">Принципы</div>
-			 			<div class="list">
-			 				<div class="list-item">Не боимся сложностей,</div>
-			 				<div class="list-item">Ориентируемся на результат,</div>
-			 				<div class="list-item">Осознаем прежде чем приступать <br> к действию,</div>
-			 				<div class="list-item">Один за всех и все за одного.</div>
-			 			</div>
-			 		</div>
-	 			
- 	
- 	</div>
-
-
- 	<!--Мы делаем fullstack-->
-  	<div id="fullstack" class="section">
- 		<div class="head-title">
- 			<div class="title">Мы делаем <br> full-stack</div>
- 		</div>
-
- 		<div class="content">
- 			<div class="subtitle">
- 				<div class="about-2">Преимущественно учебные веб-системы</div>
- 			</div>
-
-	 		<div class="desc">
-			 	<div class="wwd">
-			 		<div class="blackline"></div>
-			 		<div class="title">Реализовали и ввели в эксплуатацию</div>
-				 		<div class="list">
-				 			<div class="list-item">Автоматизированные системы управления недвижимостью и имуществом;</div>
-				 			<div class="list-item">Формирование и мониторинг исполнения государственного оборонного заказа;</div>
-				 			<div class="list-item">Учет социальных выплат, жилых фондов, объектов капитального строительства 
-				 			и ремонта.
-				 			</div>
-				 		</div>
-			 		<div class="subtitle">Корпоративные порталы</div>
-			 		<div class="subtitle">Панели руководителей</div>
-			 		<div class="subtitle">Интернет сайты</div>
-				 		<div class="list">
-				 			<div class="list-item">Сайты-визитки;</div>
-				 			<div class="list-item">Интернет-магазины;</div>
-				 			<div class="list-item">Интерактивные сайты (проведение олимпиад, читальный зал библиотеки, личный кабинет пациента и т.п.).
-				 			</div>
-				 		</div>
-				 	<div class="subtitle">Система математического моделирования</div>
-				 	<div class="subtitle-extra-text">с акцентом на пользовательские интерфейсы и способы визуализации результатов.</div>
-			 	</div>
-	 		</div>
- 			
- 		</div>
- 	</div>
-
-
- 	 	<!--Технологии-->
-  	<div id="tech" class="section">
- 		<div class="head-title">
- 			<div class="title">Технологии</div>
- 		</div>
-
- 		<div class="content">
-
- 			<div class="left-side">
- 				<div class="tech-drupal">
- 					<div class="tech-dlogo"><img src="img/tech-drupal.png"></div>
- 					<div class="drupal-text">
- 						<div class="title">Drupal 7</div>
- 						<div class="desc">Опыт 5,5 лет разработки, 119 проектов разного уровня сложности, 57 разработанных универсальных модулей</div>
- 					</div>
- 				</div>
- 				<div class="tech-symph"><img src="img/tech-symfony.png"></div>
- 			</div>
-
-	 		<div class="right-side">
-			 	<div class="block">
-			 		<div class="logoline">
-			 			<div class="tech-php"><img src="img/php-logo-vector.png"></div>
-			 			<div class="tech-pyth"><img src="img/python-logo-vector.png"></div>
-			 		</div>
-			 		<div class="whiteline"></div>
-			 		<div class="title">Языки программирования:</div>
-			 		<div class="items">PHP5, PHP7, Python, JavaScript (jQuery + фреймворки)</div>
-			 		<div class="title">Системы хранения и поиска:</div>
-			 		<div class="items">MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, Neo4j, ElasticSearch, ApacheSolr, Sphinx, 
-			 		Redis</div>
-			 		<div class="title">Веб-серверы:</div>
-			 		<div class="items">Apache, Nginx</div>
-			 		<div class="title">Инструменты:</div>
-			 		<div class="items">JIRA Software, JIRA Service Desk, Confluence, Redmine, GitLab, PhpStorm, WebStorm, PyCharm</div>	
-			 	</div>
-	 		</div>
- 			
- 		</div>
- 	</div>
-
-
-<!--Ничипорчук-->
- 	<div id="nichiporchuk" class="section">
- 		<div class="valek-site hide-site-off"><a href="https://hh.ru/resume/cabf6578ff05377a5a0039ed1f794642596866">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo"><img src="img/logo-nichi.png"></div>
-	 			<div class="tm-name">Максим<br>Ничипорчук</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="https://hh.ru/resume/cabf6578ff05377a5a0039ed1f794642596866">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2"><img src="img/logo-nichi.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Руководитель команды</div>
-			 				<div class="time">30 лет, 9 лет в команде. Основатель, идеолог </div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-mifi.png"></div>
- 				<div class="un-name">Окончил МИФИ в 2010 году</div>
- 				<div class="un-desc">Факультет кибернетики. Автоматизированные системы обработки информации и управления.</div>
- 				<div class="nichi-skills">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/jira+confluence.png"></div>
- 					<div class="skill git-nichi"><img src="img/skills/git.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/phpstormlogo.png"></div>
- 					<div class="skill"><img src="img/skills/webstormlogo.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img src="img/team/nichi.png"></div>
- 				<div class="blackline"></div>
- 				<div class="title">Управление командой до 25 разработчиков</div>
- 				<div class="item-list">Подбор проектной команды;</div>
- 				<div class="item-list">Организация, проверка и сведение воедино работ разного уровня: программирование (backend), разработка дизайна, верстка, контент;</div>
- 				<div class="item-list">Доведение слабоформализованных задач до исполнителей;</div>
- 				<div class="item-list">Контроль исполнения.</div>
- 				<div class="subtitle">Оптимизация процесса разработки и поддержки</div>
- 				<div class="item-list">Адаптация процессов разработки под конкретный проект;</div>
- 				<div class="item-list">Проектирование и программирование информационных панелей (дашбордов).</div>
- 				<div class="subtitle">Проектирование, разработка информационных веб-систем</div>
- 				<div class="subtitle">Управление проектами</div>
- 				<div class="subtitle">Оценка трудозатрат разработки</div>
- 				<div class="nichi-skills hide">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/jira+confluence.png"></div>
- 					<div class="skill git-nichi"><img src="img/skills/git.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/phpstormlogo.png"></div>
- 					<div class="skill"><img src="img/skills/webstormlogo.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
- 		
-
-<!--Новиков-->
- 	<div id="novicov" class="section">
- 		<div class="valek-site hide-site-off"><a href="https://hh.ru/applicant/resumes/view?resume=eb973e0aff012607c60039ed1f647676793770">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo fix-logo"><img src="img/logo-novi.png"></div>
-	 			<div class="tm-name">Евгений<br>Новиков</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="https://hh.ru/applicant/resumes/view?resume=eb973e0aff012607c60039ed1f647676793770">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2 logo-novi-fix"><img src="img/logo-novi.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Заместитель руководителя</div>
-			 				<div class="time">26 лет, 6 лет в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-mifi.png"></div>
- 				<div class="un-name">Окончил МИФИ в 2013 году</div>
- 				<div class="un-desc">Комплексное обеспечение информационной безопасности автоматизированных систем</div>
-				<div class="novikov-skills">
- 					<div class="line-skills">
- 					<div class="skill php-novikov"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					<div class="skill mysql-novikov"><img src="img/skills/mysql.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					<div class="skill postgre-novikov"><img src="img/skills/postgre.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill phps-novikov"><img src="img/skills/phpstormlogo.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					<div class="skill"><img src="img/skills/jira+confluence.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-50" src="img/team/novi.png"></div>
- 				<div class="blackline"></div>
- 				<div class="title">Проектирование и управление разработкой</div>
- 				<div class="item-list">Изучение, анализ, внесение корректировок и предложений в текущие бизнес-процессы;</div>
- 				<div class="item-list">Разработка архитектуры и выбор технологий;</div>
- 				<div class="item-list">Постановка задач на разработку и контроль исполнения;</div>
- 				<div class="item-list">Проектирование интеграционных решений.</div>
- 				<div class="title">Создал и внедрил</div>
- 				<div class="item-list">Инструменты для разработки, аналитики и мониторинга;</div>
- 				<div class="item-list">Правила по разработке и коммуникации внутри и вне команды.</div>
- 				<div class="title">Информационная безопасность</div>
- 				<div class="item-list">Поиск и устранение уязвимостей;</div>
- 				<div class="item-list">Понимание базовых принципов ИБ;</div>
- 				<div class="item-list">Поиск и сбор информации в открытых источниках (навыки конкурентной разведки).</div>
- 				<div class="novikov-skills hide">
- 					<div class="line-skills">
- 					<div class="skill php-novikov"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					<div class="skill mysql-novikov"><img src="img/skills/mysql.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					<div class="skill postgre-novikov"><img src="img/skills/postgre.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill phps-novikov"><img src="img/skills/phpstormlogo.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					<div class="skill"><img src="img/skills/jira+confluence.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
-
-
-<!--Объедкин-->
- 	<div id="obyedkin" class="section">
- 		<div class="valek-site hide-site-off"><a href="https://hh.ru/resume/2866e7d9ff023ce5c70039ed1f556d6963776e">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo fix-logo"><img src="img/logo-novi.png"></div>
-	 			<div class="tm-name">Алексей<br>Объедкин</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="https://hh.ru/resume/2866e7d9ff023ce5c70039ed1f556d6963776e">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2 logo-novi-fix"><img src="img/logo-novi.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Заместитель руководителя</div>
-	 						<div class="time">30 лет, 3 года в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-mgu-saransk.png"></div>
- 				<div class="un-name">Окончил МГУ Саранск в 2010 году</div>
- 				<div class="un-desc">Факультет прикладной математики и информатики</div>
- 				<div class="obyedkin-skills">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					<div class="skill obyed-mysql"><img src="img/skills/mysql.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					<div class="skill apache-obyed"><img src="img/skills/apache.png"></div>
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/yii.png"></div>
- 					<div class="skill modx-obyed"><img src="img/skills/modx.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/opencart.png"></div>
- 					<div class="skill bitrix-obyed"><img src="img/skills/bitrix.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-50" src="img/team/obyed.png"></div>
- 				<div class="blackline"></div>
- 				<div class="subtitle">Доработка и поддержка системы автоматизации бизнес-процессов</div>
- 				<div class="title">Разработка и программирование</div>
- 				<div class="item-list">Алгоритмическая подготовка;</div>
- 				<div class="item-list">Написание нового и изменение существующего программного кода;</div>
- 				<div class="item-list">Разработка архитектуры БД;</div>
- 				<div class="item-list">Разработка и реализация процедур обмена данными между системами;</div>
- 				<div class="item-list">Функциональное тестирование разработанных модулей.</div>
- 				<div class="subtitle">Аудит кода других разработчиков</div>
- 				<div class="subtitle">Проектный подход к работе</div>
- 				<div class="obyedkin-skills hide">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					<div class="skill obyed-mysql"><img src="img/skills/mysql.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					<div class="skill apache-obyed"><img src="img/skills/apache.png"></div>
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/yii.png"></div>
- 					<div class="skill modx-obyed"><img src="img/skills/modx.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/opencart.png"></div>
- 					<div class="skill bitrix-obyed"><img src="img/skills/bitrix.png"></div>
- 					</div>
- 				</div>
-
- 			</div>
- 		</div>
- 	</div>
-
-
-<!--Юдин-->
- 	<div id="udin" class="section">
- 		<div class="valek-site hide-site-off"><a href="https://hh.ru/resume/ac3f520eff0175a8160039ed1f4d526f6b646f">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo"><img src="img/logo-udin.png"></div>
-	 			<div class="tm-name">Алексей<br>Юдин</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="https://hh.ru/resume/ac3f520eff0175a8160039ed1f4d526f6b646f">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2"><img src="img/logo-udin.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Инженер</div>
-	 						<div class="time">39 лет, 3 года в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-mgiem.png"></div>
- 				<div class="un-name">Неоконченное высшее МГИЭМ 2001 год</div>
- 				<div class="un-desc">Прикладная математика</div>
- 				<div class="udin-skills">
- 					<div class="line-skills">
- 					<div class="skill php-udin"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/python.png"></div>
- 					<div class="skill c-udin"><img src="img/skills/c++.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/delphi.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/symphony.png"></div>
- 					<div class="skill silex-udin"><img src="img/skills/silex.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/jQuery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/mysql.png"></div>
- 					<div class="skill postgre-udin"><img src="img/skills/postgre.png"></div>
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/redis.png"></div>
- 					<div class="skill neo-udin"><img src="img/skills/neo4j.png"></div>
- 					<div class="skill"><img src="img/skills/msql.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					<div class="skill git-udin"><img src="img/skills/git-white.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-40" src="img/team/udin.png"></div>
- 				<div class="blackline"></div>
- 				<div class="title">SOLID, ООП, паттерны проектирования</div>
- 				<div class="title">Проектирование и разработка систем:</div>
- 				<div class="item-list">Учетные,</div>
- 				<div class="item-list">Документоборота,</div>
- 				<div class="item-list">Нормативно-правовые.</div>
- 				<div class="subtitle">Проектирование баз данных</div>
- 				<div class="subtitle">Анализ и декомпозиция задач</div>
- 				<div class="subtitle">Оценка и планирование деятельности</div>
-				<div class="udin-skills hide">
- 					<div class="line-skills">
- 					<div class="skill php-udin"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/python.png"></div>
- 					<div class="skill c-udin"><img src="img/skills/c++.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/delphi.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/symphony.png"></div>
- 					<div class="skill silex-udin"><img src="img/skills/silex.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/jQuery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/mysql.png"></div>
- 					<div class="skill postgre-udin"><img src="img/skills/postgre.png"></div>
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/redis.png"></div>
- 					<div class="skill neo-udin"><img src="img/skills/neo4j.png"></div>
- 					<div class="skill"><img src="img/skills/msql.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					<div class="skill git-udin"><img src="img/skills/git-white.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
-
-
-<!--Махмутов-->
- 	<div id="mahmutov" class="section">
- 		<div class="valek-site hide-site-off"><a href="https://hh.ru/resume/7dc35423ff0463b54e0039ed1f736470476f78">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo"><img src="img/logo-mahm.png"></div>
-	 			<div class="tm-name">Рустем<br>Махмутов</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="https://hh.ru/resume/7dc35423ff0463b54e0039ed1f736470476f78">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2"><img src="img/logo-mahm.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Ведущий разработчик</div>
-	 						<div class="time">24 года, 5 лет в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-mifi.png"></div>
- 				<div class="un-name">Окончил МИФИ в 2016 году</div>
- 				<div class="un-desc">Комплексное обеспечение информационной безопасности автоматизированных систем</div>
- 				<div class="mahmutov-skills">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					<div class="skill postgre-mahmutov"><img src="img/skills/postgre.png"></div>
- 					<div class="skill mysql-mahmutov"><img src="img/skills/mysql.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/symphony.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-50" src="img/team/mahm.png"></div>
- 				<div class="blackline"></div>
- 				<div class="subtitle">Cоздание и поддержка учетных информационных систем</div>
- 				<div class="title">Разработка</div>
- 				<div class="item-list">Проектирование БД;</div>
- 				<div class="item-list">Рефакторинг, умение разбираться в чужом коде;</div>
- 				<div class="item-list">Оптимизация запросов;</div>
- 				<div class="item-list">Реализация средств визуализации и мониторинга;</div>
- 				<div class="item-list">Интеграция со сторонними сервисами;</div>
- 				<div class="item-list">Создание универсальных технических решений для применения в различных проектах.</div>
- 				<div class="title">Проектная деятельность</div>
- 				<div class="item-list">Согласование требований с заказчиком;</div>
- 				<div class="item-list">Формирование и декомпозиция задач на разработку;</div>
- 				<div class="item-list">Презентация заказчику выполненных работ.</div>
- 				<div class="mahmutov-skills hide">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					<div class="skill postgre-mahmutov"><img src="img/skills/postgre.png"></div>
- 					<div class="skill mysql-mahmutov"><img src="img/skills/mysql.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/symphony.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
-
-
-<!--Косарцов-->
- 	<div id="kosarcov" class="section">
- 		<div class="valek-site hide-site-off"><a href="#">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo"><img src="img/logo-udin.png"></div>
-	 			<div class="tm-name">Роман<br>Косарцов</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="#">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2"><img src="img/logo-udin.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Инженер</div>
-	 						<div class="time">26 лет, 2 года в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-msiu.png"></div>
- 				<div class="un-name">Окончил МГИУ в 2015 году</div>
- 				<div class="un-desc">Финансы</div>
- 				<div class="kosarcov-skills">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					<div class="skill"><img src="img/skills/phpstormlogo.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/symphony.png"></div>
- 					<div class="skill laravel-kosarcov"><img src="img/skills/laravel.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/mysql.png"></div>
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill"><img src="img/skills/clickhouse.png"></div>
- 					<div class="skill"><img src="img/skills/memcache.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/redis.png"></div>
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					<div class="skill"><img src="img/skills/phpunit.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/sphinx.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-50" src="img/team/kosar.png"></div>
- 				<div class="blackline"></div>
- 				<div class="title">Проектирование и разработка систем</div>
- 				<div class="item-list">Учетные;</div>
- 				<div class="item-list">Документоборота;</div>
- 				<div class="subtitle">Проектирование баз данных</div>
- 				<div class="subtitle">Изучение и анализ текущих бизнес-процессов</div>
- 				<div class="kosarcov-skills hide">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					<div class="skill"><img src="img/skills/phpstormlogo.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/symphony.png"></div>
- 					<div class="skill laravel-kosarcov"><img src="img/skills/laravel.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/mysql.png"></div>
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill"><img src="img/skills/clickhouse.png"></div>
- 					<div class="skill"><img src="img/skills/memcache.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/redis.png"></div>
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					<div class="skill"><img src="img/skills/phpunit.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/sphinx.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
-
-
-<!--Пихтулов-->
- 	<div id="pihtulov" class="section">
- 		<div class="valek-site hide-site-off"><a href="https://hh.ru/applicant/resumes/view?resume=8a8a940eff053960a50039ed1f77707a513670">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo"><img src="img/logo-mahm.png"></div>
-	 			<div class="tm-name">Алексей<br>Пихтулов</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="https://hh.ru/applicant/resumes/view?resume=8a8a940eff053960a50039ed1f77707a513670">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2"><img src="img/logo-mahm.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Ведущий программист</div>
-	 						<div class="time">29 лет, 9 лет в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-mifi.png"></div>
- 				<div class="un-name">Окончил МИФИ в 2010 году</div>
- 				<div class="un-desc">Факультет кибернетики. Специальность «Вычислительные машины, комплексы системы и сети»</div>
- 				<div class="pihtulov-skills">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					<div class="skill"><img src="img/skills/csharp.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill mysql-pihtulov"><img src="img/skills/mysql.png"></div>
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill solr-pihtulov"><img src="img/skills/solr.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-50" src="img/team/piht.png"></div>
- 				<div class="blackline"></div>
- 				<div class="title">Проектирование и разработка систем</div>
- 				<div class="item-list">Учетные;</div>
- 				<div class="item-list">Документоборота;</div>
- 				<div class="subtitle">Проектирование баз данных</div>
- 				<div class="subtitle">Изучение и анализ текущих бизнес-процессов</div>
- 				<div class="title">Внедрение и эффективность</div>
- 				<div class="item-list">Рефакторинг кода;</div>
- 				<div class="item-list">Умение разбираться в чужом коде;</div>
- 				<div class="item-list">Оптимизация запросов;</div>
- 				<div class="item-list">Интеграция со сторонними сервисами и системами.</div>
- 				<div class="title">Проектная деятельность</div>
- 				<div class="item-list">Согласование требований с заказчиком;</div>
- 				<div class="item-list">Формирование и декомпозиция задач на разработку;</div>
- 				<div class="item-list">Оценка и планирование деятельности;</div>
- 				<div class="item-list">Презентация заказчику выполненных работ.</div>
- 				<div class="pihtulov-skills hide">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					<div class="skill"><img src="img/skills/csharp.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill mysql-pihtulov"><img src="img/skills/mysql.png"></div>
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill solr-pihtulov"><img src="img/skills/solr.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/nignx.png"></div>
- 					<div class="skill apache"><img src="img/skills/apache.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
-
-
-
-<!--Линник-->
- 	<div id="linnik" class="section">
- 		<div class="valek-site hide-site-off"><a href="https://hh.ru/resume/aa3ee303ff00be2d370039ed1f736563726574">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo"><img src="img/logo-mahm.png"></div>
-	 			<div class="tm-name">Андрей<br>Линник</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="https://hh.ru/resume/aa3ee303ff00be2d370039ed1f736563726574">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2"><img src="img/logo-mahm.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Ведущий программист</div>
-	 						<div class="time">33 года, 4 года в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-miit.png"></div>
- 				<div class="un-name">Окончил МГУПС (МИИТ) в 2009 году</div>
- 				<div class="un-desc">Профессиональная переподготовка при МГТУ имени Н.Э. Баумана в 2015 году по специальности Веб-программист</div>
- 				<div class="linnik-skills">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill bitrix-linnik"><img src="img/skills/bitrix.png"></div>
- 					<div class="skill phpstorm-linnik"><img src="img/skills/phpstormlogo.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/laravel.png"></div>
- 					<div class="skill slim"><img src="img/skills/slim.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/django.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill mysql-linnik"><img src="img/skills/mysql.png"></div>
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/neo4j.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-50" src="img/team/linnik.png"></div>
- 				<div class="blackline"></div>
- 				<div class="title">Проектирование и разработка систем</div>
- 				<div class="item-list">Учетные;</div>
- 				<div class="item-list">Документоборота;</div>
- 				<div class="subtitle">Проектирование баз данных</div>
- 				<div class="subtitle">Изучение и анализ текущих бизнес-процессов</div>
- 				<div class="linnik-skills hide">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill bitrix-linnik"><img src="img/skills/bitrix.png"></div>
- 					<div class="skill phpstorm-linnik"><img src="img/skills/phpstormlogo.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/laravel.png"></div>
- 					<div class="skill slim"><img src="img/skills/slim.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/django.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill mysql-linnik"><img src="img/skills/mysql.png"></div>
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					<div class="skill"><img src="img/skills/elastic.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/neo4j.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
-
-
-<!--Тарасюк-->
- 	<div id="tarasuk" class="section">
- 		<div class="valek-site hide-site-off"><a href="https://hh.ru/applicant/resumes/view?resume=dbddde72ff00289e350039ed1f736563726574">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo fix-logo-taras"><img src="img/logo-taras.png"></div>
-	 			<div class="tm-name">Евгений<br>Тарасюк</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="https://hh.ru/applicant/resumes/view?resume=dbddde72ff00289e350039ed1f736563726574">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2"><img src="img/logo-taras.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Верстальщик, разработчик</div>
-	 						<div class="time">35 лет, 2 года в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"></div>
- 				<div class="un-name"></div>
- 				<div class="un-desc"></div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-50" src="img/team/tarasuk.png"></div>
- 				<div class="blackline"></div>
- 				<div class="title" style="padding-bottom: 10px">Адаптивная верстка</div>
- 				<div class="subtitle">Работа с шаблонизаторами phptemplate, twig</div>
- 				<div class="subtitle">Взаимодействие с back-end программистами</div>
- 				<div class="subtitle">SEO-оптимизация кода</div>
- 				<div class="tarasuk-skills">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/php.png"></div>
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/ps.png"></div>
- 					<div class="skill"><img src="img/skills/ai.png"></div>
- 					<div class="skill avocode"><img src="img/skills/aocode.png"></div>
- 					<div class="skill jira-tarasuk"><img src="img/skills/jira.png"></div>
- 					<div class="skill phpstorm-tarasuk"><img src="img/skills/phpstormlogo.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/bitbucket.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					<div class="skill"><img src="img/skills/atom.png"></div>
- 					<div class="skill"><img src="img/skills/bitrix.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
-
-
-
-<!--Чиркин-->
- 	<div id="chirkin" class="section">
- 		<div class="valek-site hide-site-off"><a href="https://hh.ru/resume/2b1778fdff01822bb00039ed1f6377624f456f">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo fix-logo-taras"><img src="img/logo-taras.png"></div>
-	 			<div class="tm-name">Алексей<br>Чиркин</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="https://hh.ru/resume/2b1778fdff01822bb00039ed1f6377624f456f">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2"><img src="img/logo-taras.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Верстальщик</div>
-	 						<div class="time">22 года, 1 год в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-ispu.png"></div>
- 				<div class="un-name">Окончил ИГЭУ в 2017 году</div>
- 				<div class="un-desc">Программная инженерия</div>
- 				
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-50" src="img/team/chirkin.png"></div>
- 				<div class="blackline"></div>
- 				<div class="title">Верстка</div>
- 				<div class="item-list">Pixel-perfect,</div>
- 				<div class="item-list">Адаптивная,</div>
- 				<div class="item-list">Блочная.</div>
- 				<div class="title">Работа с photoshop</div>
- 				<div class="un-desc">Нарезка psd для верстки</div>
- 				<div class="subtitle">Написание UI-Скриптов с использованием jQuery</div>
- 				<div class="subtitle">Умение разбираться в чужом коде</div>
- 				<div class="chirkin-skills">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/js.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/drupal.png"></div>
- 					<div class="skill"><img src="img/skills/git-white.png"></div>
- 					<div class="skill node"><img src="img/skills/node.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/ps.png"></div>
- 					<div class="skill"><img src="img/skills/gulp.png"></div>
- 					<div class="skill"><img src="img/skills/sass.png"></div>
- 					<div class="skill mysql-chir"><img src="img/skills/mysql.png"></div>
- 					<div class="skill"><img src="img/skills/mongodb.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
-
-
-<!--Денников-->
- 	<div id="dennikov" class="section">
- 		<div class="valek-site hide-site-off"><a href="http://valekdennikov.ru/">valekdennikov.ru</a><div class="v-underline"></div></div>
- 		<div class="valek-site hide-site-off extra-padding"><a href="#">Резюме на hh.ru</a><div class="v-underline"></div></div>
- 		<div class="first-line">
-	 		<div class="head">
-	 			<div class="tm-logo fix-logo-taras"><img src="img/logo-denn.png"></div>
-	 			<div class="tm-name">Валентин<br>Денников</div>
-	 		</div>
-	 		<div class="pt">
-	 			<div class="padd">
-	 				<div class="resume hide-site-on"><a href="#">Резюме на hh.ru</a><div class="v-underline"></div></div>
-	 				<div class="resume hide-site-on pdtop"><a href="http://valekdennikov.ru/">valekdennikov.ru</a><div class="v-underline"></div></div>
-	 				<div class="extra-logo">
-	 					<div class="tm-logo-2"><img src="img/logo-denn.png"></div>
-	 					<div class="text-right-logo">
-			 				<div class="position">Проектировщик пользовательских интерфейсов</div>
-			 				<div class="time">32 года, 1 год в команде</div>
-			 			</div>
-	 				</div>
-	 			</div>
-	 		</div>
- 		</div>
-
- 		<div class="about">
- 			<div class="left-side">
- 				<div class="un-logo"><img src="img/logo-mei.png"></div>
- 				<div class="un-name">Неоконченное высшее НИУ «МЭИ» 2007 год</div>
- 				<div class="un-desc">Энергомашиностроение, котлореакторостроение</div>
- 				<div class="dennikov-skills">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/ps.png"></div>
- 					<div class="skill"><img src="img/skills/ai.png"></div>
- 					<div class="skill"><img src="img/skills/id.png"></div>
- 					<div class="skill"><img src="img/skills/ae.png"></div>
- 					<div class="skill"><img src="img/skills/pr.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/balsamic.png"></div>
- 					<div class="skill"><img src="img/skills/axure.png"></div>
- 					<div class="skill"><img src="img/skills/draw.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/sketch.png"></div>
- 					<div class="skill"><img src="img/skills/autocad.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="right-side">
- 				<div class="small"><img  class ="width-50" src="img/team/denn.png"></div>
- 				<div class="blackline"></div>
- 				<div class="title">Проектирование интерфейсов</div>
- 				<div class="item-list">Формулировка полезного действия;</div>
- 				<div class="item-list">Составление карты путешествия;</div>
- 				<div class="item-list">Отрисовка прототипов и конечных макетов;</div>
- 				<div class="item-list">Контроль и руководство разработкой интерфейсов;</div>
- 				<div class="item-list">Составление пользовательских тест-кейсов и тестирование;</div>
- 				<div class="item-list">Патчинг и работа с замечаниями.</div>
- 				<div class="title">Методология разработки</div>
- 				<div class="item-list">Эджайл\Скрам,</div>
- 				<div class="item-list">ФФФ.</div>
- 				<div class="title">Переговоры и отношения</div>
- 				<div class="item-list">Согласование списка замечаний,</div>
- 				<div class="item-list">Сдача\приемка работ,</div>
- 				<div class="item-list">Исполнитель понимает задачу.</div>
- 				<div class="title">Рисование от руки</div>
- 				<div class="item-list">Цветокор, сетка, композиция, Швейцария</div>
- 				<div class="dennikov-skills hide">
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/html+css.png"></div>
- 					<div class="skill"><img src="img/skills/jquery.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/ps.png"></div>
- 					<div class="skill"><img src="img/skills/ai.png"></div>
- 					<div class="skill"><img src="img/skills/id.png"></div>
- 					<div class="skill"><img src="img/skills/ae.png"></div>
- 					<div class="skill"><img src="img/skills/pr.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/balsamic.png"></div>
- 					<div class="skill"><img src="img/skills/axure.png"></div>
- 					<div class="skill"><img src="img/skills/draw.png"></div>
- 					</div>
- 					<div class="line-skills">
- 					<div class="skill"><img src="img/skills/sketch.png"></div>
- 					<div class="skill"><img src="img/skills/autocad.png"></div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
-
-
-<!--Снабжение-->
-	<div id="supply" class="section">
-		<div class="header-line">
-			<div class="left">
-				<div class="project-name">Снабжение</div>
-				<div class="project-desc">Автоматизация деятельности подразделений<br>материально-технического обеспечения</div>
-			</div>
-			<div class="right">
-				<div class="summ">213 <img class="big-ruble" src="img/big-ruble.png"></div>
-				<div class="measure">млн.</div>
-				<div class="m-desc-title">Сумма контрактов</div>
-				<div class="m-desc">В течении 5 лет</div>
-			</div>
-		</div>
-		<div class="content-line">
-			<div class="left-content">
-				<div class="whiteline"></div>
-				<div class="subsystem">
-					<div class="cypher-big">8</div>
-					<div class="subtitle">Подсистем</div>
-					<div class="subdesc">Уникальные<br>бизнес-процессы</div>
-				</div>
-				<div class="user">
-					<div class="cypher-medium">2500+</div>
-					<div class="subtitle">Пользователей</div>
-					<div class="subdesc">по всей России</div>
-				</div>
-				<div class="regist">
-					<div class="cypher-medium">300000+</div>
-					<div class="subtitle">Объектов учета</div>
-					<div class="subdesc">различных типов</div>
-				</div>
-			</div>
-			<div class="right-content">
-				<div class="first">
-					<div class="whiteline"></div>
-					<div class="ftitle">Противодействие коррупции</div>
-					<div class="subdesc">Прозрачность ведения хозяйственной деятельности</div>
-				</div>
-				<div class="second">
-					<div class="stitle">Высшее<br>руководство</div>
-					<div class="subdesc">Аналитические панели: оперативная<br>информация о деятельности тыла</div>
-				</div>
-				<div class="third">
-					<div class="stitle">Рекомендации</div>
-					<div class="subdesc">и положительные отзывы<br>от кураторов подсистем</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-
-<!--Служба-->
-	<div id="service" class="section">
-		<div class="header-line">
-			<div class="left">
-				<div class="project-name">Служба</div>
-				<div class="project-desc">Комплексная информационная система для<br>автоматизации деятельности должностных лиц</div>
-			</div>
-			<div class="right">
-				<div class="summ">300 <img class="big-ruble" src="img/big-ruble.png"></div>
-				<div class="measure">млн.</div>
-				<div class="m-desc-title">Сумма контрактов</div>
-				<div class="m-desc">В течении 5 лет</div>
-			</div>
-		</div>
-		<div class="content-line">
-			<div class="left-content">
-				<div class="whiteline"></div>
-				<div class="subsystem">
-					<div class="cypher-big">18</div>
-					<div class="subtitle">Комплексов</div>
-					<div class="subdesc">Общего направления</div>
-				</div>
-				<div class="user">
-					<div class="cypher-medium">Математическое<br>Моделирование</div>
-					<div class="subdesc-p"><span class="bold">7</span> Направлений</div>
-					<div class="subdesc-p"><span class="bold">30</span> методик</div>
-				</div>
-				<div class="regist">
-					<div class="cypher-medium">Информационно<br>расчетные<br>задачи</div>
-					<div class="subdesc-p"><span class="bold">12</span> Задач для учета</div>
-				</div>
-			</div>
-			<div class="right-content">
-				<div class="first">
-					<div class="whiteline"></div>
-					<div class="ftitle">Распределенная Многопользовательская</div>
-					<div class="subdesc">Информационная Система</div>
-				</div>
-				<div class="second">
-
-					<div class="subleft">
-						<div class="stitle">Комплексный<br>конструктор</div>
-						<div class="subdesc">Отчетных ворд<br>документов</div>
-					</div>
-					<div class="subright">
-						<div class="stitle">Графовая</div>
-						<div class="subdesc">База данных</div>
-					</div>
-				</div>
-				<div class="third">
-					<div class="stitle">100+</div>
-					<div class="subdesc">Шаблонов<br>отчетов</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-
-<!--Собственность-->
-	<div id="own" class="section">
-		<div class="header-line">
-			<div class="left">
-				<div class="project-name">Собственность</div>
-				<div class="project-desc">Учет объектов и ведение имущественных<br>отношений</div>
-			</div>
-			<div class="right">
-				<div class="summ">45 <img class="big-ruble" src="img/big-ruble.png"></div>
-				<div class="measure">млн.</div>
-				<div class="m-desc-title">Сумма контрактов</div>
-				<div class="m-desc">В течении 2х лет</div>
-			</div>
-		</div>
-		<div class="content-line">
-			<div class="left-content">
-				<div class="keep">
-					<div class="whiteline"></div>
-					<div class="subtitle">Хранение<br>детализации</div>
-					<div class="subdesc">Объектов недвижимости<br>до уровня комнат</div>
-				</div>
-				<div class="line-2">
-					<div class="leftline">
-						<div class="subtitle">Отчеты по:</div>
-						<div class="subdesc">Финансовым<br>результатам<br>деятельности в части<br>аренды коммерческой
-						<br>недвижимости;</div>
-						<div class="subdesc">Отслеживанию<br>и контролю работы<br>пользователей<br>в системе.</div>
-					</div>
-					<div class="rightline">
-						<div class="subtitle">Автоматический<br>расчет</div>
-						<div class="subdesc">Стоимости договора<br>и начисление пени за<br>просроченную<br>задолженность</div>
-					</div>
-				</div>
-				<div class="line-3">
-					<div class="leftline">
-						<div class="subtitle">Ведение истории</div>
-						<div class="subdesc">Изменения объектов<br>учета и договоров</div>
-					</div>
-					<div class="rightline">
-						<div class="subtitle">Формирование<br>актов сверки</div>
-						<div class="subdesc">Задолженности<br>с арендаторами</div>
-					</div>
-				</div>
-			</div>
-			<div class="right-content">
-				<div class="first">
-					<div class="whiteline"></div>
-					<div class="ftitle">Ведение<br>договоров</div>
-					<div class="subdesc">Аренды и безвозмездного пользования с их дальнейшим согласованием в системе должностными лицами</div>
-				</div>
-				<div class="second">
-					
-					<div class="stitle">Гибкий поиск</div>
-					<div class="subdesc">По всем объектам<br>учета и договорам,<br>с возможностью<br>хранения истории<br>поиска</div>
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-
-
-<!--Порядок-->
-	<div id="order" class="section">
-		<div class="header-line">
-			<div class="left">
-				<div class="project-name">Порядок</div>
-				<div class="project-desc">Электронный документооборот</div>
-			</div>
-			<div class="right">
-				<div class="summ">15 <img class="big-ruble" src="img/big-ruble.png"></div>
-				<div class="measure">млн.</div>
-				<div class="m-desc-title">Сумма контрактов</div>
-				<div class="m-desc">В течении 1 года</div>
-			</div>
-		</div>
-		<div class="content-line">
-			<div class="left-content">
-				<div class="reg">
-					<div class="whiteline"></div>
-					<div class="subtitle">Регистрация</div>
-					<div class="subdesc">Контрагентов<br>и их представителей,</div>
-					<div class="subdesc">Входящих и исходящих<br>документов.</div>
-				</div>
-				<div class="plan">
-					<div class="leftline">
-						<div class="subtitle">Планирование</div>
-						<div class="subdesc">Деятельности<br>должностных лиц,</div>
-						<div class="subdesc">Отпусков.</div>
-					</div>
-					<div class="rightline">
-						<div class="subtitle">Потоковый ввод</div>
-						<div class="subdesc">Уведомление<br>о событиях,</div>
-						<div class="subdesc">Электронная подпись<br>документов,</div>
-						<div class="subdesc">Поддержка МЭДО,</div>
-						<div class="subdesc">Полнотекстовый<br>поиск,</div>
-						<div class="subdesc">Распознавание<br>текстов.</div>
-					</div>
-				</div>
-			</div>
-			<div class="right-content">
-				<div class="first">
-					<div class="whiteline"></div>
-					<div class="ftitle">Контроль</div>
-					<div class="subdesc">Исполнения резолюций и документов</div>
-				</div>
-				<div class="second">
-					<div class="whiteline"></div>
-					<div class="stitle">Комплексный<br>конструктор</div>
-					<div class="subdesc">Отчетных ворд<br>документов</div>
-				</div>
-				<div class="third">
-					<div class="leftline">
-						<div class="subtitle">Ведение<br>библиотеки</div>
-						<div class="subdesc">Типовых форм<br>документов<br>организации</div>
-					</div>
-					<div class="rightline">
-						<div class="subtitle">Договоры</div>
-						<div class="subdesc">Согласование<br>и работа</div>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-
-
-<!--Публичные проекты-->
-	<div id="public" class="section">
-		<div class="header-line">
-			<div class="left">
-				<div class="project-name">Публичные<br>проекты</div>
-			</div>
-			<div class="right">
-				<div class="putin"><img src="img/icons/putin.png"></div>
-				<div class="text">
-					<a class="udp" href="https://udprf.ru/">udprf.ru</a>
-					<div class="link-underline"></div>
-				</div>
-			</div>
-		</div>
-		<div class="link-line">
-			<div class="line-1">
-				<div class="link">
-					<div class="logo"><img src="img/icons/prlib.png"></div>
-					<div class="text"><a href="https://www.prlib.ru/">prlib.ru</a><div class="link-underline"></div></div>
-				</div>
-				<div class="link">
-					<div class="logo"><img src="img/icons/grcc.png"></div>
-					<div class="text"><a href="https://www.grcc.ru/">grcc.it</a><div class="link-underline"></div></div>
-				</div>
-				<div class="link">
-					<div class="logo"><img src="img/icons/vipmed.png"></div>
-					<div class="text"><a href="https://vipmed.ru/">vipmed.ru</a><div class="link-underline"></div></div>
-				</div>
-				
-			</div>
-			<div class="line-2">
-				<div class="link">
-					<div class="logo"><img src="img/icons/kremlin.png"></div>
-					<div class="text"><a href="https://kremlin-product.ru/">kremlin-product.ru</a><div class="link-underline"></div></div>
-				</div>
-				<div class="link">
-					<div class="logo"><img src="img/icons/cfpo-ud.png"></div>
-					<div class="text"><a href="http://cfpo-ud.ru/">cfpo-ud.ru</a><div class="link-underline"></div></div>
-				</div>
-				<div class="link">
-					<div class="logo"><img src="img/icons/fond-udprf.png"></div>
-					<div class="text"><a href="http://fond-udprf.ru/">fond-udprf.ru</a><div class="link-underline"></div></div>
-				</div>
-			</div>
-			
-
-			
-		</div>
-	</div>	
-
-<!--Почта-->
-	<div id="mail" class="section">
-		<div class="email">
-			<a href="mailto:m.nichiporchuk@gmail.com">m.nichiporchuk@gmail.com</a>
-		</div>
-		<div class="desc">
-			<div class="whiteline"></div>
-			<div class="text">Присылайте предложения<br>о сотрудничестве на почту</div>
-		</div>
-	</div>
-
-
-
-+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter48357935 = new Ya.Metrika2({ id:48357935, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ut:"noindex" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/48357935?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
-
-</body>
-
+  </body>
 </html>
-

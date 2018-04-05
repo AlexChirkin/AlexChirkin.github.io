@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
+.my-btn {
+//@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+@include button-variant(red, white, blue, #33de8a);
+}
+
+.form-control::-webkit-input-placeholder { color: #888888; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+.nav-link {
+  font-size: 16px;
+  font-family: "QuicksandBook";
+  color: rgb(255, 255, 255);
+
+}
+
+
+.search_icon {
+   background-image: url(../img/search-icon.png);
+   background-repeat: no-repeat;
+   background-color: white;
+   border: none;
+   border-radius: 10px;
+
+ }
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: #275aff;
+}
+
+li a:hover:not(.active) {
+    background-color: #33de8a;
+    color: white;
+    border-radius: 15px;
+    max-height: 35px;
+    min-height: 35px;
+}
+
+.Gradicyan_Template_Design {
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.567;
+    text-align: center;
+
+}
+
+.Balloons_Decoration {
+    font-size: 20px;
+    font-family: 'Quicksand:700', sans-serif;
+    color: rgb(30, 32, 32);
+    line-height: 0;
+    text-align: center;
+}
+
+.Dolor_sit_amet__consectetur_adipisicing_elit__s {
+    font-size: 14px;
+    color: rgb(107, 107, 107);
+    line-height: 1.571;
+    text-align: center;
+
+}
+
+.PROJECT {
+    font-size: 20px;
+    font-family: 'Quicksand:400', sans-serif;
+    color: rgb(30, 32, 32);
+    line-height: 1.1;
+    text-align: center;
+
+}
+
+.What_We_Do {
+    font-size: 35px;
+    font-family: 'Quicksand:400', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.514;
+    text-align: left;
+
+}
+
+.Consectetur_adipisicing_elit__sed_do_eiusmod_ {
+    font-size: 15px;
+
+    color: rgb(208, 207, 207);
+    text-transform: uppercase;
+    line-height: 1.4;
+    text-align: left;
+
+}
+
+.Ut_enim_ad_minim_veniam__quis_nostrud_exercitat {
+    font-size: 14px;
+    color: rgb(207, 207, 207);
+    line-height: 1.643;
+    text-align: left;
+
+}
+
+.Contact_Us_Today {
+    font-size: 35px;
+    font-family: 'Quicksand:400', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.asdasd {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.571;
+    text-align: center;
+
+}
+
+.contact {
+    border-radius: 25px;
+    background: none;
+    font-size: 14px;
+    color: rgb(207, 207, 207);
+    border-color: white;
+}
+
+.contact_bg {
+
+    background-image: url(../img/bg_contact.png);
+
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #cecaff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+
