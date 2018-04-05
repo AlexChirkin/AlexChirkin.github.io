@@ -34,6 +34,10 @@ body {
 	display: none;
 }
 
+.no-pb {
+	padding-bottom: 0!important;
+}
+
 #nichiporchuk {
 	min-height: 900px;
 	background-image: url(../img/bg-nichi.png);
@@ -2739,6 +2743,10 @@ min-height: 1000px;
 	flex-direction: column;
 }
 
+#tech .left-side .tech-symph {
+	padding-top: 0;
+}
+
 #tech .content .right-side {
 	margin-top: 50px;
 }
@@ -2805,6 +2813,8 @@ html {
 
 
 @media screen and (max-width: 933px){
+
+
 
 .small .width-50 {
 	width: 40%;
@@ -3087,6 +3097,10 @@ height: 100%;
 	margin-bottom: 4px;
 }
 
+.apache {
+	margin-bottom: -7px;
+}
+
 }
 
 
@@ -3259,6 +3273,10 @@ html {
 	font-size: 10px;
 }
 
+.apache {
+    margin-bottom: -5px;
+}
+
 #team .about-1 {
 	top: 60px;
 	left: 42px;
@@ -3363,6 +3381,10 @@ html {
 #public .header-line .link-underline {
     width: 148px;
     margin-left: 82px;
+}
+
+.tm-name {
+	margin-left: -1px;
 }
 
 }
