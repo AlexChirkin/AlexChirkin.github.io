@@ -174,7 +174,9 @@ line-height: 1;
 }
 
 
-
+#secret .secret-block {
+	margin-top: 0!important;
+}
 
 
 #team {
@@ -1062,7 +1064,6 @@ width: 400px;
 min-width: 100%;
 min-height: 9px;
 background-color: #fff;
-margin-bottom: 5px;
 }
 
 #team .principles {
@@ -2703,6 +2704,10 @@ height: unset;
 	display: none;
 }
 
+.content-line .right-content .cypher-medium {
+	    color: #fff;
+    font-family: "ProximaNova-Black";
+}
 .right-side .hide {
 	display: block;
 }
@@ -3077,7 +3082,7 @@ html {
 @media screen and (max-width: 933px){
 
 
-
+#supply .content-line .right-content .first .ftitle
 
 #service .header-line .right .summ .big-ruble {
 
@@ -3176,6 +3181,8 @@ margin-left: 113px;
 
 .content-line .left-content .cypher-medium,
 #service .right-content .third .stitle,
+.content-line .right-content .cypher-medium
+
 {
 	font-size: 2.667rem;
 }
@@ -3293,6 +3300,11 @@ html {
 font-size: 16px;
 }
 
+#public .link-line .link-big {
+    height: 21px;
+    margin-bottom: 4px;
+}
+
 #own .content-line .left-content .line-2 .rightline, #own .content-line .left-content .line-3 .rightline {
 margin-left: 50px;
 }
@@ -3329,6 +3341,10 @@ margin-left: 155px;
 
 #order .header-line .right .measure, #order .header-line .right .m-desc-title, #order .header-line .right .m-desc {
 	margin-left: 139px;
+}
+
+#supply .content-line .right-content .first .subdesc,#own .content-line .right-content .first .subdesc {
+	width: 58vw;
 }
 
 .header-line .right .measure {
@@ -3402,6 +3418,39 @@ margin-left: 155px;
 	top:23px;
 }
 
+#supply .content-line .right-content .third, #supply .content-line .right-content .second,#service .right-content .second, #service .right-content .third,#own .content-line .right-content .second,#order .content-line .right-content .third,#order .content-line .left-content .plan,#own .content-line .left-content .line-2,#own .content-line .left-content .line-3,#service .left-content .user,#supply .content-line .left-content .user {
+	margin-top: 30px!important
+}
+
+#own .content-line .left-content, #supply .content-line .left-content, #service .content-line .left-content, #order .content-line .left-content {
+	padding: 0!important;
+	margin-top: 50px!important;
+}
+
+#supply .content-line .right-content .first .ftitle,#service .content-line .right-content .first .ftitle,#serice .content-line .left-content .cypher-big,#own .content-line .right-content .first .ftitle,#order .content-line .right-content .first .ftitle, #order .content-line .right-content .stitle,#order .content-line .left-content .reg .subtitle,.content-line .left-content .keep .subtitle {
+	margin-top: 10px!important;
+	line-height: 0.85!important;
+}
+
+#order .content-line .left-content .reg .subdesc, #order .content-line .left-content .plan .subdesc{
+	padding-bottom: 10px!important
+}
+
+#order .content-line .left-content .reg .subtitle,#order .content-line .left-content .plan .subtitle {
+	padding-bottom: 0;
+}
+
+.content-line .subdesc{
+
+}
+
+#order .content-line .right-content .third .subtitle {
+	padding-bottom: 0;
+}
+
+#service .left-content .regist,#supply .content-line .left-content .regist {
+	margin-top: 0;
+}
 .header-line .right .measure, .header-line .right .m-desc-title, .header-line .right .m-desc {
 margin-left: 155px;
 }
@@ -3428,7 +3477,7 @@ margin-left: 155px;
 }
 
 #team .about-1 {
-	top: 90px;
+	top: 100px;
 }
 
 #embodiment .our-name, #team .title, #fullstack .head-title, .header-line .left .project-name, #own .header-line .left .project-name {
@@ -3441,6 +3490,11 @@ margin-left: 155px;
 
 #service .header-line .right .summ {
 	font-size: 6rem;
+}
+
+#supply .content-line .left-content .cypher-big {
+	font-size: 6rem;
+	margin-top: 10px!important;
 }
 
 .content-line .left-content .cypher-big {
@@ -3463,7 +3517,8 @@ margin-left: 155px;
 .content-line .right-content .ftitle,
 .content-line .right-content .stitle,
 #service .content-line .right-content .first .ftitle,
-#service .left-content .subsystem .subtitle {
+#service .left-content .subsystem .subtitle,
+#order .content-line .left-content .reg .subtitle {
 	font-size: 2.4rem;
 }
 
@@ -3545,9 +3600,6 @@ height: 100%;
 	width: 80vw;
 }
 
-#supply .content-line .right-content .first .ftitle, #supply .content-line .left-content .cypher-big,#service .content-line .right-content .first .ftitle,#serice .content-line .left-content .cypher-big,#own .content-line .right-content .first .ftitle,#order .content-line .right-content .first .ftitle, #order .content-line .right-content .stitle,#order .content-line .left-content .reg .subtitle {
-	margin-top: 10px;
-}
 
 #fullstack .desc, {
 	width: 80vw;
@@ -3615,6 +3667,14 @@ height: 100%;
 	margin-left: 0;
 }
 
+#service .left-content .regist {
+	margin-top: 30px!important;
+}
+
+#supply .content-line .left-content .regist {
+	margin-top: 30px;
+}
+
 }
 
 
@@ -3661,7 +3721,6 @@ html {
 .header-line .right .m-desc-title,
 .header-line .right .m-desc,
 .content-line .subdesc,
-.content-line .left-content .subtitle,
 .content-line .subdesc,
 .subdesc-p,
 #tech .block .title,
@@ -3670,9 +3729,21 @@ html {
 	font-size: 1.2rem;
 }
 
+#service .right-content .second .subleft {
+	width: 141px;
+}
+#service .right-content .second .subright {
+	margin-left: 90px;
+}
+
+#public .link-line .link-big {
+    height: 15px;
+    margin-bottom: 5px;
+}
+
 #order .content-line .right-content .third .leftline, #order .content-line .left-content .plan .leftline {
-min-width: 150px;
-width: 150px;
+min-width: 140px;
+width: 140px;
 }
 
 #order .content-line .right-content .third .rightline, #order .content-line .left-content .plan .rightline{
@@ -3841,6 +3912,15 @@ width: 80%;
 
 html {
 	font-size: 10px;
+}
+
+.tilda {
+    top: 16px;
+}
+
+#public .link-line .link-big {
+    height: 11px;
+    margin-bottom: 6px;
 }
 
 #public .right {
@@ -4031,6 +4111,19 @@ html {
 	width: 61px;
 }
 
+#service .right-content .second .subleft {
+	width: 141px;
+}
+#service .right-content .second .subright {
+	margin-left: 0;
+}
+.tilda {
+    top: 11px;
+}
+
+.header-line .right .measure {
+	padding-top: 5px;
+}
 #order .content-line .right-content .third .rightline, #order .content-line .left-content .plan .rightline {
 	margin-left: 0;
 }
