@@ -3395,6 +3395,7 @@ margin-left: 155px;
     background-size: cover;
     background-position-x:-160px;
     height: 100vh;
+    min-height: 100vh;
 }
 
 .tilda {
@@ -3727,8 +3728,9 @@ width: 150px;
 
 #mail {
     background-size: cover;
-    background-position-x:-396px;
+    background-position-x:-220px;
     height: 100vh;
+    min-height: 100vh;
 }
 
 #public .udp {
