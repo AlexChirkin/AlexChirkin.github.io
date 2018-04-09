@@ -1114,6 +1114,10 @@ background-size: cover;
     padding-top: 20px;
 }
 
+#stand-alone .head-title .title{
+margin-top: 15px;
+}
+
 #stand-alone .opttext {
 line-height: 1;
 color: #fff;
@@ -4118,6 +4122,9 @@ html {
 	font-size: 10px;
 }
 
+#stand-alone .head-title .title {
+	margin-top: unset;
+}
 
 
 .tilda {
