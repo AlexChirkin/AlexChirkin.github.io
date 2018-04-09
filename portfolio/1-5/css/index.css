@@ -42,6 +42,20 @@ html {
 	padding-bottom: 0!important;
 }
 
+.people-link {
+font-family: "ProximaNova-Reg";
+color: #000;
+border-bottom: 1px solid;
+border-color: rgba(69,105,144, .3);
+}
+
+.people-link:hover{
+color: rgba(2, 169, 234, 1);
+text-decoration: none;
+color: rgb(244,91,105);
+border-color: rgb(244,91,105);
+}
+
 .link-big {
     margin-left: 8px;
     display: none;
@@ -181,7 +195,6 @@ line-height: 1;
 
 #team {
 min-height: 900px;
-z-index: -4;
 position: relative;
 background-image: url(../img/bg-team.png);	
 }
