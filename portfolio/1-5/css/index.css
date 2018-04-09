@@ -1186,12 +1186,27 @@ padding-top: 20px;
 #tech .content {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 80px;
+	padding-top: 30px;
 	padding-bottom: 100px;
 }
 
 #tech .left-side {
 
+}
+
+#tech .right-side {
+padding-top: 125px;
+}
+
+#tech .tech-laravel {
+	    margin-top: 60px;
+    padding-left: 49px;
+}
+
+#tech .tech-laravel .ldesc {
+	width: 435px;
+    margin-left: 100px;
+    margin-top: 70px;
 }
 
 #tech .left-side .tech-drupal{
@@ -2485,6 +2500,10 @@ color: #f45b69;
 	display: none;
 }
 
+#mail {
+	background-size: cover;
+}
+
 #service .header-line .right .summ .big-ruble {
     height: 90px;
     margin-bottom: 25px;
@@ -3016,6 +3035,18 @@ min-height: 1000px;
 	padding-top: 0;
 }
 
+#tech .left-side .tech-laravel {
+	margin-top: 30px;
+}
+
+#tech .left-side .tech-laravel .ldesc{
+	margin-top: 0;
+}
+
+#tech .right-side {
+	padding-top: 0;
+}
+
 #tech .content .right-side {
 	margin-top: 50px;
 }
@@ -3152,7 +3183,8 @@ margin-left: 113px;
 .content-line .subdesc,
 .subdesc-p,
 #tech .block .title,
-#service .left-content .subdesc-p
+#service .left-content .subdesc-p,
+.ldesc
  {
 	font-size: 1rem;
 }
@@ -3407,11 +3439,8 @@ margin-left: 155px;
 
 @media screen and (max-width: 795px){
 
-	#mail {
-    background-size: cover;
-    background-position-x:-160px;
-    height: 100vh;
-    min-height: 100vh;
+#mail {
+	min-height: 100vh;
 }
 
 .tilda {
@@ -3585,6 +3614,10 @@ height: 100%;
 
 @media screen and (max-width: 795px){ 
 
+	#tech .tech-laravel .ldesc {
+		width: unset
+	}
+
 #secret {
 	background-position-x: -153px;
 }
@@ -3699,6 +3732,30 @@ html {
 	font-size: 12px;
 }
 
+#tech .left-side .tech-drupal img{
+	width: 250px;
+}
+
+#tech .left-side .tech-symph {
+	padding-left: 49px;
+}
+
+#tech .left-side .tech-symph img {
+	width: 170px;
+}
+
+#tech .left-side .tech-laravel {
+	padding-left: 29px;
+}
+
+#tech .left-side .tech-laravel img {
+	width: 160px;
+}
+
+#tech .left-side .tech-laravel .ldesc {
+	margin-left: 75px;
+}
+
 #team .about-1,
 #team .principles .title,
 #team .principles .list,
@@ -3725,7 +3782,8 @@ html {
 .content-line .subdesc,
 .subdesc-p,
 #tech .block .title,
-#service .left-content .subdesc-p
+#service .left-content .subdesc-p,
+.ldesc
  {
 	font-size: 1.2rem;
 }
@@ -3798,12 +3856,7 @@ width: 140px;
 	margin-top: 10px;
 }
 
-#mail {
-    background-size: cover;
-    background-position-x:-220px;
-    height: 100vh;
-    min-height: 100vh;
-}
+
 
 #public .udp {
     font-size: 6rem;
@@ -3914,6 +3967,8 @@ width: 80%;
 html {
 	font-size: 10px;
 }
+
+
 
 .tilda {
     top: 16px;
@@ -4106,6 +4161,10 @@ html {
 	html {
 		font-size: 8px;
 		overflow-x: hidden;
+	}
+
+	#team .about-1 {
+		top: 45px;
 	}
 
 	.resume .v-underline {
