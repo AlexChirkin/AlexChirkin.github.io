@@ -1106,6 +1106,10 @@ background-size: cover;
 
 }
 
+#stand-alone .content .rightside {
+	position: relative;
+}
+
 #stand-alone .head-title {
     color: #fff;
     font-family: "ProximaNova-Black";
