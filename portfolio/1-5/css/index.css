@@ -1093,6 +1093,78 @@ font-family: "ProximaNova-Reg";
 font-size: 18px;	
 }
 
+#stand-alone {
+min-height: 900px;
+background-image: url(../img/bg-standalone.png);
+padding-left: 4vw;
+padding-right: 6vw;
+background-repeat: no-repeat;
+background-position: bottom left;
+background-color: #faffd1;
+padding-bottom: 50px;
+background-size: cover;
+
+}
+
+#stand-alone .head-title {
+    color: #fff;
+    font-family: "ProximaNova-Black";
+    font-size: 100px;
+    line-height: 0.8;
+    padding-top: 20px;
+}
+
+#stand-alone .opttext {
+line-height: 1;
+color: #fff;
+font-family: "ProximaNova-Bold";
+font-size: 24px;		
+}
+
+#stand-alone .content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+
+
+#stand-alone .content .opt{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+#stand-alone .content .opticon{
+width: 60px;
+}
+
+#stand-alone .content .opt:nth-child(2),#stand-alone .content .opt:nth-child(6){
+margin-top: 30px;
+}
+
+#stand-alone .content .opt:nth-last-child(1){
+	margin-bottom: 0;
+}
+
+#stand-alone .content .opt-bottom .opttext{
+margin-top: 15px;
+}
+
+#stand-alone .content .opt-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+#stand-alone .content .opt .opttext{
+	margin-left: 10px;
+}
+
+#stand-alone .content .leftside {
+	margin-left: 11.5vw;
+	position: relative;
+} 
+
 
 #fullstack {
 min-height: 900px;
@@ -2504,6 +2576,33 @@ color: #f45b69;
 	background-size: cover;
 }
 
+#stand-alone {
+    background-size: 100% 100%;
+}
+
+#stand-alone .content {
+	flex-direction: column;
+	width: 50vw;
+}
+
+#stand-alone .content .opt-bottom {
+	bottom: unset;
+	position: relative;
+	margin-top: 100px;
+}
+
+#stand-alone .content .leftside{
+	margin-left: 0;
+}
+
+#stand-alone .content .rightside{
+	margin-top: 40px;
+}
+
+#stand-alone .content .opt .opttext,#stand-alone .content .opt-bottom .opttext {
+	font-size: 1.4rem;
+}
+
 #service .header-line .right .summ .big-ruble {
     height: 90px;
     margin-bottom: 25px;
@@ -3121,6 +3220,10 @@ html {
     margin-bottom: 20px;	
 }
 
+#stand-alone .content {
+	margin-top: 50px;
+}
+
 #service .header-line .right .measure, #service .header-line .right .m-desc-title, #service .header-line .right .m-desc {
 	margin-left: 165px;
 }
@@ -3154,6 +3257,10 @@ margin-left: 113px;
 #own .header-line .left .project-name
 {
     font-size: 5.556rem;
+}
+
+#stand-alone .head-title {
+	font-size: 4.4rem;
 }
 
 #team .about-1,
@@ -3688,6 +3795,45 @@ height: 100%;
     font-size: 4rem;
 }
 
+#stand-alone .head-title {
+	font-size: 3.5rem;
+}
+
+#stand-alone .content .opt-bottom {
+
+	margin-top: 50px;
+}
+
+#stand-alone .content {
+	width: 80vw;
+	margin-top: 25px;
+}
+
+#stand-alone .content .opt:nth-child(2), #stand-alone .content .opt:nth-child(6) {
+	margin-top: 20px;
+}
+
+#stand-alone .content .opt {
+	margin-bottom: 25px;
+}
+
+#stand-alone .content .rightside {
+	margin-top: 25px;
+}
+
+
+#stand-alone .content .opticon{
+	width: 45px;
+}
+
+#stand-alone .content img{
+	width: 70%;
+}
+
+#stand-alone .content .opt .opttext {
+	margin-left: 0;
+}
+
  }
 
 
@@ -3730,6 +3876,10 @@ width: 210px;
 
 html {
 	font-size: 12px;
+}
+
+#stand-alone {
+	min-height: unset;
 }
 
 #tech .left-side .tech-drupal img{
@@ -4152,6 +4302,18 @@ html {
 
 #own .content-line .right-content .second {
 	margin-top: 10px;
+}
+
+#stand-alone .content .opt:nth-child(2), #stand-alone .content .opt:nth-child(6) {
+	margin-top: 20px;
+}
+
+#stand-alone .content .opt {
+	margin-bottom: 15px;
+}
+
+#stand-alone .content .rightside {
+	margin-top: 20px;
 }
 
 }
