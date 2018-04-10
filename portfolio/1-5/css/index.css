@@ -2598,9 +2598,8 @@ color: #f45b69;
 }
 
 #stand-alone {
-    background-size: 100% 100%;
+	background-position-x:-100px;
 }
-
 #stand-alone .content {
 	flex-direction: column;
 	width: 50vw;
@@ -3458,6 +3457,10 @@ margin-left: 220px;
 
 html {
 font-size: 16px;
+}
+
+#stand-alone {
+	background-position-x:-200px;
 }
 
 #public .link-line .link-big {
