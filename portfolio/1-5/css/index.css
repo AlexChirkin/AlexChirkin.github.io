@@ -183,7 +183,7 @@ line-height: 1;
     width: 425px;
     position: absolute;
     bottom: 50px;
-    right: 75px;   
+    right: 67px;   
 }
 
 #embodiment .boss-mail .top-line {
@@ -212,18 +212,27 @@ text-decoration: none;
 }
 
 .sticky-wrapper.is-sticky .sctop {
-    right: 75px;
-    width: 83px!important;
+    right: 16px;
+    width: 100px!important;
+}
+
+.sticky-wrapper.is-sticky .sctop .arrow-to-top{
+    width: 50px;
+}
+
+.sticky-wrapper.is-sticky .sctop .boxmail{
+    width: 50px;
 }
 
 .sticky-wrapper.is-sticky .sctop img{
-    opacity: 0.2;
+    opacity: 0.35;
 }
 
 .sticky-wrapper.is-sticky .sctop:hover{
     display: flex;
-    margin-right: 90px;
     cursor: pointer;
+    margin-right: 50px;
+    align-items: center;
 }
 
 .sticky-wrapper.is-sticky .sctop:hover img{
@@ -3992,6 +4001,19 @@ height: 100%;
 	margin-top: 30px;
 }
 
+#embodiment .boss-mail {
+    right: unset;
+    width: 80vw;
+}
+
+.sticky-wrapper.is-sticky .sctop {
+    right: 15px;
+    width: unset!important;
+}
+.sticky-wrapper.is-sticky .sctop:hover {
+    margin-right: 0;
+}
+
 }
 
 
@@ -4013,6 +4035,10 @@ width: 210px;
 
 html {
 	font-size: 12px;
+}
+
+#embodiment .boss-mail .boxmail {
+    width: 50px;
 }
 
 #stand-alone {
@@ -4541,6 +4567,22 @@ margin-left: 50px;
 
 #own .content-line .left-content .line-2 .leftline, #own .content-line .left-content .line-3 .leftline {
 	width: 150px;
+}
+
+#embodiment .boss-mail .boxmail {
+    width: 30px;
+}
+.sticky-wrapper.is-sticky .sctop .arrow-to-top {
+    width: 35px;
+}
+
+.sticky-wrapper.is-sticky .sctop:hover {
+    margin-right: -11px;
+}
+
+.sticky-wrapper.is-sticky .sctop {
+
+    margin-right: -11px!important;
 }
 
 }
