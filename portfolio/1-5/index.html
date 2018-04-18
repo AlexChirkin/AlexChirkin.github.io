@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <script type="text/javascript" src="js/scrollify/jquery.scrollify.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
 <title>Воплощение | Бригада разработчиков </title>
 <!--<script>
         $(function() {
@@ -25,7 +26,18 @@
 <!--Воплощение-->
 	 <div id="embodiment" class="slide section">
 	 	<div class="our-name">Бригада<br>разработчиков</div>
-	 	<div class="tank"><img src="img/tank.png"></div>
+
+	 	<div class="boss-mail"">
+		  <div class="top-line">
+		  	<a href="mailto:boss@itsf.pro">boss@itsf.pro</a>
+		  	<div class="sctop" id="sticker">
+		  		<a href="#embodiment" class="scroll"><img class="arrow-to-top" src="img/icons/arrow-to-top.png"></a>
+		  		<a href="#embodiment" class="scroll"><img src="img/icons/mailbox.png"></a>
+		  	</div>
+		  </div>
+		  <div class="whiteline"></div>
+		</div>
+
 	 </div>
 
 <!--Команда-->
@@ -167,7 +179,25 @@
  				</div>
  				<div class="tech-symph"><img src="img/tech-symfony.png"></div>
  				<div class="tech-laravel"><div class="tech-llogo"><img src="img/logo-laravel-big.png"></div>
- 					<div class=" ldesc desc">Опыт разработки более 6 лет, 119 проектов разного уровня сложности, 57 разработанных универсальных модулей</div></div>
+ 					<div class=" ldesc desc">
+ 						<div class="line-1">
+ 							<div class="parent">
+ 								<div class="year">6</div>
+ 								<div class="children">
+ 									<div class="top">Лет</div>
+ 									<div class="bottom">Опыт<br>разработки</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 						<div class="line-2 xyz">
+ 							<div class="parent">119</div>
+ 							<div class="bottom">Проектов<br>разного уровня<br>сложности</div>
+ 						</div>
+ 						<div class="line-3 xyz">
+ 							<div class="parent">57</div>
+ 							<div class="bottom">Разработанных<br>универсальных<br>модулей</div>
+ 						</div>
+ 					</div></div>
  			</div>
 
 	 		<div class="right-side">
@@ -185,7 +215,7 @@
 			 		<div class="title">Веб-серверы:</div>
 			 		<div class="items">Apache, Nginx</div>
 			 		<div class="title">Инструменты:</div>
-			 		<div class="items">JIRA Software, JIRA Service Desk, Confluence, Redmine, GitLab, PhpStorm, WebStorm, PyCharm</div>	
+			 		<div class="items">JIRA Software, JIRA Service Desk, Confluence, Redmine, GitLab, PhpStorm, WebStorm, PyCharm, Docker</div>	
 			 	</div>
 	 		</div>
  			
@@ -1230,64 +1260,6 @@
 
 
 
-<!--Публичные проекты-->
-	<div id="public" class="section">
-		<div class="header-line">
-			<div class="left">
-				<div class="project-name">Публичные<br>проекты</div>
-			</div>
-			<div class="right">
-				<div class="putin"><img src="img/icons/putin.png"></div>
-				<div class="text">
-					<a class="udp" href="https://udprf.ru/">udprf.ru</a>
-					<div class="link-underline"></div>
-				</div>
-				<img class="link-big" src="img/icons/link-big.png">
-			</div>
-		</div>
-		<div class="link-line">
-			<div class="line-1">
-				<div class="link">
-					<div class="logo"><img src="img/icons/prlib.png"></div>
-					<div class="text"><a href="https://www.prlib.ru/" target="_blank">prlib.ru</a><div class="link-underline"></div></div>
-					<img class="link-big" src="img/icons/link-big.png">
-				</div>
-				<div class="link">
-					<div class="logo"><img src="img/icons/grcc.png"></div>
-					<div class="text"><a href="https://www.grcc.ru/" target="_blank">grcc.it</a><div class="link-underline"></div></div>
-					<img class="link-big" src="img/icons/link-big.png">
-				</div>
-				<div class="link">
-					<div class="logo"><img src="img/icons/vipmed.png"></div>
-					<div class="text"><a href="https://vipmed.ru/" target="_blank">vipmed.ru</a><div class="link-underline"></div></div>
-					<img class="link-big" src="img/icons/link-big.png">
-				</div>
-				
-			</div>
-			<div class="line-2">
-				<div class="link">
-					<div class="logo"><img src="img/icons/kremlin.png"></div>
-					<div class="text"><a href="https://kremlin-product.ru/" target="_blank">kremlin-product.ru</a><div class="link-underline"></div></div>
-					<img class="link-big" src="img/icons/link-big.png">
-				</div>
-				<div class="link">
-					<div class="logo"><img src="img/icons/cfpo-ud.png"></div>
-					<div class="text"><a href="http://cfpo-ud.ru/" target="_blank">cfpo-ud.ru</a><div class="link-underline"></div></div>
-					<img class="link-big" src="img/icons/link-big.png">
-				</div>
-				<div class="link">
-					<div class="logo"><img src="img/icons/fond-udprf.png"></div>
-					<div class="text"><a href="http://fond-udprf.ru/" target="_blank">fond-udprf.ru</a><div class="link-underline"></div></div>
-					<img class="link-big" src="img/icons/link-big.png">
-				</div>
-			</div>
-			
-
-			
-		</div>
-	</div>	
-
-	
 <!--Снабжение-->
 	<div id="supply" class="section">
 		<div class="header-line">
@@ -1527,12 +1499,67 @@
 		</div>
 	</div>
 
+<!--Публичные проекты-->
+	<div id="public" class="section">
+		<div class="header-line">
+			<div class="left">
+				<div class="project-name">Публичные<br>проекты</div>
+			</div>
+			<div class="right">
+				<div class="putin"><img src="img/icons/putin.png"></div>
+				<div class="text">
+					<a class="udp" href="https://udprf.ru/">udprf.ru</a>
+					<div class="link-underline"></div>
+				</div>
+				<img class="link-big" src="img/icons/link-big.png">
+			</div>
+		</div>
+		<div class="link-line">
+			<div class="line-1">
+				<div class="link">
+					<div class="logo"><img src="img/icons/prlib.png"></div>
+					<div class="text"><a href="https://www.prlib.ru/" target="_blank">prlib.ru</a><div class="link-underline"></div></div>
+					<img class="link-big" src="img/icons/link-big.png">
+				</div>
+				<div class="link">
+					<div class="logo"><img src="img/icons/grcc.png"></div>
+					<div class="text"><a href="https://www.grcc.ru/" target="_blank">grcc.it</a><div class="link-underline"></div></div>
+					<img class="link-big" src="img/icons/link-big.png">
+				</div>
+				<div class="link">
+					<div class="logo"><img src="img/icons/vipmed.png"></div>
+					<div class="text"><a href="https://vipmed.ru/" target="_blank">vipmed.ru</a><div class="link-underline"></div></div>
+					<img class="link-big" src="img/icons/link-big.png">
+				</div>
+				
+			</div>
+			<div class="line-2">
+				<div class="link">
+					<div class="logo"><img src="img/icons/kremlin.png"></div>
+					<div class="text"><a href="https://kremlin-product.ru/" target="_blank">kremlin-product.ru</a><div class="link-underline"></div></div>
+					<img class="link-big" src="img/icons/link-big.png">
+				</div>
+				<div class="link">
+					<div class="logo"><img src="img/icons/cfpo-ud.png"></div>
+					<div class="text"><a href="http://cfpo-ud.ru/" target="_blank">cfpo-ud.ru</a><div class="link-underline"></div></div>
+					<img class="link-big" src="img/icons/link-big.png">
+				</div>
+				<div class="link">
+					<div class="logo"><img src="img/icons/fond-udprf.png"></div>
+					<div class="text"><a href="http://fond-udprf.ru/" target="_blank">fond-udprf.ru</a><div class="link-underline"></div></div>
+					<img class="link-big" src="img/icons/link-big.png">
+				</div>
+			</div>
+			
 
+			
+		</div>
+	</div>	
 
 <!--Почта-->
 	<div id="mail" class="section">
 		<div class="email">
-			<a href="mailto:m.nichiporchuk@gmail.com">example@gmail.com</a>
+			<a href="mailto:boss@itsf.pro">boss@itsf.pro</a>
 		</div>
 		<div class="desc">
 			<div class="whiteline"></div>

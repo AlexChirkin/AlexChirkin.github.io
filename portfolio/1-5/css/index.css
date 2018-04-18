@@ -179,7 +179,60 @@ line-height: 1;
     right: 75px;
 }
 
+#embodiment .boss-mail {
+    width: 425px;
+    position: absolute;
+    bottom: 50px;
+    right: 75px;   
+}
 
+#embodiment .boss-mail .top-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+#embodiment .boss-mail .arrow-to-top{
+display: none;
+z-index: 50;
+padding-right: 15px;
+}
+
+#embodiment .boss-mail .top-line a {
+    font-size: 2.666rem;
+    color: #fff;
+    font-family: "ProximaNova-Bold";
+    line-height: 1.1;
+
+}
+#embodiment .boss-mail .top-line a:hover {
+text-decoration: none;
+    color: #f45b69;
+}
+
+.sticky-wrapper.is-sticky .sctop {
+    right: 75px;
+    width: 83px!important;
+}
+
+.sticky-wrapper.is-sticky .sctop img{
+    opacity: 0.2;
+}
+
+.sticky-wrapper.is-sticky .sctop:hover{
+    display: flex;
+    margin-right: 90px;
+    cursor: pointer;
+}
+
+.sticky-wrapper.is-sticky .sctop:hover img{
+    opacity: 1;
+}
+
+.sticky-wrapper.is-sticky .sctop:hover .arrow-to-top{
+    display: inline-flex!important;
+}
 
 @media screen and (max-width: 990px) { 
 #embodiment {
@@ -1297,9 +1350,60 @@ padding-top: 125px;
 }
 
 #tech .tech-laravel .ldesc {
-	width: 435px;
+	width: 600px;
     margin-left: 100px;
     margin-top: 70px;
+    display: flex;
+}
+
+#tech .tech-laravel .ldesc .line-1 .parent{
+display: flex;
+position: relative;
+}
+
+#tech .tech-laravel .ldesc .line-1 .parent .year{
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 7.222rem;
+line-height: 0.8;
+}
+
+#tech .tech-laravel .ldesc .line-1 .parent .children{
+margin-left: 10px;
+}
+
+#tech .tech-laravel .ldesc .line-1 .parent .top{
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 1.333rem;
+line-height: 1.05;
+
+}
+
+#tech .tech-laravel .ldesc .line-1 .bottom {
+    margin-top: 30px;
+}
+
+#tech .tech-laravel .ldesc .xyz .bottom {
+    margin-top: 15px;
+}
+
+#tech .tech-laravel .ldesc .xyz {
+    margin-left: 70px;
+}
+
+#tech .tech-laravel .ldesc .bottom{
+color: #fff;
+font-family: "ProximaNova-Bold";
+font-size: 1rem;
+line-height: 1.2;
+}
+
+#tech .tech-laravel .ldesc .xyz .parent{
+color: #fff;
+font-family: "ProximaNova-Black";
+font-size: 3.333rem;
+line-height: 0.8;
 }
 
 #tech .left-side .tech-drupal{
@@ -2597,6 +2701,16 @@ color: #f45b69;
 	background-size: cover;
 }
 
+#tech .tech-laravel .ldesc {
+    flex-direction: column;
+    width: unset;
+}
+
+#tech .tech-laravel .ldesc .xyz {
+    margin-left: 0;
+    margin-top: 40px;
+}
+
 #stand-alone {
 	background-position-x:-100px;
 }
@@ -3159,7 +3273,7 @@ min-height: 1000px;
 }
 
 #tech .left-side .tech-laravel .ldesc{
-	margin-top: 0;
+	margin-top: 50px;
 }
 
 #tech .right-side {
@@ -3168,6 +3282,7 @@ min-height: 1000px;
 
 #tech .content .right-side {
 	margin-top: 50px;
+    padding-left: 150px;
 }
 
 .head, .pt {
@@ -3463,6 +3578,10 @@ font-size: 16px;
 	background-position-x:-200px;
 }
 
+#tech .tech-laravel .ldesc .line-1 .bottom {
+    margin-top: 27px;
+}
+
 #public .link-line .link-big {
     height: 21px;
     margin-bottom: 4px;
@@ -3536,9 +3655,6 @@ margin-left: 155px;
 	font-size: 4rem;
 }
 
-#mail .email a {
-	font-size: 3rem;
-}
 
 .header-line .right .summ .big-ruble {
 	    margin-top: 7px;
@@ -3687,9 +3803,6 @@ margin-left: 155px;
 	font-size: 2rem;
 }
 
-#mail .email a {
-	font-size: 2rem;
-}
 
 .nichi-skills img,
 .novikov-skills img,
@@ -3906,28 +4019,37 @@ html {
 	min-height: unset;
 }
 
+#tech .content .right-side {
+    padding-left: 59px;
+}
+
+#tech .tech-laravel .ldesc .line-1 .bottom {
+    margin-top: 20px;
+}
+
 #tech .left-side .tech-drupal img{
-	width: 250px;
+	width: 150px;
 }
 
 #tech .left-side .tech-symph {
-	padding-left: 49px;
+	padding-left: 26px;
+    margin-top: 14px;
 }
 
 #tech .left-side .tech-symph img {
-	width: 170px;
+	width: 115px;
 }
 
 #tech .left-side .tech-laravel {
-	padding-left: 29px;
+	padding-left: 8px;
 }
 
 #tech .left-side .tech-laravel img {
-	width: 160px;
+	width: 115px;
 }
 
 #tech .left-side .tech-laravel .ldesc {
-	margin-left: 75px;
+	margin-left: 49px;
 }
 
 #team .about-1,
@@ -4142,13 +4264,25 @@ html {
 	font-size: 10px;
 }
 
+#tech .tech-laravel .ldesc .line-1 .bottom {
+    margin-top: 16px;
+}
+
 #stand-alone .head-title .title {
 	margin-top: unset;
 }
 
 
+#tech .left-side .tech-laravel .ldesc {
+    margin-left: 53px;
+}
+
 .tilda {
     top: 16px;
+}
+
+#tech .content .right-side {
+    padding-left: 61px;
 }
 
 #public .link-line .link-big {
