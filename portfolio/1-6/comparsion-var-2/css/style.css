@@ -44,12 +44,33 @@ input {
 	display: block;
 }
 
-.content .photo:hover .box {
-	background-color: #aed957;
+.content .photo:hover {
+	background-color: rgba(174, 217, 87, .5);
 }
 
 .content .area-button:hover .box {
-	background-color: #d04d59;
+	background-color: rgba(208, 77, 89, .5);
+}
+
+.content .photo:active {
+	background-color: rgba(174, 217, 87, 1);
+}
+
+.content .area-button:active .box {
+	background-color: rgba(208, 77, 89, 1);
+}
+
+.area-button .no:focus, .are-button .no:active {
+	outline: none;
+	border-color: #f45b69;
+}
+
+.area-button label:active {
+border-color: #f45b69;
+}
+
+.photo:active {
+border-color: rgba(174, 217, 87, 1);
 }
 
 .title {
@@ -121,15 +142,6 @@ input {
 	flex-grow: 1;
 }
 
-.area-button .no:focus, .are-button .no:active {
-	outline: none;
-	border-color: #f45b69;
-}
-
-.photo:active, .area-button label:active {
-border-color: #f45b69;
-}
-
 
 .area-button label {
 	width: 100%;
@@ -169,6 +181,10 @@ html {
 
 img.chek, img.unchek {
 	width: 17%;
+}
+
+body {
+	margin-bottom: 20px;
 }
 
 }
@@ -228,13 +244,29 @@ html {
  	margin-right: 15px!important;
  }
  .rightside {
- 	width: 48%!important;
+ 	width: 44.8%!important;
  	margin-top: 0!important;
+ 	flex-direction: row;
  }
 
  .content {
  	flex-direction: row!important;
  }
+
+.photo {
+	width: 55%;
+	margin-right: 10px;
+}
+
+.area-button {
+	margin-top: 0;
+	max-height: 70px;
+}
+
+.box {
+	padding-left: 5px;
+	padding-right: 5px;
+}
 
 }
 
@@ -242,7 +274,7 @@ html {
 
 
  .rightside {
- 	width: 19%!important;
+ 	width: 54.5%!important;
  	margin-top: 0!important;
  }
 
@@ -253,7 +285,7 @@ html {
 
 
  .rightside {
- 	width: 19%!important;
+ 	width: 54.5%!important;
  	margin-top: 0!important;
  }
 
@@ -261,8 +293,33 @@ html {
 }
 
 
+@media screen and (height: 320px) and (width: 568px) { 
+.photo {
+	width: 48%;
+}
 
-@media screen and (max-width: 300px) { 
+body {
+	margin-bottom: 0;
+}
+
+}
+
+@media screen and (max-height: 265px) and (max-width: 650px) { 
+
+html {
+	font-size: 10px;
+}
+.leftside {
+	width: 30% !important;
+}
+
+.rightside {
+	width: 50%!important;
+}
+
+}
+
+@media screen and (max-width: 360px) { 
 html {
 	overflow-x: visible;
 	overflow-y: visible;
