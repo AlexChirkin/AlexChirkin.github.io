@@ -39,8 +39,17 @@ input {
 	display: none;
 }
 
+
 .content label:hover img.chek {
 	display: block;
+}
+
+.content .photo:hover .box {
+	background-color: #aed957;
+}
+
+.content .area-button:hover .box {
+	background-color: #d04d59;
 }
 
 .title {
@@ -96,8 +105,8 @@ input {
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     justify-content: space-between;
 }
 
