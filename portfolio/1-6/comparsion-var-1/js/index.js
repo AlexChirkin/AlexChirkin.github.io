@@ -6,6 +6,8 @@ function resizeimg() {
 
   var rightimgw = 1000;
   $(".photo").css("width", rightimgw);
+  $(".logo").css("width", rightimgw);
+  $(".desc").css("width", rightimgw);
   var rightheight = $('.rightside').height();
   var logoheight = $('.logo').height();
   var photoheight = $('.photo').height();
@@ -21,6 +23,8 @@ function resizeimg() {
   while (rightheight < summblock && rightimgw > 25) {
   	rightimgw--;
   	$(".photo").css("width", rightimgw);
+  	$(".logo").css("width", rightimgw);
+  	$(".desc").css("width", rightimgw);
   	logoheight = $('.logo').height();
 	photoheight = $('.photo').height();
 	descheight = $('.desc').height();
