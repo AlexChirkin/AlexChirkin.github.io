@@ -171,12 +171,12 @@ font-family: "GraphikLCG-Regular";
 }
 
 .content .person .right-side {
-	display: flex;
 	flex-wrap: wrap;
 	width: 40%;
 } 
 
 .content .person .right-side .small-photo {
+	display: inline-block;
 	overflow: hidden;
 	width: 95px;
 	height: 95px;
