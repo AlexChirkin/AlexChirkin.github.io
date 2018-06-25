@@ -164,11 +164,25 @@ padding-bottom: 5px;
 	max-width: 255px;
 	max-height: 255px;
 	overflow: hidden;
+	border: 1px solid;
+	border-color: transparent;
 }
 
 .content .person .left-side .big-photo img{
 width: 100%;
 height: 100%;
+
+}
+
+.content .person .left-side .big-photo.red:hover + .initials .surname a {
+	color: rgba(244, 91, 105, 1);
+	text-decoration:none;
+	border-color:rgba(244, 91, 105, 1);
+}
+
+.content .person .left-side .big-photo.red:hover {
+	border:1px solid;
+	border-color:rgba(244, 91, 105, 1);
 }
 
 .content .person .left-side .initials {
@@ -210,6 +224,13 @@ font-family: "GraphikLCG-Regular";
 	height: 95px;
 	margin-left: 15px;
 	margin-bottom: 15px;
+	transition: transform .2s;
+}
+
+.content .person .right-side .small-photo:hover {
+	transform: scale(1.4);
+	border:1px solid;
+	border-color:rgba(244, 91, 105, 1);
 }
 
 
