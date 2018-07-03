@@ -14,12 +14,12 @@
 html {
 	font-size: 16px;
 	font-family: "GraphikLCG-Regular";
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 body {
 	margin: 0;
-	overflow-x: hidden;
-	overflow-y: hidden;
 }
 
 a {
