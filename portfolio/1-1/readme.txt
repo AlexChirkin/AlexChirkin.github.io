@@ -1,1 +1,0 @@
-Верстка landing page из PSD, bootstrap 4
