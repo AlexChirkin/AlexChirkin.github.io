@@ -10,6 +10,10 @@
 	src:url("../fonts/FuturaDemiC.ttf")
 }
 
+body {
+	scroll-behavior: smooth;
+}
+
 
 ::-moz-selection {
     background: #f2c2c9;
